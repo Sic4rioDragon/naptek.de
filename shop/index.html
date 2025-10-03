@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shop — NapTek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../assets/naptek.png" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .shop-hero{ text-align:center; padding:56px 20px 24px }
+    .shop-grid{ max-width:1000px; margin:0 auto; padding:24px; display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px }
+    .card{ background:#161a22; border:1px solid #222836; border-radius:14px; padding:18px; text-align:center }
+    .ghost{ opacity:.8; color:#9aa4ad }
+  </style>
+</head>
+<body>
+  <div class="topbar" style="background:#1b2230;color:#cfe7ff;padding:8px 12px">
+  <a href="/" style="color:#cfe7ff;text-decoration:none">← Zurück</a>
+</div>
+
+  <header class="shop-hero">
+    <img src="../assets/naptek.png" alt="NapTek" class="logo" />
+    <h1>Shop</h1>
+    <p class="wip">⚒️ Template-Shopseite, falls es später mal einen gibt.</p>
+  </header>
+
+  <main>
+    <section class="shop-grid">
+      <article class="card ghost">
+        <h2>Keine Produkte</h2>
+        <p>Noch nichts hier. Schau bald wieder vorbei – Work-in-Progress.</p>
+      </article>
+      <article class="card ghost">
+        <h3>Platzhalter</h3>
+        <p>Hier könnten später z. B. Caps, Emotes-Packs, Overlays stehen.</p>
+      </article>
+      <article class="card ghost">
+        <h3>Support</h3>
+        <p>Bis dahin kannst du mich auf <a href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener">Twitch</a> unterstützen.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> NapTek — Alle Rechte vorbehalten.</p>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>

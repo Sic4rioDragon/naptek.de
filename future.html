@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="de"><head>
+<meta charset="UTF-8"><title>NapTek — Future Preview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="assets/naptek.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .topbar{background:#1b2230;color:#cfe7ff;padding:8px 12px}
+  .topbar a{color:#cfe7ff;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:24px}
+  .row{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+  .card{background:#161a22;border:1px solid #222836;border-radius:14px;padding:16px}
+  .btn{display:inline-block;background:#8dcff4;color:#111;padding:10px 16px;border-radius:8px;font-weight:700}
+  .calendar{height:320px;display:grid;place-items:center;color:#9aa4ad;border:1px dashed #2a3346;border-radius:10px}
+  .icon-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px}
+  .icon{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:#161a22;border:1px solid #222836;color:#f1f1f1;text-decoration:none}
+  .icon img{width:28px;height:28px;object-fit:contain;padding:2px;border-radius:6px}
+  .icon:hover{transform:translateY(-2px);border-color:#2a3346;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+</style></head><body>
+<div class="topbar"><a href="/">← Zurück</a></div>
+<header class="hero">
+  <img src="assets/naptek.png" alt="NapTek" class="logo">
+  <h1>NapTek — Vorschau</h1>
+  <p class="wip">Work-in-Progress: Streamplan, Merch, Clips & mehr.</p>
+</header>
+<main class="wrap">
+  <section class="row">
+    <article class="card">
+      <h2>Streamplan</h2>
+      <div class="calendar">Kalender kommt später (ics/Google)</div>
+    </article>
+    <aside class="card">
+      <h2>Merch</h2>
+      <p>Wenn der Shop live ist, landet hier der Button.</p>
+      <a class="btn" href="/shop/">Zum (zukünftigen) Shop</a>
+    </aside>
+  </section>
+  <section class="card" style="margin-top:18px">
+    <h2>Best of Clips</h2>
+    <p>Schaue die Highlights auf der <a href="/bestof/">Clips-Seite</a>.</p>
+  </section>
+  <section class="card" style="margin-top:18px">
+    <h2>Socials</h2>
+    <div class="icon-row">
+      <a class="icon" href="https://discord.gg/4j8C8ZeBqG" target="_blank" rel="noopener">
+        <img src="assets/discord.png" alt="Discord"><span>DiscNap</span></a>
+      <a class="icon" href="https://www.youtube.com/@nap_Tek" target="_blank" rel="noopener">
+        <img src="assets/youtube.png" alt="YouTube"><span>YouNap</span></a>
+      <a class="icon" href="https://www.tiktok.com/@ttv.nap_tek" target="_blank" rel="noopener">
+        <img src="assets/tiktok.png" alt="TikTok"><span>TikNap</span></a>
+      <a class="icon" href="https://www.instagram.com/nap_tek/" target="_blank" rel="noopener">
+        <img src="assets/instagram.png" alt="Instagram"><span>InstaNap</span></a>
+      <a class="icon" href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener">
+        <img src="assets/twitch.png" alt="Twitch"><span>Twitch</span></a>
+      <a class="icon" href="https://www.mein.online-impressum.de/nap_tek/" target="_blank" rel="noopener">
+        <img src="assets/impressum.png" alt="Impressum"><span>Impressum</span></a>
+    </div>
+  </section>
+</main>
+<footer><p>© <span id="y"></span> NapTek</p></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
