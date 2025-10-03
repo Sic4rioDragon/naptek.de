@@ -36,7 +36,15 @@ h2 { margin:0 0 12px; font-size:1.6rem; }
   color:var(--fg); text-decoration:none;
 }
 .icon:hover { transform: translateY(-2px); border-color:#2a3346; }
-.icon img { width:28px; height:28px; object-fit:contain; }
+.icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  padding: 2px;           /* new: breathing room for non-square logos */
+  border-radius: 6px;     /* softens hard corners (esp. YouTube tile) */
+  background: transparent;/* keep transparent; change to #fff if you prefer badges */
+}
+
 .icon span { font-weight:600; }
 
 /* Footer */
