@@ -1,0 +1,14 @@
+{
+  "generated_at": "2025-10-03T00:00:00Z",
+  "vips": [{ "display_name": "VIP_Example" }],
+  "vips_past": [{ "display_name": "OldVIP" }],
+  "subscribers": [
+    { "display_name": "Tier1Fan", "tier": 1, "streak": 3 },
+    { "display_name": "Tier2Hero", "tier": 2, "streak": 7 }
+  ],
+  "subscribers_past": [
+    { "display_name": "ExSub", "tier": 1, "streak": 2 }
+  ],
+  "bits": [{ "display_name": "BitBoss", "score": 12345 }],
+  "donations": [{ "display_name": "SupporterX", "amount": 10.0, "currency": "EUR" }]
+}

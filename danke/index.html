@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="de"><head>
+<meta charset="UTF-8"><title>Danke — NapTek</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../assets/naptek.png">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .wrap{max-width:1100px;margin:0 auto;padding:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .card{background:#161a22;border:1px solid #222836;border-radius:14px;padding:16px}
+  .pill{display:inline-block;background:#222942;padding:4px 10px;border-radius:999px;margin:4px 6px 0 0;font-size:.85rem}
+  .tier1{background:#1d3a2b}.tier2{background:#3a2b1d}.tier3{background:#3a1d36}
+  .small{color:#9aa4ad;margin:0 0 10px}
+</style></head><body>
+<header class="hero">
+  <img src="../assets/naptek.png" alt="NapTek" class="logo">
+  <h1>Danke an die Community</h1>
+  <p class="wip">⚒️ Läuft aktuell im <strong>Public Mode</strong> (statische Daten).
+  Wenn NapTek autorisiert, schalten wir auf Live-Sync um.</p>
+</header>
+<main class="wrap">
+  <section class="grid">
+    <article class="card">
+      <h3>VIPs (aktiv)</h3><div id="vips">Lade…</div>
+      <h4 style="margin-top:12px">Ehemalige VIPs</h4><div id="vipsPast">—</div>
+    </article>
+    <article class="card">
+      <h3>Abos</h3><p class="small">Aktive Subs nach Tier</p><div id="subs">Lade…</div>
+      <h4 style="margin-top:12px">Frühere Subs</h4><div id="subsPast">—</div>
+    </article>
+    <article class="card">
+      <h3>Bits</h3><p class="small">Top-Unterstützer</p><div id="bits">Lade…</div>
+      <h4 style="margin-top:12px">Spenden</h4><div id="donos">—</div>
+    </article>
+  </section>
+</main>
+<footer><p>© <span id="y"></span> NapTek — Alle Rechte vorbehalten.</p></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script src="../js/danke.js"></script></body></html>
