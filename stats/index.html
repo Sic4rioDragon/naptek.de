@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Stats — NapTek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../assets/naptek.png">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .card{background:#161a22;border:1px solid #222836;border-radius:14px;padding:16px}
+    .totals-badge{display:inline-block;margin:8px 0 0 0;padding:6px 10px;border-radius:10px;background:#1b2230;border:1px solid #2a3346;color:#cfe7ff;font-weight:700;font-size:.9rem}
+    .list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .item{background:#161a22;border:1px solid #222836;border-radius:12px;padding:12px}
+    .muted{color:#9aa4ad}
+    canvas{max-width:100%; height:320px}
+  </style>
+</head>
+<body>
+<header class="hero">
+  <img src="../assets/naptek.png" class="logo" alt="NapTek">
+  <h1>Stream-Statistiken</h1>
+  <p class="wip">Work-in-Progress: per Game, Gesamtzeit & Verlauf.</p>
+  <span id="totals" class="totals-badge">Gesamtzeit: lädt…</span>
+</header>
+
+<main class="wrap">
+  <section class="cards">
+    <article class="card"><h2>Minuten pro Game</h2><canvas id="pie"></canvas></article>
+    <article class="card"><h2>Sessions pro Game</h2><canvas id="bar"></canvas></article>
+  </section>
+
+  <section class="card" style="margin-top:18px">
+    <h2>Verlauf (kumuliert)</h2>
+    <canvas id="line"></canvas>
+    <p class="muted" id="rangeHint"></p>
+  </section>
+
+  <section style="margin-top:18px">
+    <h2>Gameliste</h2>
+    <div id="games" class="list">Lade…</div>
+  </section>
+</main>
+
+<footer><p>© <span id="y"></span> NapTek</p></footer>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+const fmtHM = m => `${Math.floor(m/60)}h ${String(m%60).padStart(2,'0')}m`;
+const $ = s => document.querySelector(s);
+
+async function loadJSON(u){ const r=await fetch(u,{cache:'no-store'}); if(!r.ok) throw 0; return r.json(); }
+
+(async ()=>{
+  const [stats, games, streams] = await Promise.allSettled([
+    loadJSON('../data/stream_stats.json'),
+    loadJSON('../data/games.json'),
+    loadJSON('../data/streams.json')
+  ]);
+
+  // Overall total
+  if (stats.status==='fulfilled' && stats.value?.minutes_total_overall!=null){
+    $('#totals').textContent = `Gesamtzeit: ${fmtHM(stats.value.minutes_total_overall)}`;
+  }
+
+  // Per-game list + charts
+  if (games.status==='fulfilled' && Array.isArray(games.value)){
+    const g=games.value;
+    // List
+    const el=$('#games');
+    el.innerHTML=g.map(x=>`
+      <div class="item">
+        <strong>${x.name}</strong>
+        <div class="muted">
+          ${x.sessions||0} Sessions • ${fmtHM(x.minutes_total||0)}
+          ${x.platform?` • ${x.platform}`:''}
+          ${x.last_streamed?`<br>Zuletzt: ${new Date(x.last_streamed).toLocaleDateString('de-CH')}`:''}
+        </div>
+      </div>`).join('');
+
+    // Pie (minutes)
+    new Chart($('#pie'), {type:'pie', data:{
+      labels:g.map(v=>v.name), datasets:[{data:g.map(v=>v.minutes_total||0)}]
+    }});
+
+    // Bar (sessions)
+    new Chart($('#bar'), {type:'bar', data:{
+      labels:g.map(v=>v.name), datasets:[{data:g.map(v=>v.sessions||0), label:'Sessions'}]
+    }, options:{plugins:{legend:{display:false}}, scales:{y:{beginAtZero:true}}}});
+  }
+
+  // Cumulative line from streams.json (append-only)
+  if (streams.status==='fulfilled' && Array.isArray(streams.value)){
+    const arr = streams.value.slice().sort((a,b)=>new Date(a.published_at)-new Date(b.published_at));
+    let sum=0;
+    const labels=arr.map(s=>{ sum+= (s.minutes||0); return new Date(s.published_at).toLocaleDateString('de-CH'); });
+    const data=arr.reduce((acc,s,i)=>{ acc.push((acc[i-1]||0)+(s.minutes||0)); return acc; },[]);
+    new Chart($('#line'), {type:'line', data:{labels, datasets:[{data, label:'Kumulierte Minuten', fill:false, tension:.2}]}});
+    if(arr.length){ $('#rangeHint').textContent = `Spanne: ${labels[0]} – ${labels[labels.length-1]} • Streams: ${arr.length}`; }
+  }
+})();
+</script>
+</body>
+</html>

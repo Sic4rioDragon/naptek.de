@@ -1,34 +1,67 @@
-<!DOCTYPE html><html lang="de"><head>
-<meta charset="UTF-8"><title>Games — NapTek</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="../assets/naptek.png">
-<link rel="stylesheet" href="../style.css">
-<style>
-  .wrap{max-width:900px;margin:0 auto;padding:24px}
-  .list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-  .item{background:#161a22;border:1px solid #222836;border-radius:12px;padding:12px}
-  .muted{color:#9aa4ad}
-</style></head><body>
-<header class="hero">
-  <img src="../assets/naptek.png" class="logo" alt="NapTek"><h1>Gespielte Spiele</h1>
-  <p class="wip">Zeigt Sessions, Gesamtzeit & zuletzt gespielt.</p>
-</header>
-<main class="wrap"><div id="games" class="list">Lade…</div></main>
-<footer><p>© <span id="y"></span> NapTek</p></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-<script>
-const fmtHM = m => `${Math.floor(m/60)}h ${String(m%60).padStart(2,'0')}m`;
-fetch('../data/games.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
-  const el=document.getElementById('games');
-  if(!Array.isArray(d)||!d.length){ el.textContent='Noch keine Einträge.'; return; }
-  el.innerHTML=d.map(g=>`
-    <div class="item">
-      <strong>${g.name}</strong>
-      <div class="muted">
-        ${g.sessions||0} Sessions • ${fmtHM(g.minutes_total||0)}
-        ${g.platform?` • ${g.platform}`:''}
-        ${g.last_streamed?`<br>Zuletzt: ${new Date(g.last_streamed).toLocaleDateString('de-CH')}`:''}
-      </div>
-    </div>`).join('');
-}).catch(()=>document.getElementById('games').textContent='Keine Daten.');
-</script></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Games — NapTek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../assets/naptek.png">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .wrap{max-width:900px;margin:0 auto;padding:24px}
+    .list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .item{background:#161a22;border:1px solid #222836;border-radius:12px;padding:12px}
+    .muted{color:#9aa4ad}
+    .totals-badge{
+      display:inline-block;margin:8px 0 0 0;padding:6px 10px;border-radius:10px;
+      background:#1b2230;border:1px solid #2a3346;color:#cfe7ff;font-weight:700;font-size:.9rem
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="../assets/naptek.png" class="logo" alt="NapTek">
+    <h1>Gespielte Spiele</h1>
+    <p class="wip">Zeigt Sessions, Gesamtzeit & zuletzt gespielt.</p>
+    <span id="totals" class="totals-badge">Gesamtzeit: lädt…</span>
+  </header>
+
+  <main class="wrap">
+    <div id="games" class="list">Lade…</div>
+  </main>
+
+  <footer><p>© <span id="y"></span> NapTek</p></footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const fmtHM = m => `${Math.floor(m/60)}h ${String(m%60).padStart(2,'0')}m`;
+
+    // overall total (from updater)
+    fetch('../data/stream_stats.json',{cache:'no-store'})
+      .then(r=>r.ok?r.json():null)
+      .then(d=>{
+        if(d && d.minutes_total_overall!=null){
+          document.getElementById('totals').textContent =
+            `Gesamtzeit: ${fmtHM(d.minutes_total_overall)}`;
+        }
+      }).catch(()=>{});
+
+    // per-game list
+    fetch('../data/games.json',{cache:'no-store'})
+      .then(r=>r.json())
+      .then(d=>{
+        const el=document.getElementById('games');
+        if(!Array.isArray(d)||!d.length){ el.textContent='Noch keine Einträge.'; return; }
+        el.innerHTML=d.map(g=>`
+          <div class="item">
+            <strong>${g.name}</strong>
+            <div class="muted">
+              ${g.sessions||0} Sessions • ${fmtHM(g.minutes_total||0)}
+              ${g.platform?` • ${g.platform}`:''}
+              ${g.last_streamed?`<br>Zuletzt: ${new Date(g.last_streamed).toLocaleDateString('de-CH')}`:''}
+            </div>
+          </div>`).join('');
+      })
+      .catch(()=>document.getElementById('games').textContent='Keine Daten.');
+  </script>
+</body>
+</html>
