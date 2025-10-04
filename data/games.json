@@ -1,9 +1,50 @@
 [
   {
-    "name": "Uncategorized",
-    "sessions": 35,
-    "minutes_total": 9382,
+    "name": "Hunt: Showdown 1896",
+    "sessions": 12,
+    "minutes_total": 2426,
+    "seconds_remainder": 31,
     "platform": "PC",
-    "last_streamed": "2025-08-12T15:00:13Z"
+    "last_streamed": "2025-10-04T02:17:17.680Z"
+  },
+  {
+    "name": "Alien: Isolation",
+    "sessions": 4,
+    "minutes_total": 686,
+    "seconds_remainder": 22,
+    "platform": "PC",
+    "last_streamed": "2025-10-04T02:17:17.680Z"
+  },
+  {
+    "name": "Just Chatting",
+    "sessions": 28,
+    "minutes_total": 425,
+    "seconds_remainder": 31,
+    "platform": "PC",
+    "last_streamed": "2025-10-04T02:17:17.674Z"
+  },
+  {
+    "name": "Find Yourself",
+    "sessions": 1,
+    "minutes_total": 98,
+    "seconds_remainder": 8,
+    "platform": "PC",
+    "last_streamed": "2025-10-04T02:17:17.680Z"
+  },
+  {
+    "name": "Welcome to Kowloon",
+    "sessions": 1,
+    "minutes_total": 89,
+    "seconds_remainder": 28,
+    "platform": "PC",
+    "last_streamed": "2025-10-04T02:17:17.680Z"
+  },
+  {
+    "name": "BATTLEFIELD 6",
+    "sessions": 1,
+    "minutes_total": 43,
+    "seconds_remainder": 50,
+    "platform": "PC",
+    "last_streamed": "2025-10-04T02:17:17.680Z"
   }
 ]

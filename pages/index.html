@@ -1,28 +1,30 @@
-<!DOCTYPE html><html lang="de"><head>
-<meta charset="UTF-8"><title>NapTek — Seitenübersicht</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="../assets/naptek.png">
-<link rel="stylesheet" href="../style.css">
-<style>
-  .topbar{background:#1b2230;color:#cfe7ff;padding:8px 12px}
-  .topbar a{color:#cfe7ff;text-decoration:none}
-  .wrap{max-width:800px;margin:0 auto;padding:24px}
-  .list a{display:block;background:#161a22;border:1px solid #222836;border-radius:12px;
-           padding:12px;margin:10px 0;color:#f1f1f1;text-decoration:none}
-  .list a:hover{border-color:#2a3346}
-</style></head><body>
-<div class="topbar"><a href="/">← Zurück</a></div>
-<header class="hero"><img src="../assets/naptek.png" class="logo" alt="">
-<h1>Seitenübersicht</h1><p class="wip">Direktlinks (aktiv/inaktiv). /games ist absichtlich weggelassen.</p></header>
-<main class="wrap"><div class="list">
-  <a href="/">Startseite</a>
-  <a href="/future">Future (Preview)</a>
-  <a href="/stats/">Stats</a>
-  <a href="/bestof/">Best of Clips</a>
-  <a href="/shop/">Shop (Template)</a>
-  <a href="/danke/">Danke</a>
-  <a href="/pages/">Diese Übersicht</a>
-</div></main>
-<footer><p>© <span id="y"></span> NapTek</p></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-</body></html>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seitenübersicht • naptek.de</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .page-list{max-width:720px;margin:40px auto;padding:0 16px}
+    .page-item{display:block;margin:.6rem 0;padding:16px 18px;border-radius:16px;background:#14161a;border:1px solid #23262b}
+    .page-item:hover{transform:translateY(-1px)}
+    .center{text-align:center}.avatar{width:96px;height:96px;border-radius:24px;display:block;margin:32px auto 8px}
+  </style>
+</head>
+<body>
+  <a class="back-btn" href="../" style="margin:16px 16px;display:inline-block">← Zurück</a>
+  <img class="avatar" src="../assets/naptek.png" alt="nap_tek" />
+  <h1 class="center">Seitenübersicht</h1>
+  <p class="center" style="opacity:.75">Direktlinks (aktiv/inaktiv). <strong>/games</strong> ist absichtlich weggelassen.</p>
+  <div class="page-list">
+    <a class="page-item" target="_blank" rel="noopener" href="../">Startseite</a>
+    <a class="page-item" target="_blank" rel="noopener" href="../future.html">Future (Preview)</a>
+    <a class="page-item" target="_blank" rel="noopener" href="../stats/">Stats</a>
+    <a class="page-item" target="_blank" rel="noopener" href="../bestof/">Best of Clips</a>
+    <a class="page-item" target="_blank" rel="noopener" href="../shop/">Shop (Template)</a>
+    <a class="page-item" target="_blank" rel="noopener" href="../danke/">Danke</a>
+    <a class="page-item" target="_blank" rel="noopener" href="./">Diese Übersicht</a>
+  </div>
+</body>
+</html>

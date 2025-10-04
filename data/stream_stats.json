@@ -1,4 +1,7 @@
 {
-  "minutes_total_overall": 9382,
-  "updated_at": "2025-10-03T23:06:56.257Z"
+  "minutes_total_overall": 3769,
+  "seconds_remainder_overall": 50,
+  "games_total": 6,
+  "updated_at": "2025-10-04T02:17:17.682Z",
+  "source": "chapters-click+seekbar-total+reopen"
 }

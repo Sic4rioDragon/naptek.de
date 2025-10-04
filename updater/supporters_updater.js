@@ -1,54 +1,39 @@
-// npm i node-fetch@3 dotenv
+// supporters_updater.js — writes supporters skeleton until broadcaster token with scopes is provided
 import 'dotenv/config';
-import fetch from 'node-fetch';
-import fs from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
-
-const { TWITCH_CLIENT_ID:CID, TWITCH_ACCESS_TOKEN:USER_TOKEN, CHANNEL_LOGIN='nap_tek' } = process.env;
-// USER_TOKEN must be a *User* token for the channel with scope: channel:read:subscriptions
+import fetch from 'node-fetch';
 
 const ROOT = path.resolve(process.cwd(), '..');
-const P = (...x) => path.join(ROOT, ...x);
-const J = (o) => JSON.stringify(o, null, 2);
-const read = async f => { try { return JSON.parse(await fs.readFile(P(...f),'utf8')); } catch { return null; } };
-const write = async (f,o) => { await fs.mkdir(path.dirname(P(...f)),{recursive:true}); await fs.writeFile(P(...f),J(o)); };
+const DATA = path.join(ROOT, 'data');
+const P = f => path.join(DATA,f);
+const CID = process.env.TWITCH_CLIENT_ID;
+const TOKEN = process.env.BROADCASTER_OAUTH_TOKEN;   // needs channel:read:subscriptions, moderator:read:followers
+const CHANNEL_ID = process.env.CHANNEL_ID || '90694891'; // nap_Tek
 
-const H = { 'Client-ID': CID, Authorization: `Bearer ${USER_TOKEN}` };
-const api = (p,q='') => fetch(`https://api.twitch.tv/helix/${p}${q?`?${q}`:''}`, {headers:H}).then(r=>r.json());
-
-(async () => {
-  if(!USER_TOKEN){ console.log('[sup] No USER token; skip'); return; }
-  const u = await api('users','login='+encodeURIComponent(CHANNEL_LOGIN));
-  const uid = u.data?.[0]?.id; if(!uid){ console.log('[sup] channel not found'); return; }
-
-  // paginate subscriptions
-  let subs=[], cursor='';
-  while(true){
-    const q = `broadcaster_id=${uid}${cursor?`&after=${cursor}`:''}`;
-    const r = await api('subscriptions', q); subs.push(...(r.data||[]));
-    cursor = r.pagination?.cursor; if(!cursor) break;
+function ensureDir(){ if(!fs.existsSync(DATA)) fs.mkdirSync(DATA,{recursive:true}); }
+function jwrite(f,o){ fs.writeFileSync(P(f), JSON.stringify(o,null,2)); }
+async function helix(ep, params){
+  const url = new URL(`https://api.twitch.tv/helix/${ep}`);
+  Object.entries(params||{}).forEach(([k,v])=>url.searchParams.set(k,String(v)));
+  const r = await fetch(url,{headers:{'Client-Id':CID, Authorization:`Bearer ${TOKEN}`}}); if(!r.ok) throw new Error(`${ep} ${r.status}`);
+  return r.json();
+}
+(async ()=>{
+  ensureDir();
+  if(!TOKEN){
+    console.log('[sup] no broadcaster token; writing empty supporters skeleton');
+    jwrite('supporters.json',{ subs:[], followers:[], vips:[], updated_at:new Date().toISOString() });
+    return;
   }
-  // normalize
-  const now = new Date().toISOString();
-  const current = subs.map(s => ({
-    user_id: s.user_id,
-    display_name: s.user_name,
-    tier: Number(String(s.tier||'1000').slice(0,1)),
-    cumulative_months: s.cumulative_months || 0,
-    as_of: now
-  }));
-
-  // load existing history and merge (track highest streak)
-  const hist = await read(['data','sub_history.json']) || { members:{}, snapshots:[] };
-  current.forEach(s => {
-    const m = hist.members[s.user_id] || { display_name:s.display_name, highest_streak:0, first_seen: now, last_seen: null };
-    m.display_name = s.display_name;
-    m.highest_streak = Math.max(m.highest_streak, s.cumulative_months||0);
-    m.last_seen = now;
-    hist.members[s.user_id] = m;
+  const subs = await helix('subscriptions',{ broadcaster_id: CHANNEL_ID, first:100 }).catch(()=>({data:[]}));
+  const followers = await helix('channels/followers',{ broadcaster_id: CHANNEL_ID, first:100 }).catch(()=>({data:[]}));
+  const vips = await helix('channels/vips',{ broadcaster_id: CHANNEL_ID, first:100 }).catch(()=>({data:[]}));
+  jwrite('supporters.json',{
+    subs:(subs.data||[]).map(s=>({user_id:s.user_id,user_name:s.user_name,tier:s.tier,is_gift:s.is_gift})),
+    followers:(followers.data||[]).map(f=>({user_id:f.user_id,user_name:f.user_name})),
+    vips:(vips.data||[]).map(v=>({user_id:v.user_id,user_name:v.user_name})),
+    updated_at:new Date().toISOString()
   });
-  hist.snapshots.push({ as_of: now, count: current.length });
-
-  await write(['data','sub_history.json'], hist);
-  console.log('[sup] snapshot:', current.length, 'unique members:', Object.keys(hist.members).length);
-})().catch(e=>{ console.error('[sup] ERROR', e); process.exit(1); });
+  console.log('[sup] wrote supporters.json');
+})().catch(e=>{ console.error('[sup] ERROR',e); process.exit(1); });

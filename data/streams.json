@@ -1,247 +1,282 @@
 [
   {
     "id": "2582165065",
-    "game_name": "Uncategorized",
+    "title": "HALBZEIT 50h geschafft! 100h Bow Challenge <3 /w @einfachzucker",
     "game_id": null,
-    "minutes": 412,
-    "published_at": "2025-10-03T15:03:39Z"
+    "created_at": "2025-10-03T15:03:39.000Z",
+    "ended_at": "2025-10-03T21:55:39.000Z",
+    "duration_minutes": 412
   },
   {
     "id": "2581288169",
-    "game_name": "Uncategorized",
+    "title": "Long Dong Weekend! 100h Bow Challenge <3 /w @einfachzucker",
     "game_id": null,
-    "minutes": 308,
-    "published_at": "2025-10-02T14:59:27Z"
+    "created_at": "2025-10-02T14:59:27.000Z",
+    "ended_at": "2025-10-02T20:07:27.000Z",
+    "duration_minutes": 308
   },
   {
     "id": "2576923889",
-    "game_name": "Uncategorized",
+    "title": "GuMo Stream mit Rührei ohne Speck",
     "game_id": null,
-    "minutes": 323,
-    "published_at": "2025-09-27T07:38:35Z"
+    "created_at": "2025-09-27T07:38:35.000Z",
+    "ended_at": "2025-09-27T13:01:35.000Z",
+    "duration_minutes": 323
   },
   {
     "id": "2576284530",
-    "game_name": "Uncategorized",
+    "title": "100h Bow Challenge // 20Uhr HorrorAbend",
     "game_id": null,
-    "minutes": 371,
-    "published_at": "2025-09-26T16:02:01Z"
+    "created_at": "2025-09-26T16:02:01.000Z",
+    "ended_at": "2025-09-26T22:13:01.000Z",
+    "duration_minutes": 371
   },
   {
     "id": "2575499482",
-    "game_name": "Uncategorized",
+    "title": "Gefangen im Tutorial. 100h Bow Challenge [70h left]",
     "game_id": null,
-    "minutes": 372,
-    "published_at": "2025-09-25T17:00:57Z"
+    "created_at": "2025-09-25T17:00:57.000Z",
+    "ended_at": "2025-09-25T23:12:57.000Z",
+    "duration_minutes": 372
   },
   {
     "id": "2574555078",
-    "game_name": "Uncategorized",
+    "title": "[Neues Event] Extremst geSPANNT 100h Bow Challenge /w @holyowli",
     "game_id": null,
-    "minutes": 483,
-    "published_at": "2025-09-24T14:00:31Z"
+    "created_at": "2025-09-24T14:00:31.000Z",
+    "ended_at": "2025-09-24T22:03:31.000Z",
+    "duration_minutes": 483
   },
   {
     "id": "2573849048",
-    "game_name": "Uncategorized",
+    "title": "EntSPANNT 100h Bow Challenge /w @exeqube",
     "game_id": null,
-    "minutes": 269,
-    "published_at": "2025-09-23T17:17:21Z"
+    "created_at": "2025-09-23T17:17:21.000Z",
+    "ended_at": "2025-09-23T21:46:21.000Z",
+    "duration_minutes": 269
   },
   {
     "id": "2573834144",
-    "game_name": "Uncategorized",
+    "title": "EntSPANNT 100h Bow Challenge /w @exeqube",
     "game_id": null,
-    "minutes": 17,
-    "published_at": "2025-09-23T17:00:13Z"
+    "created_at": "2025-09-23T17:00:13.000Z",
+    "ended_at": "2025-09-23T17:17:13.000Z",
+    "duration_minutes": 17
   },
   {
     "id": "2573077012",
-    "game_name": "Uncategorized",
+    "title": "100 Stunden \"Ich bin gespannt\" Bogen Challenge!",
     "game_id": null,
-    "minutes": 209,
-    "published_at": "2025-09-22T18:18:14Z"
+    "created_at": "2025-09-22T18:18:14.000Z",
+    "ended_at": "2025-09-22T21:47:14.000Z",
+    "duration_minutes": 209
   },
   {
     "id": "2571931148",
-    "game_name": "Uncategorized",
+    "title": "|Rührei Sonntag| GuuuMooo Stream <3",
     "game_id": null,
-    "minutes": 254,
-    "published_at": "2025-09-21T08:03:06Z"
+    "created_at": "2025-09-21T08:03:06.000Z",
+    "ended_at": "2025-09-21T12:17:06.000Z",
+    "duration_minutes": 254
   },
   {
     "id": "2571250496",
-    "game_name": "Uncategorized",
+    "title": "|Tutorial Hunter| 100h Bow Challenge // ab 20Uhr HorrorAbend *-*",
     "game_id": null,
-    "minutes": 421,
-    "published_at": "2025-09-20T14:59:56Z"
+    "created_at": "2025-09-20T14:59:56.000Z",
+    "ended_at": "2025-09-20T22:00:56.000Z",
+    "duration_minutes": 421
   },
   {
     "id": "2567978090",
-    "game_name": "Uncategorized",
+    "title": "Feierabend, wie das duftet: kräftig, deftig, würzig, gut.",
     "game_id": null,
-    "minutes": 202,
-    "published_at": "2025-09-16T16:59:39Z"
+    "created_at": "2025-09-16T16:59:39.000Z",
+    "ended_at": "2025-09-16T20:21:39.000Z",
+    "duration_minutes": 202
   },
   {
     "id": "2566096898",
-    "game_name": "Uncategorized",
+    "title": "Kaffee bitte! Aus'm Bett gefallen *gähn* #nocap",
     "game_id": null,
-    "minutes": 335,
-    "published_at": "2025-09-14T06:40:02Z"
+    "created_at": "2025-09-14T06:40:02.000Z",
+    "ended_at": "2025-09-14T12:15:02.000Z",
+    "duration_minutes": 335
   },
   {
     "id": "2564717988",
-    "game_name": "Uncategorized",
+    "title": "HorrorAbend! Snüffelstück  wir haben dich vermisst <3",
     "game_id": null,
-    "minutes": 234,
-    "published_at": "2025-09-12T17:58:50Z"
+    "created_at": "2025-09-12T17:58:50.000Z",
+    "ended_at": "2025-09-12T21:52:50.000Z",
+    "duration_minutes": 234
   },
   {
     "id": "2562237044",
-    "game_name": "Uncategorized",
+    "title": "Treffen sich 2 Hunter. /w @exeqube",
     "game_id": null,
-    "minutes": 217,
-    "published_at": "2025-09-09T16:56:03Z"
+    "created_at": "2025-09-09T16:56:03.000Z",
+    "ended_at": "2025-09-09T20:33:03.000Z",
+    "duration_minutes": 217
   },
   {
     "id": "2560559510",
-    "game_name": "Uncategorized",
+    "title": "Sunday is Funday! Kommt mit ins Bayou.",
     "game_id": null,
-    "minutes": 270,
-    "published_at": "2025-09-07T15:00:41Z"
+    "created_at": "2025-09-07T15:00:41.000Z",
+    "ended_at": "2025-09-07T19:30:41.000Z",
+    "duration_minutes": 270
   },
   {
     "id": "2559059668",
-    "game_name": "Uncategorized",
+    "title": "Sehnsucht zum Snüffelstück <3",
     "game_id": null,
-    "minutes": 44,
-    "published_at": "2025-09-05T21:19:37Z"
+    "created_at": "2025-09-05T21:19:37.000Z",
+    "ended_at": "2025-09-05T22:03:37.000Z",
+    "duration_minutes": 44
   },
   {
     "id": "2558905171",
-    "game_name": "Uncategorized",
+    "title": "Sehnsucht zum Snüffelstück <3",
     "game_id": null,
-    "minutes": 200,
-    "published_at": "2025-09-05T17:59:13Z"
+    "created_at": "2025-09-05T17:59:13.000Z",
+    "ended_at": "2025-09-05T21:19:13.000Z",
+    "duration_minutes": 200
   },
   {
     "id": "2558011403",
-    "game_name": "Uncategorized",
+    "title": "Back to Back im Bayou /w @korbib @rexulator",
     "game_id": null,
-    "minutes": 239,
-    "published_at": "2025-09-04T16:29:16Z"
+    "created_at": "2025-09-04T16:29:16.000Z",
+    "ended_at": "2025-09-04T20:28:16.000Z",
+    "duration_minutes": 239
   },
   {
     "id": "2556390807",
-    "game_name": "Uncategorized",
+    "title": "Rendezvous im Bayou /w @0hp3ggy @d4x1",
     "game_id": null,
-    "minutes": 269,
-    "published_at": "2025-09-02T17:02:49Z"
+    "created_at": "2025-09-02T17:02:49.000Z",
+    "ended_at": "2025-09-02T21:31:49.000Z",
+    "duration_minutes": 269
   },
   {
     "id": "2553526962",
-    "game_name": "Uncategorized",
+    "title": "Frühstücken, entspannt in den Start tagen. Der frühe Wurm fängt den Vogel.",
     "game_id": null,
-    "minutes": 373,
-    "published_at": "2025-08-30T07:53:40Z"
+    "created_at": "2025-08-30T07:53:40.000Z",
+    "ended_at": "2025-08-30T14:06:40.000Z",
+    "duration_minutes": 373
   },
   {
     "id": "2552885700",
-    "game_name": "Uncategorized",
+    "title": "Horror Abend! Snacks & Drinks nicht vergessen! <3",
     "game_id": null,
-    "minutes": 273,
-    "published_at": "2025-08-29T16:59:32Z"
+    "created_at": "2025-08-29T16:59:32.000Z",
+    "ended_at": "2025-08-29T21:32:32.000Z",
+    "duration_minutes": 273
   },
   {
     "id": "2552033175",
-    "game_name": "Uncategorized",
+    "title": "Bitte hier Text einfügen.",
     "game_id": null,
-    "minutes": 183,
-    "published_at": "2025-08-28T17:00:21Z"
+    "created_at": "2025-08-28T17:00:21.000Z",
+    "ended_at": "2025-08-28T20:03:21.000Z",
+    "duration_minutes": 183
   },
   {
     "id": "2550334591",
-    "game_name": "Uncategorized",
+    "title": "//DROPS// Praktikum im Bayou /w @bavarian_ghost_",
     "game_id": null,
-    "minutes": 230,
-    "published_at": "2025-08-26T16:59:51Z"
+    "created_at": "2025-08-26T16:59:51.000Z",
+    "ended_at": "2025-08-26T20:49:51.000Z",
+    "duration_minutes": 230
   },
   {
     "id": "2548590050",
-    "game_name": "Uncategorized",
+    "title": "//DROPS// Der Sonntag ist sowas von da.. ChilliMilli",
     "game_id": null,
-    "minutes": 259,
-    "published_at": "2025-08-24T15:00:30Z"
+    "created_at": "2025-08-24T15:00:30.000Z",
+    "ended_at": "2025-08-24T19:19:30.000Z",
+    "duration_minutes": 259
   },
   {
     "id": "2547544236",
-    "game_name": "Uncategorized",
+    "title": "Kaffe mit Honig. Nutella ohne Butter. Ein perfekter Morgen <3",
     "game_id": null,
-    "minutes": 332,
-    "published_at": "2025-08-23T09:40:13Z"
+    "created_at": "2025-08-23T09:40:13.000Z",
+    "ended_at": "2025-08-23T15:12:13.000Z",
+    "duration_minutes": 332
   },
   {
     "id": "2546896843",
-    "game_name": "Uncategorized",
+    "title": "Horror Abend ..schaffen wir es heute aus dem Haus?",
     "game_id": null,
-    "minutes": 358,
-    "published_at": "2025-08-22T16:59:24Z"
+    "created_at": "2025-08-22T16:59:24.000Z",
+    "ended_at": "2025-08-22T22:57:24.000Z",
+    "duration_minutes": 358
   },
   {
     "id": "2545183156",
-    "game_name": "Uncategorized",
+    "title": "Hi, it's me Bob the huntwerker /w @holyowli",
     "game_id": null,
-    "minutes": 205,
-    "published_at": "2025-08-20T16:59:00Z"
+    "created_at": "2025-08-20T16:59:00.000Z",
+    "ended_at": "2025-08-20T20:24:00.000Z",
+    "duration_minutes": 205
   },
   {
     "id": "2544303598",
-    "game_name": "Uncategorized",
+    "title": "DROPS// CoZy SunDay /w @holyowli",
     "game_id": null,
-    "minutes": 247,
-    "published_at": "2025-08-19T16:30:36Z"
+    "created_at": "2025-08-19T16:30:36.000Z",
+    "ended_at": "2025-08-19T20:37:36.000Z",
+    "duration_minutes": 247
   },
   {
     "id": "2542551639",
-    "game_name": "Uncategorized",
+    "title": "DROPS// CoZy SunDay /w @holyowli",
     "game_id": null,
-    "minutes": 294,
-    "published_at": "2025-08-17T15:00:25Z"
+    "created_at": "2025-08-17T15:00:25.000Z",
+    "ended_at": "2025-08-17T19:54:25.000Z",
+    "duration_minutes": 294
   },
   {
     "id": "2541837013",
-    "game_name": "Uncategorized",
+    "title": "Abend ausklingen lassen im Bayou /w @holyowli @lariiouus",
     "game_id": null,
-    "minutes": 271,
-    "published_at": "2025-08-16T19:00:56Z"
+    "created_at": "2025-08-16T19:00:56.000Z",
+    "ended_at": "2025-08-16T23:31:56.000Z",
+    "duration_minutes": 271
   },
   {
     "id": "2540748841",
-    "game_name": "Uncategorized",
+    "title": "//Drops on// Abkühlung im Bayou -> 20Uhr Horror",
     "game_id": null,
-    "minutes": 375,
-    "published_at": "2025-08-15T14:59:55Z"
+    "created_at": "2025-08-15T14:59:55.000Z",
+    "ended_at": "2025-08-15T21:14:55.000Z",
+    "duration_minutes": 375
   },
   {
     "id": "2540016512",
-    "game_name": "Uncategorized",
+    "title": "Mein erstes Mal Battlefield! bf6 beta abfahrt /w @exeqube @holyowli @lariiouus",
     "game_id": null,
-    "minutes": 11,
-    "published_at": "2025-08-14T18:40:53Z"
+    "created_at": "2025-08-14T18:40:53.000Z",
+    "ended_at": "2025-08-14T18:51:53.000Z",
+    "duration_minutes": 11
   },
   {
     "id": "2539855454",
-    "game_name": "Uncategorized",
+    "title": "//Drops on// Komplett verschwitzt im Bayou, später Bf6 /w @exeqube",
     "game_id": null,
-    "minutes": 220,
-    "published_at": "2025-08-14T14:59:05Z"
+    "created_at": "2025-08-14T14:59:05.000Z",
+    "ended_at": "2025-08-14T18:39:05.000Z",
+    "duration_minutes": 220
   },
   {
     "id": "2538122002",
-    "game_name": "Uncategorized",
+    "title": "Bin wieder am Start! #longtimenosee",
     "game_id": null,
-    "minutes": 302,
-    "published_at": "2025-08-12T15:00:13Z"
+    "created_at": "2025-08-12T15:00:13.000Z",
+    "ended_at": "2025-08-12T20:02:13.000Z",
+    "duration_minutes": 302
   }
 ]

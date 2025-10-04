@@ -1,0 +1,13 @@
+[
+  { "pattern": "\\bhunt\\s*:?\\s*(showdown|1896)?\\b", "flags": "i", "game": "Hunt: Showdown" },
+  { "pattern": "\\bbayou\\b",                         "flags": "i", "game": "Hunt: Showdown" },
+  { "pattern": "\\bbow\\s*challenge\\b",              "flags": "i", "game": "Hunt: Showdown" },
+
+  { "pattern": "\\bjust\\s*chat(ting)?\\b",           "flags": "i", "game": "Just Chatting" },
+  { "pattern": "\\balien[:\\s-]*isolation\\b",        "flags": "i", "game": "Alien: Isolation" },
+  { "pattern": "\\bwelcome\\s*to\\s*kowloon\\b",      "flags": "i", "game": "Welcome to Kowloon" },
+  { "pattern": "\\bfind\\s*yourself\\b",              "flags": "i", "game": "Find Yourself" },
+  { "pattern": "(?:counter\\s*strike|\\bcs2\\b|cs:go)","flags": "i", "game": "Counter-Strike 2" },
+  { "pattern": "\\bbattlefield\\b|\\bbf\\s*(2042|6)\\b","flags": "i", "game": "Battlefield 2042" },
+  { "pattern": "\\bminecraft\\b",                     "flags": "i", "game": "Minecraft" }
+]
