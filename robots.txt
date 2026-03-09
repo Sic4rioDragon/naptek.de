@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naptek.de/sitemap.xmlUser-agent: *
+Allow: /
+
+Sitemap: https://naptek.de/sitemap.xml
