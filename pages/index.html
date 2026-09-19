@@ -5,11 +5,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Seitenübersicht • naptek.de</title>
+  <link rel="icon" type="image/png" href="../assets/naptek.png" />
   <link rel="stylesheet" href="../style.css" />
   <style>
-    .page-list{max-width:720px;margin:40px auto;padding:0 16px}
-    .page-item{display:block;margin:.6rem 0;padding:16px 18px;border-radius:16px;background:#14161a;border:1px solid #23262b}
-    .page-item:hover{transform:translateY(-1px)}
+    .page-list{max-width:760px;margin:34px auto 60px;padding:0 16px}
+    .page-item{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:.65rem 0;padding:16px 18px;border-radius:16px;background:#14161a;border:1px solid #23262b;color:var(--fg)}
+    .page-item:hover{transform:translateY(-1px);border-color:var(--border-hover);color:var(--fg)}
+    .page-label{display:flex;flex-direction:column;gap:3px}
+    .page-label small{color:var(--muted)}
+    .page-status{flex:0 0 auto;padding:4px 8px;border-radius:999px;border:1px solid var(--border);font-size:.74rem;font-weight:800}
+    .is-live{color:var(--success)}
+    .is-work{color:var(--warning)}
+    .is-redirect{color:var(--accent-strong)}
     .center{text-align:center}.avatar{width:96px;height:96px;border-radius:24px;display:block;margin:32px auto 8px}
   </style>
 </head>
@@ -17,15 +24,53 @@
   <a class="back-btn" href="../" style="margin:16px 16px;display:inline-block">← Zurück</a>
   <img class="avatar" src="../assets/naptek.png" alt="nap_tek" />
   <h1 class="center">Seitenübersicht</h1>
-  <p class="center" style="opacity:.75">Direktlinks (aktiv/inaktiv). <strong>/games</strong> ist absichtlich weggelassen.</p>
+  <p class="center" style="opacity:.75">Direktlinks und aktueller Stand der naptek.de-Seiten. <strong>/games</strong> bleibt absichtlich weggelassen.</p>
+
   <div class="page-list">
-    <a class="page-item" target="_blank" rel="noopener" href="../">Startseite</a>
-    <a class="page-item" target="_blank" rel="noopener" href="../future.html">Future (Preview)</a>
-    <a class="page-item" target="_blank" rel="noopener" href="../stats/">Stats</a>
-    <a class="page-item" target="_blank" rel="noopener" href="../bestof/">Best of Clips (noch nicht vorhanden)</a>
-    <a class="page-item" target="_blank" rel="noopener" href="../shop/">Shop (Template)</a>
-    <a class="page-item" target="_blank" rel="noopener" href="../danke/">Danke</a>
-    <a class="page-item" target="_blank" rel="noopener" href="./">Diese Übersicht</a>
+    <a class="page-item" href="../">
+      <span class="page-label"><strong>Startseite</strong><small>Twitch-Live-Daten, Socials und Einstieg</small></span>
+      <span class="page-status is-live">Aktiv</span>
+    </a>
+
+    <a class="page-item" href="../about/">
+      <span class="page-label"><strong>About</strong><small>FAQ, PC-Setup, Streamplan und Support</small></span>
+      <span class="page-status is-live">Aktiv</span>
+    </a>
+
+    <a class="page-item" href="../future.html">
+      <span class="page-label"><strong>Roadmap / Future</strong><small>Aktuelle Arbeiten, nächste Schritte und Backlog</small></span>
+      <span class="page-status is-live">Aktiv</span>
+    </a>
+
+    <a class="page-item" href="../stats/">
+      <span class="page-label"><strong>Stats</strong><small>Bestehende Statistikseite — nächste größere Überarbeitung geplant</small></span>
+      <span class="page-status is-work">WIP</span>
+    </a>
+
+    <a class="page-item" href="../bestof/">
+      <span class="page-label"><strong>Best of Clips</strong><small>Bestehende Clip-Seite — weitere Twitch-Integration geplant</small></span>
+      <span class="page-status is-work">WIP</span>
+    </a>
+
+    <a class="page-item" href="../danke/">
+      <span class="page-label"><strong>Danke</strong><small>Community-/Supporter-Seite — separate Überarbeitung geplant</small></span>
+      <span class="page-status is-work">WIP</span>
+    </a>
+
+    <a class="page-item" href="../shop/">
+      <span class="page-label"><strong>Shop</strong><small>Platzhalter für einen möglichen späteren Merch-Shop</small></span>
+      <span class="page-status is-work">Template</span>
+    </a>
+
+    <a class="page-item" href="../discord/">
+      <span class="page-label"><strong>Discord</strong><small>Kurzlink zum offiziellen Community-Discord</small></span>
+      <span class="page-status is-redirect">Redirect</span>
+    </a>
+
+    <a class="page-item" href="./">
+      <span class="page-label"><strong>Diese Übersicht</strong><small>Interne Seitenübersicht</small></span>
+      <span class="page-status is-live">Aktiv</span>
+    </a>
   </div>
 </body>
 </html>
