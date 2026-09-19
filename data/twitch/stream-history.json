@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-19T20:56:42.688Z"
+    "updated_at": "2026-09-19T22:50:23.243Z"
   },
   "sessions": [
     {
@@ -10,8 +10,8 @@
       "started_at": "2026-09-19T17:02:28Z",
       "first_seen_at": "2026-09-19T18:28:35.282Z",
       "last_seen_at": "2026-09-19T20:56:42.684Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-09-19T20:56:42.684Z",
+      "end_is_approximate": true,
       "title_first_seen": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
       "title_last_seen": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
       "language": "de",
@@ -28,7 +28,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-09-19T20:56:42.684Z",
-          "ended_at": null
+          "ended_at": "2026-09-19T20:56:42.684Z"
         }
       ]
     }
