@@ -1,4 +1,9 @@
 {
+  "_meta": {
+    "schema_version": 2,
+    "source": "twitch_api",
+    "updated_at": "2026-09-19T12:03:52.876Z"
+  },
   "broadcaster": {
     "id": "90694891",
     "login": "nap_tek",
@@ -33,5 +38,10 @@
   },
   "live": false,
   "stream": null,
-  "followers_total": 577
+  "followers_total": 577,
+  "stale": {
+    "stream": false,
+    "channel": false,
+    "followers_total": false
+  }
 }

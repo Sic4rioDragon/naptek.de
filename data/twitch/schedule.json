@@ -1,4 +1,9 @@
 {
+  "_meta": {
+    "schema_version": 2,
+    "source": "twitch_api",
+    "updated_at": "2026-09-19T12:03:52.877Z"
+  },
   "broadcaster_id": "90694891",
   "segments": [],
   "vacation": null
