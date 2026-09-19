@@ -2,14 +2,21 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-09-19T18:28:35.285Z"
+    "updated_at": "2026-09-19T20:56:42.688Z"
   },
   "games": [
     {
       "game_id": "509658",
       "game_name": "Just Chatting",
-      "total_seconds_observed": 5167,
-      "total_hours_observed": 1.44,
+      "total_seconds_observed": 14055,
+      "total_hours_observed": 3.9,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "total_seconds_observed": 0,
+      "total_hours_observed": 0,
       "streams_observed": 1
     }
   ]

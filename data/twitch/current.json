@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-19T18:28:35.285Z"
+    "updated_at": "2026-09-19T20:56:42.687Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -18,8 +18,8 @@
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
     "title": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
-    "game_id": "509658",
-    "game_name": "Just Chatting",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,15 +33,17 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": []
+    "content_classification_labels": [
+      "MatureGame"
+    ]
   },
   "live": true,
   "stream": {
     "id": "318508350055",
     "title": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
-    "game_id": "509658",
-    "game_name": "Just Chatting",
-    "viewer_count": 29,
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
+    "viewer_count": 32,
     "started_at": "2026-09-19T17:02:28Z",
     "language": "de",
     "tags": [
@@ -58,7 +60,7 @@
     ],
     "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
   },
-  "followers_total": 577,
+  "followers_total": 578,
   "stale": {
     "stream": false,
     "channel": false,

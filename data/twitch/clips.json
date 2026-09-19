@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-19T18:28:35.286Z"
+    "updated_at": "2026-09-19T20:56:42.688Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -101,47 +101,9 @@
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/58cb78aa-f32a-4199-8e12-f91257f82228/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
       "vod_offset": null
-    },
-    {
-      "id": "AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "url": "https://www.twitch.tv/nap_tek/clip/AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "embed_url": "https://clips.twitch.tv/embed?clip=AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "97937072",
-      "creator_name": "little_hadi",
-      "video_id": "",
-      "game_id": "512953",
-      "game_name": "ELDEN RING",
-      "language": "de",
-      "title": "weggedönert",
-      "view_count": 5,
-      "created_at": "2026-06-21T19:48:31Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/d2b0b93d-7c07-4aca-99b0-e3a28506c8e8/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 9.8,
-      "vod_offset": null
     }
   ],
   "top": [
-    {
-      "id": "AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "url": "https://www.twitch.tv/nap_tek/clip/AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "embed_url": "https://clips.twitch.tv/embed?clip=AmusedFlaccidPartridgeHeyGuys-vOWyiBTZFR8zCNUE",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "97937072",
-      "creator_name": "little_hadi",
-      "video_id": "",
-      "game_id": "512953",
-      "game_name": "ELDEN RING",
-      "language": "de",
-      "title": "weggedönert",
-      "view_count": 5,
-      "created_at": "2026-06-21T19:48:31Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/d2b0b93d-7c07-4aca-99b0-e3a28506c8e8/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 9.8,
-      "vod_offset": null
-    },
     {
       "id": "EnchantingResoluteLlamaSwiftRage-sy_SCnU1aeOlHlzj",
       "url": "https://www.twitch.tv/nap_tek/clip/EnchantingResoluteLlamaSwiftRage-sy_SCnU1aeOlHlzj",

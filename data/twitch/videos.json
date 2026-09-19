@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-19T18:28:35.286Z"
+    "updated_at": "2026-09-19T20:56:42.688Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,10 +15,10 @@
       "published_at": "2026-09-19T17:02:33Z",
       "url": "https://www.twitch.tv/videos/2878512802",
       "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
-      "view_count": 0,
+      "view_count": 1,
       "language": "de",
       "type": "archive",
-      "duration": "1h26m1s"
+      "duration": "3h54m8s"
     },
     {
       "id": "2873012931",
