@@ -1,0 +1,37 @@
+{
+  "broadcaster": {
+    "id": "90694891",
+    "login": "nap_tek",
+    "display_name": "nap_Tek",
+    "description": "Moin, ich bin Mike! Bei mir gibt’s funny Streams, ehrlichen Realtalk und flüssiges Gelaber. Der Traum vom Streamen hat lang in mir geschlummert – jetzt wird er endlich gelebt. Komm rein, lehn dich zurück und hab einfach ne gute Zeit! ✨",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bbf3332-cc53-475c-b5af-57669b6ab80a-profile_image-300x300.jpeg",
+    "offline_image_url": "",
+    "created_at": "2015-05-09T23:52:45Z"
+  },
+  "channel": {
+    "broadcaster_id": "90694891",
+    "broadcaster_login": "nap_tek",
+    "broadcaster_name": "nap_Tek",
+    "title": "Gammel Sunday - Zogg'n & Japp'n || Coffee Striem || Für die max. XP !dc",
+    "game_id": "510117",
+    "game_name": "Outlast II",
+    "broadcaster_language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "SometimesEnglish",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish"
+    ],
+    "content_classification_labels": [
+      "MatureGame"
+    ]
+  },
+  "live": false,
+  "stream": null,
+  "followers_total": 577
+}

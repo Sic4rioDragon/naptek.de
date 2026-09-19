@@ -1,0 +1,96 @@
+Folder PATH listing for volume Data
+Volume serial number is 190F-3AD1
+D:.
+³   .gitignore
+³   .gitignore-addition.txt
+³   .twitch-user-token.json
+³   404.html
+³   CNAME
+³   folder_structure.txt
+³   future.html
+³   google92bcf12df6de9271.html
+³   index.html
+³   path.bat
+³   README-TWITCH.md
+³   README.md
+³   robots.txt
+³   sitemap.xml
+³   style.css
+³   
+ÃÄÄÄ.github
+³   ÀÄÄÄworkflows
+³           update-twitch.yml
+³           
+ÃÄÄÄassets
+³       discord.png
+³       impressum.png
+³       instagram.png
+³       naptek.png
+³       naptek_kappe.png
+³       tiktok.png
+³       twitch.png
+³       youtube.png
+³       
+ÃÄÄÄbestof
+³       bestoff.html
+³       
+ÃÄÄÄdanke
+³       index.html
+³       
+ÃÄÄÄdata
+³   ³   clips.json
+³   ³   games.json
+³   ³   manual_overrides.json
+³   ³   streams.json
+³   ³   stream_stats.json
+³   ³   supporters.json
+³   ³   title_game_map.json
+³   ³   vod_titles.json
+³   ³   
+³   ÀÄÄÄtwitch
+³           clips.json
+³           current.json
+³           follower-history.json
+³           followers.json
+³           game-stats.json
+³           schedule.json
+³           stream-history.json
+³           summary.json
+³           videos.json
+³           
+ÃÄÄÄdiscord
+³       index.html
+³       
+ÃÄÄÄgames
+³       index.html
+³       
+ÃÄÄÄjs
+³       bestof.js
+³       danke.js
+³       
+ÃÄÄÄpages
+³       index.html
+³       
+ÃÄÄÄscripts
+³   ÀÄÄÄtwitch
+³           auth.mjs
+³           update-twitch.mjs
+³           
+ÃÄÄÄshop
+³       index.html
+³       
+ÃÄÄÄstats
+³       index.html
+³       
+ÀÄÄÄupdater
+        .gitignore
+        chapters_updater.js
+        fetch_vod_html.js
+        naptekde_updater.js
+        package.json
+        parse_vod_html.js
+        reset_and_seed.bat
+        run_all.bat
+        supporters_updater.js
+        update_and_push.bat
+        

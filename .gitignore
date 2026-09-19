@@ -1,4 +1,3 @@
-.env
 node_modules/
 package-lock.json
 updater/updater.log
@@ -7,3 +6,7 @@ updater/.env
 updater/package-lock.json
 .DS_Store
 Thumbs.db
+.env
+.env.*
+!.env.example
+.twitch-user-token.json

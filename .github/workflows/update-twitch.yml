@@ -1,0 +1,51 @@
+name: Update Twitch data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+concurrency:
+  group: naptek-twitch-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Update Twitch data
+        run: node scripts/twitch/update-twitch.mjs
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          TWITCH_USER_REFRESH_TOKEN: ${{ secrets.TWITCH_USER_REFRESH_TOKEN }}
+          GH_SECRETS_PAT: ${{ secrets.GH_SECRETS_PAT }}
+          TWITCH_BROADCASTER_LOGIN: ${{ vars.TWITCH_BROADCASTER_LOGIN }}
+          PUBLISH_FOLLOWER_NAMES: ${{ vars.PUBLISH_FOLLOWER_NAMES }}
+          PUBLISH_FULL_FOLLOWER_LIST: ${{ vars.PUBLISH_FULL_FOLLOWER_LIST }}
+
+      - name: Commit changed public data
+        shell: bash
+        run: |
+          if git diff --quiet -- data/twitch; then
+            echo "No Twitch data changes."
+            exit 0
+          fi
+
+          git config user.name "napTek Twitch Data"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/twitch
+          git commit -m "chore: update Twitch data"
+          git push
