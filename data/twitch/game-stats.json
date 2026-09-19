@@ -2,7 +2,15 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-09-19T12:03:52.876Z"
+    "updated_at": "2026-09-19T18:28:35.285Z"
   },
-  "games": []
+  "games": [
+    {
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "total_seconds_observed": 5167,
+      "total_hours_observed": 1.44,
+      "streams_observed": 1
+    }
+  ]
 }

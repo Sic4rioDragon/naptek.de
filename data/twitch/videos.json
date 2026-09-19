@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-19T12:03:52.877Z"
+    "updated_at": "2026-09-19T18:28:35.286Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2878512802",
+      "stream_id": "318508350055",
+      "title": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
+      "description": "",
+      "created_at": "2026-09-19T17:02:33Z",
+      "published_at": "2026-09-19T17:02:33Z",
+      "url": "https://www.twitch.tv/videos/2878512802",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "1h26m1s"
+    },
     {
       "id": "2873012931",
       "stream_id": "318570111077",

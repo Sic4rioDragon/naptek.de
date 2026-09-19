@@ -2,7 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-19T12:03:52.876Z"
+    "updated_at": "2026-09-19T18:28:35.285Z"
   },
-  "sessions": []
+  "sessions": [
+    {
+      "stream_id": "318508350055",
+      "started_at": "2026-09-19T17:02:28Z",
+      "first_seen_at": "2026-09-19T18:28:35.282Z",
+      "last_seen_at": "2026-09-19T18:28:35.282Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
+      "title_last_seen": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 29,
+      "last_viewers_observed": 29,
+      "categories": [
+        {
+          "game_id": "509658",
+          "game_name": "Just Chatting",
+          "started_at": "2026-09-19T17:02:28Z",
+          "ended_at": null
+        }
+      ]
+    }
+  ]
 }

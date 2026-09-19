@@ -2,26 +2,34 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-19T12:03:52.877Z"
+    "updated_at": "2026-09-19T18:28:35.286Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
+  "live": true,
   "followers_total": 577,
   "follower_net_change_1d": null,
   "follower_net_change_7d": null,
   "follower_net_change_30d": null,
   "followers_gained_1d": 0,
-  "followers_gained_7d": 2,
+  "followers_gained_7d": 1,
   "followers_gained_30d": 17,
   "next_follower_milestone": 600,
   "followers_to_milestone": 23,
-  "tracked_streams": 0,
-  "tracked_stream_seconds": 0,
-  "tracked_stream_hours": 0,
-  "available_vods": 22,
-  "available_vod_seconds": 432590,
-  "discovered_videos": 22,
+  "tracked_streams": 1,
+  "tracked_stream_seconds": 5167,
+  "tracked_stream_hours": 1.44,
+  "available_vods": 23,
+  "available_vod_seconds": 437751,
+  "discovered_videos": 23,
   "discovered_clips": 7,
-  "top_games": []
+  "top_games": [
+    {
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "total_seconds_observed": 5167,
+      "total_hours_observed": 1.44,
+      "streams_observed": 1
+    }
+  ]
 }
