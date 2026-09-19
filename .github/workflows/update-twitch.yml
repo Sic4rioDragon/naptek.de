@@ -15,10 +15,13 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -36,6 +39,9 @@ jobs:
           PUBLISH_FOLLOWER_NAMES: ${{ vars.PUBLISH_FOLLOWER_NAMES }}
           PUBLISH_FULL_FOLLOWER_LIST: ${{ vars.PUBLISH_FULL_FOLLOWER_LIST }}
 
+      - name: Validate generated data
+        run: node scripts/twitch/validate-data.mjs
+
       - name: Commit changed public data
         shell: bash
         run: |
@@ -46,6 +52,11 @@ jobs:
 
           git config user.name "napTek Twitch Data"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/twitch
           git commit -m "chore: update Twitch data"
-          git push
+
+          # A normal website commit may land while this workflow is running.
+          # Rebase the generated-data commit instead of failing the push.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

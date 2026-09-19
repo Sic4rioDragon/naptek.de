@@ -10,3 +10,9 @@ Thumbs.db
 .env.*
 !.env.example
 .twitch-user-token.json
+*.zip
+path.bat
+scripts/sources/README.md
+data/external/README.md
+data/raw/README.md
+docs/data-sources.md

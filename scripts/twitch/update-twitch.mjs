@@ -2,6 +2,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 
+const SCHEMA_VERSION = 2;
+
 const clientId = process.env.TWITCH_CLIENT_ID;
 const clientSecret = process.env.TWITCH_CLIENT_SECRET;
 const broadcasterLogin = (process.env.TWITCH_BROADCASTER_LOGIN || "").trim().toLowerCase();
@@ -24,6 +26,12 @@ function nowIso() {
   return new Date().toISOString();
 }
 
+function stripMeta(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+  const { _meta, ...rest } = value;
+  return rest;
+}
+
 async function readJson(filename, fallback) {
   try {
     return JSON.parse(await fs.readFile(path.join(dataDir, filename), "utf8"));
@@ -32,18 +40,27 @@ async function readJson(filename, fallback) {
   }
 }
 
-async function writeJson(filename, value) {
+async function writeData(filename, payload, source = "twitch_api") {
   const target = path.join(dataDir, filename);
-  const next = JSON.stringify(value, null, 2) + "\n";
-  let current = "";
-  try {
-    current = await fs.readFile(target, "utf8");
-  } catch {}
-  if (current !== next) {
-    await fs.writeFile(target, next, "utf8");
-    return true;
-  }
-  return false;
+  const current = await readJson(filename, null);
+  const currentPayload = stripMeta(current);
+
+  const unchanged = current && current._meta?.schema_version === SCHEMA_VERSION &&
+    JSON.stringify(currentPayload) === JSON.stringify(payload);
+
+  if (unchanged) return false;
+
+  const next = {
+    _meta: {
+      schema_version: SCHEMA_VERSION,
+      source,
+      updated_at: nowIso(),
+    },
+    ...payload,
+  };
+
+  await fs.writeFile(target, JSON.stringify(next, null, 2) + "\n", "utf8");
+  return true;
 }
 
 async function readLocalUserToken() {
@@ -71,47 +88,7 @@ async function validateUserToken(accessToken) {
     headers: { Authorization: `OAuth ${accessToken}` },
   });
   if (!res.ok) return null;
-  return await res.json();
-}
-
-async function getModeratorUserToken() {
-  const local = await readLocalUserToken();
-
-  if (local?.access_token) {
-    const validation = await validateUserToken(local.access_token);
-    const scopes = validation?.scopes || [];
-    if (validation && scopes.includes("moderator:read:followers")) {
-      return { accessToken: local.access_token, source: "local_access_token" };
-    }
-  }
-
-  const candidateRefreshToken = refreshToken || local?.refresh_token || "";
-  if (!candidateRefreshToken) return null;
-
-  const refreshed = await refreshUserToken(candidateRefreshToken);
-  if (!refreshed?.access_token) return null;
-
-  const validation = await validateUserToken(refreshed.access_token);
-  const scopes = validation?.scopes || [];
-  if (!validation || !scopes.includes("moderator:read:followers")) {
-    console.warn("Moderator Twitch token is missing moderator:read:followers after refresh.");
-    return null;
-  }
-
-  if (local) {
-    await writeLocalUserToken({
-      access_token: refreshed.access_token,
-      refresh_token: refreshed.refresh_token || candidateRefreshToken,
-      expires_in: refreshed.expires_in,
-      token_type: refreshed.token_type,
-      user_id: validation.user_id,
-      login: validation.login,
-      scopes: validation.scopes,
-    });
-  }
-
-  if (refreshed.refresh_token) rotateGitHubRefreshSecret(refreshed.refresh_token);
-  return { accessToken: refreshed.access_token, source: refreshToken ? "env_refresh_token" : "local_refresh_token" };
+  return res.json();
 }
 
 async function getAppToken() {
@@ -155,7 +132,7 @@ async function refreshUserToken(existingRefreshToken) {
     return null;
   }
 
-  return await res.json();
+  return res.json();
 }
 
 function rotateGitHubRefreshSecret(newRefreshToken) {
@@ -170,20 +147,11 @@ function rotateGitHubRefreshSecret(newRefreshToken) {
 
   const result = spawnSync(
     "gh",
-    [
-      "secret",
-      "set",
-      "TWITCH_USER_REFRESH_TOKEN",
-      "--repo",
-      process.env.GITHUB_REPOSITORY,
-    ],
+    ["secret", "set", "TWITCH_USER_REFRESH_TOKEN", "--repo", process.env.GITHUB_REPOSITORY],
     {
       input: newRefreshToken,
       encoding: "utf8",
-      env: {
-        ...process.env,
-        GH_TOKEN: ghSecretsPat,
-      },
+      env: { ...process.env, GH_TOKEN: ghSecretsPat },
     }
   );
 
@@ -193,6 +161,53 @@ function rotateGitHubRefreshSecret(newRefreshToken) {
   } else {
     console.log("Rotated TWITCH_USER_REFRESH_TOKEN in GitHub Actions secrets.");
   }
+}
+
+async function getModeratorUserToken() {
+  const local = await readLocalUserToken();
+
+  if (local?.access_token) {
+    const validation = await validateUserToken(local.access_token);
+    if (validation?.scopes?.includes("moderator:read:followers")) {
+      return {
+        accessToken: local.access_token,
+        validation,
+        source: "local_access_token",
+      };
+    }
+  }
+
+  const candidateRefreshToken = refreshToken || local?.refresh_token || "";
+  if (!candidateRefreshToken) return null;
+
+  const refreshed = await refreshUserToken(candidateRefreshToken);
+  if (!refreshed?.access_token) return null;
+
+  const validation = await validateUserToken(refreshed.access_token);
+  if (!validation?.scopes?.includes("moderator:read:followers")) {
+    console.warn("Moderator token is valid but missing moderator:read:followers.");
+    return null;
+  }
+
+  if (local) {
+    await writeLocalUserToken({
+      access_token: refreshed.access_token,
+      refresh_token: refreshed.refresh_token || candidateRefreshToken,
+      expires_in: refreshed.expires_in,
+      token_type: refreshed.token_type,
+      user_id: validation.user_id,
+      login: validation.login,
+      scopes: validation.scopes,
+    });
+  }
+
+  if (refreshed.refresh_token) rotateGitHubRefreshSecret(refreshed.refresh_token);
+
+  return {
+    accessToken: refreshed.access_token,
+    validation,
+    source: refreshToken ? "github_refresh_token" : "local_refresh_token",
+  };
 }
 
 async function helix(endpoint, token) {
@@ -207,27 +222,106 @@ async function helix(endpoint, token) {
     throw new Error(`${endpoint} failed: ${res.status} ${await res.text()}`);
   }
 
-  return await res.json();
+  return res.json();
+}
+
+const health = {
+  ok: true,
+  broadcaster_login: broadcasterLogin,
+  endpoints: {},
+  moderator_auth: {
+    available: false,
+    login: null,
+    source: null,
+  },
+};
+
+async function safeHelix(name, endpoint, token, { allow404 = false } = {}) {
+  try {
+    const value = await helix(endpoint, token);
+    health.endpoints[name] = { ok: true };
+    return value;
+  } catch (err) {
+    const message = String(err?.message || err);
+    if (allow404 && message.includes("failed: 404")) {
+      health.endpoints[name] = { ok: true, note: "not_configured_or_empty" };
+      return null;
+    }
+
+    health.ok = false;
+    health.endpoints[name] = { ok: false, error: message.slice(0, 500) };
+    console.warn(`[${name}] ${message}`);
+    return null;
+  }
 }
 
 async function getAllFollowers(broadcasterId, token) {
   const followers = [];
   let cursor = "";
+  let total = null;
+
+  while (true) {
+    const params = new URLSearchParams({ broadcaster_id: broadcasterId, first: "100" });
+    if (cursor) params.set("after", cursor);
+
+    const page = await helix(`/channels/followers?${params}`, token);
+    if (total === null && Number.isFinite(Number(page.total))) total = Number(page.total);
+    followers.push(...(page.data || []));
+
+    cursor = page.pagination?.cursor || "";
+    if (!cursor) return { total: total ?? followers.length, followers };
+  }
+}
+
+async function getAllVideos(broadcasterId, token) {
+  const videos = [];
+  let cursor = "";
+
+  while (true) {
+    const params = new URLSearchParams({ user_id: broadcasterId, first: "100" });
+    if (cursor) params.set("after", cursor);
+
+    const page = await helix(`/videos?${params}`, token);
+    videos.push(...(page.data || []));
+
+    cursor = page.pagination?.cursor || "";
+    if (!cursor || videos.length >= 1000) return videos;
+  }
+}
+
+async function getClips(broadcasterId, token) {
+  const clips = [];
+  let cursor = "";
+  const startedAt = new Date(Date.now() - 90 * 86400000).toISOString();
 
   while (true) {
     const params = new URLSearchParams({
       broadcaster_id: broadcasterId,
       first: "100",
+      started_at: startedAt,
     });
     if (cursor) params.set("after", cursor);
 
-    const page = await helix(`/channels/followers?${params}`, token);
-    followers.push(...(page.data || []));
+    const page = await helix(`/clips?${params}`, token);
+    clips.push(...(page.data || []));
+
     cursor = page.pagination?.cursor || "";
-    if (!cursor) {
-      return { total: page.total ?? followers.length, followers };
-    }
+    if (!cursor || clips.length >= 1000) return clips;
   }
+}
+
+async function getGameNames(ids, token) {
+  const unique = [...new Set(ids.filter(Boolean))];
+  const map = new Map();
+
+  for (let i = 0; i < unique.length; i += 100) {
+    const params = new URLSearchParams();
+    for (const id of unique.slice(i, i + 100)) params.append("id", id);
+    const result = await safeHelix(`games_${Math.floor(i / 100) + 1}`, `/games?${params}`, token);
+    for (const game of result?.data || []) map.set(game.id, game.name);
+  }
+
+  return map;
 }
 
 function cleanVideo(v) {
@@ -247,7 +341,7 @@ function cleanVideo(v) {
   };
 }
 
-function cleanClip(c) {
+function cleanClip(c, gameNames) {
   return {
     id: c.id,
     url: c.url,
@@ -258,6 +352,7 @@ function cleanClip(c) {
     creator_name: c.creator_name,
     video_id: c.video_id,
     game_id: c.game_id,
+    game_name: gameNames.get(c.game_id) || null,
     language: c.language,
     title: c.title,
     view_count: c.view_count,
@@ -266,6 +361,12 @@ function cleanClip(c) {
     duration: c.duration,
     vod_offset: c.vod_offset,
   };
+}
+
+function parseDurationSeconds(value) {
+  const match = String(value || "").match(/(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?/i);
+  if (!match) return 0;
+  return Number(match[1] || 0) * 3600 + Number(match[2] || 0) * 60 + Number(match[3] || 0);
 }
 
 function secondsBetween(a, b) {
@@ -278,7 +379,7 @@ function secondsBetween(a, b) {
 
 function updateStreamHistory(history, stream) {
   const checkedAt = nowIso();
-  const sessions = Array.isArray(history.sessions) ? history.sessions : [];
+  const sessions = Array.isArray(history?.sessions) ? structuredClone(history.sessions) : [];
   let open = sessions.find((s) => !s.ended_at);
 
   if (!stream) {
@@ -286,9 +387,7 @@ function updateStreamHistory(history, stream) {
       open.ended_at = open.last_seen_at || checkedAt;
       open.end_is_approximate = true;
       const lastCategory = open.categories?.at(-1);
-      if (lastCategory && !lastCategory.ended_at) {
-        lastCategory.ended_at = open.ended_at;
-      }
+      if (lastCategory && !lastCategory.ended_at) lastCategory.ended_at = open.ended_at;
     }
     return { sessions };
   }
@@ -312,8 +411,8 @@ function updateStreamHistory(history, stream) {
       title_first_seen: stream.title,
       title_last_seen: stream.title,
       language: stream.language,
-      peak_viewers_observed: stream.viewer_count ?? 0,
-      last_viewers_observed: stream.viewer_count ?? 0,
+      peak_viewers_observed: Number(stream.viewer_count || 0),
+      last_viewers_observed: Number(stream.viewer_count || 0),
       categories: [
         {
           game_id: stream.game_id || "",
@@ -352,9 +451,8 @@ function updateStreamHistory(history, stream) {
 
 function makeGameStats(streamHistory) {
   const totals = new Map();
-  const sessions = streamHistory.sessions || [];
 
-  for (const session of sessions) {
+  for (const session of streamHistory?.sessions || []) {
     for (const segment of session.categories || []) {
       const end = segment.ended_at || session.last_seen_at || nowIso();
       const seconds = secondsBetween(segment.started_at, end);
@@ -371,7 +469,7 @@ function makeGameStats(streamHistory) {
     }
   }
 
-  return Array.from(totals.values())
+  return [...totals.values()]
     .map((row) => ({
       game_id: row.game_id,
       game_name: row.game_name,
@@ -384,20 +482,17 @@ function makeGameStats(streamHistory) {
 
 function updateFollowerHistory(history, total) {
   const date = new Date().toISOString().slice(0, 10);
-  const days = Array.isArray(history.days) ? history.days : [];
+  const days = Array.isArray(history?.days) ? structuredClone(history.days) : [];
   const existing = days.find((d) => d.date === date);
 
-  if (existing) {
-    existing.total = total;
-  } else {
-    days.push({ date, total });
-  }
+  if (existing) existing.total = total;
+  else days.push({ date, total });
 
   days.sort((a, b) => a.date.localeCompare(b.date));
   return { days };
 }
 
-function followerDelta(days, targetDays) {
+function followerNetDelta(days, targetDays) {
   if (!days.length) return null;
   const latest = days.at(-1);
   const targetTime = Date.parse(`${latest.date}T00:00:00Z`) - targetDays * 86400000;
@@ -409,71 +504,163 @@ function followerDelta(days, targetDays) {
     else break;
   }
 
-  if (!baseline) return null;
-  return latest.total - baseline.total;
+  return baseline ? latest.total - baseline.total : null;
 }
+
+function makeFollowerActivity(followers) {
+  const now = Date.now();
+  const windows = { "1d": 86400000, "7d": 7 * 86400000, "30d": 30 * 86400000 };
+  const gained = {};
+
+  for (const [key, ms] of Object.entries(windows)) {
+    gained[key] = followers.filter((f) => {
+      const followed = Date.parse(f.followed_at);
+      return Number.isFinite(followed) && followed >= now - ms;
+    }).length;
+  }
+
+  const daily = new Map();
+  const cutoff = now - 90 * 86400000;
+  for (const follower of followers) {
+    const followed = Date.parse(follower.followed_at);
+    if (!Number.isFinite(followed) || followed < cutoff) continue;
+    const date = new Date(followed).toISOString().slice(0, 10);
+    daily.set(date, (daily.get(date) || 0) + 1);
+  }
+
+  return {
+    gained_1d: gained["1d"],
+    gained_7d: gained["7d"],
+    gained_30d: gained["30d"],
+    days: [...daily.entries()]
+      .map(([date, new_followers]) => ({ date, new_followers }))
+      .sort((a, b) => a.date.localeCompare(b.date)),
+  };
+}
+
+function mergeHistory(previousRows, currentRows, dateKey = "created_at") {
+  const map = new Map();
+  for (const item of previousRows || []) if (item?.id) map.set(item.id, item);
+  for (const item of currentRows || []) if (item?.id) map.set(item.id, item);
+  return [...map.values()].sort((a, b) => Date.parse(b?.[dateKey] || 0) - Date.parse(a?.[dateKey] || 0));
+}
+
+function nextFollowerMilestone(total) {
+  const size = total < 1000 ? 100 : 500;
+  const next = Math.ceil((total + 1) / size) * size;
+  return { target: next, remaining: Math.max(0, next - total) };
+}
+
+const previousCurrent = await readJson("current.json", null);
+const previousFollowers = await readJson("followers.json", null);
+const previousFollowerHistory = await readJson("follower-history.json", { days: [] });
+const previousFollowerActivity = await readJson("follower-activity.json", null);
+const previousStreamHistory = await readJson("stream-history.json", { sessions: [] });
+const previousVideos = await readJson("videos.json", { videos: [] });
+const previousVideoHistory = await readJson("video-history.json", { videos: [] });
+const previousClips = await readJson("clips.json", { recent: [], top: [] });
+const previousClipHistory = await readJson("clip-history.json", { clips: [] });
+const previousSchedule = await readJson("schedule.json", { segments: [], vacation: null });
 
 const appToken = await getAppToken();
 
-const users = await helix(`/users?login=${encodeURIComponent(broadcasterLogin)}`, appToken);
-const broadcaster = users.data?.[0];
+const users = await safeHelix("users", `/users?login=${encodeURIComponent(broadcasterLogin)}`, appToken);
+const broadcaster = users?.data?.[0];
+
 if (!broadcaster) {
-  throw new Error(`Twitch user "${broadcasterLogin}" was not found.`);
+  health.ok = false;
+  health.fatal_error = `Twitch user "${broadcasterLogin}" was not found or /users failed.`;
+  await writeData("health.json", health, "naptek_twitch_collector");
+  throw new Error(health.fatal_error);
 }
 
 const broadcasterId = broadcaster.id;
 
-const [
-  channelResult,
-  streamResult,
-  followerTotalResult,
-  videosResult,
-  scheduleResult,
-] = await Promise.all([
-  helix(`/channels?broadcaster_id=${encodeURIComponent(broadcasterId)}`, appToken),
-  helix(`/streams?user_id=${encodeURIComponent(broadcasterId)}`, appToken),
-  helix(`/channels/followers?broadcaster_id=${encodeURIComponent(broadcasterId)}&first=1`, appToken),
-  helix(`/videos?user_id=${encodeURIComponent(broadcasterId)}&first=20`, appToken),
-  helix(`/schedule?broadcaster_id=${encodeURIComponent(broadcasterId)}&first=25`, appToken)
-    .catch((err) => {
-      if (!String(err?.message || "").includes("failed: 404")) {
-        console.warn("Schedule unavailable:", err.message);
-      }
-      return { data: { segments: [], broadcaster_id: broadcasterId } };
-    }),
+const [channelResult, streamResult, followerTotalResult, scheduleResult] = await Promise.all([
+  safeHelix("channel", `/channels?broadcaster_id=${encodeURIComponent(broadcasterId)}`, appToken),
+  safeHelix("stream", `/streams?user_id=${encodeURIComponent(broadcasterId)}`, appToken),
+  safeHelix(
+    "followers_total",
+    `/channels/followers?broadcaster_id=${encodeURIComponent(broadcasterId)}&first=1`,
+    appToken
+  ),
+  safeHelix(
+    "schedule",
+    `/schedule?broadcaster_id=${encodeURIComponent(broadcasterId)}&first=25`,
+    appToken,
+    { allow404: true }
+  ),
 ]);
 
-const channel = channelResult.data?.[0] || null;
-const stream = streamResult.data?.[0] || null;
-let followerTotal = Number(followerTotalResult.total || 0);
+let videosResult = null;
+try {
+  videosResult = await getAllVideos(broadcasterId, appToken);
+  health.endpoints.videos = { ok: true };
+} catch (err) {
+  health.ok = false;
+  health.endpoints.videos = { ok: false, error: String(err?.message || err).slice(0, 500) };
+  console.warn("[videos]", err.message);
+}
 
-const clipsStart = new Date(Date.now() - 90 * 86400000).toISOString();
-const clipsResult = await helix(
-  `/clips?broadcaster_id=${encodeURIComponent(broadcasterId)}&first=100&started_at=${encodeURIComponent(clipsStart)}`,
-  appToken
-);
+let rawClips = null;
+try {
+  rawClips = await getClips(broadcasterId, appToken);
+  health.endpoints.clips = { ok: true };
+} catch (err) {
+  health.ok = false;
+  health.endpoints.clips = { ok: false, error: String(err?.message || err).slice(0, 500) };
+  console.warn("[clips]", err.message);
+}
 
-const allClips = (clipsResult.data || []).map(cleanClip);
-const recentClips = [...allClips]
-  .sort((a, b) => Date.parse(b.created_at) - Date.parse(a.created_at))
+const gameNames = rawClips
+  ? await getGameNames(rawClips.map((c) => c.game_id), appToken)
+  : new Map();
+
+const streamEndpointOk = health.endpoints.stream?.ok === true;
+const channel = channelResult?.data?.[0] || previousCurrent?.channel || null;
+const liveStream = streamEndpointOk ? (streamResult?.data?.[0] || null) : (previousCurrent?.stream || null);
+
+let followerTotal = Number(followerTotalResult?.total);
+if (!Number.isFinite(followerTotal)) {
+  followerTotal = Number(previousFollowers?.total ?? previousCurrent?.followers_total ?? 0);
+}
+
+const cleanedVideos = videosResult
+  ? videosResult.map(cleanVideo)
+  : (previousVideos?.videos || []);
+
+const cleanedClips = rawClips
+  ? rawClips.map((clip) => cleanClip(clip, gameNames))
+  : mergeHistory(previousClips?.recent, previousClips?.top);
+
+const recentClips = [...cleanedClips]
+  .sort((a, b) => Date.parse(b.created_at || 0) - Date.parse(a.created_at || 0))
   .slice(0, 20);
-const topClips90d = [...allClips]
+const topClips90d = [...cleanedClips]
   .sort((a, b) => Number(b.view_count || 0) - Number(a.view_count || 0))
   .slice(0, 20);
 
 let followerAccess = {
   authorized_list_access: false,
   fetched_count: 0,
-  latest: [],
+  latest: publishFollowerNames ? (previousFollowers?.latest || []) : [],
 };
+let followerActivity = previousFollowerActivity ? stripMeta(previousFollowerActivity) : null;
 
 const moderatorToken = await getModeratorUserToken();
 if (moderatorToken?.accessToken) {
+  health.moderator_auth = {
+    available: true,
+    login: moderatorToken.validation?.login || null,
+    source: moderatorToken.source,
+  };
+
   try {
     const full = await getAllFollowers(broadcasterId, moderatorToken.accessToken);
     followerTotal = Number(full.total ?? followerTotal);
     followerAccess.authorized_list_access = true;
     followerAccess.fetched_count = full.followers.length;
+    followerActivity = makeFollowerActivity(full.followers);
 
     if (publishFollowerNames) {
       followerAccess.latest = full.followers.slice(0, 25).map((f) => ({
@@ -485,7 +672,7 @@ if (moderatorToken?.accessToken) {
     }
 
     if (publishFullFollowerList) {
-      await writeJson(
+      await writeData(
         "followers-full.json",
         {
           broadcaster_id: broadcasterId,
@@ -497,7 +684,8 @@ if (moderatorToken?.accessToken) {
             user_name: f.user_name,
             followed_at: f.followed_at,
           })),
-        }
+        },
+        "twitch_api_moderator"
       );
     } else {
       try {
@@ -505,21 +693,20 @@ if (moderatorToken?.accessToken) {
       } catch {}
     }
   } catch (err) {
+    health.ok = false;
+    health.moderator_auth.error = String(err?.message || err).slice(0, 500);
     console.warn("Authorized follower-list fetch failed:", err.message);
   }
 }
 
-const followerHistory = updateFollowerHistory(
-  await readJson("follower-history.json", { days: [] }),
-  followerTotal
-);
-
-const streamHistory = updateStreamHistory(
-  await readJson("stream-history.json", { sessions: [] }),
-  stream
-);
-
+const followerHistory = updateFollowerHistory(previousFollowerHistory, followerTotal);
+const streamHistory = streamEndpointOk
+  ? updateStreamHistory(previousStreamHistory, streamResult?.data?.[0] || null)
+  : stripMeta(previousStreamHistory);
 const gameStats = makeGameStats(streamHistory);
+
+const videoHistory = mergeHistory(previousVideoHistory?.videos, cleanedVideos, "created_at");
+const clipHistory = mergeHistory(previousClipHistory?.clips, cleanedClips, "created_at");
 
 const current = {
   broadcaster: {
@@ -544,79 +731,118 @@ const current = {
         content_classification_labels: channel.content_classification_labels || [],
       }
     : null,
-  live: Boolean(stream),
-  stream: stream
-    ? {
-        id: stream.id,
-        title: stream.title,
-        game_id: stream.game_id,
-        game_name: stream.game_name,
-        viewer_count: stream.viewer_count,
-        started_at: stream.started_at,
-        language: stream.language,
-        tags: stream.tags || [],
-        thumbnail_url: stream.thumbnail_url,
-      }
-    : null,
+  live: streamEndpointOk ? Boolean(streamResult?.data?.[0]) : Boolean(previousCurrent?.live),
+  stream: streamEndpointOk
+    ? (liveStream
+        ? {
+            id: liveStream.id,
+            title: liveStream.title,
+            game_id: liveStream.game_id,
+            game_name: liveStream.game_name,
+            viewer_count: liveStream.viewer_count,
+            started_at: liveStream.started_at,
+            language: liveStream.language,
+            tags: liveStream.tags || [],
+            thumbnail_url: liveStream.thumbnail_url,
+          }
+        : null)
+    : (previousCurrent?.stream || null),
   followers_total: followerTotal,
+  stale: {
+    stream: !streamEndpointOk,
+    channel: health.endpoints.channel?.ok !== true,
+    followers_total:
+      health.endpoints.followers_total?.ok !== true && !followerAccess.authorized_list_access,
+  },
 };
 
 const followerDays = followerHistory.days || [];
+const trackerSeconds = (streamHistory.sessions || []).reduce((sum, session) => {
+  return sum + secondsBetween(session.started_at, session.ended_at || session.last_seen_at);
+}, 0);
+const availableVodSeconds = cleanedVideos.reduce((sum, video) => sum + parseDurationSeconds(video.duration), 0);
+const milestone = nextFollowerMilestone(followerTotal);
+
 const summary = {
   broadcaster_id: broadcasterId,
   broadcaster_login: broadcasterLogin,
-  live: Boolean(stream),
+  live: current.live,
   followers_total: followerTotal,
-  follower_change_1d: followerDelta(followerDays, 1),
-  follower_change_7d: followerDelta(followerDays, 7),
-  follower_change_30d: followerDelta(followerDays, 30),
+  follower_net_change_1d: followerNetDelta(followerDays, 1),
+  follower_net_change_7d: followerNetDelta(followerDays, 7),
+  follower_net_change_30d: followerNetDelta(followerDays, 30),
+  followers_gained_1d: followerActivity?.gained_1d ?? null,
+  followers_gained_7d: followerActivity?.gained_7d ?? null,
+  followers_gained_30d: followerActivity?.gained_30d ?? null,
+  next_follower_milestone: milestone.target,
+  followers_to_milestone: milestone.remaining,
   tracked_streams: streamHistory.sessions?.length || 0,
+  tracked_stream_seconds: trackerSeconds,
+  tracked_stream_hours: Math.round((trackerSeconds / 3600) * 100) / 100,
+  available_vods: cleanedVideos.length,
+  available_vod_seconds: availableVodSeconds,
+  discovered_videos: videoHistory.length,
+  discovered_clips: clipHistory.length,
   top_games: gameStats.slice(0, 10),
 };
 
-const schedule = {
-  broadcaster_id: broadcasterId,
-  segments: scheduleResult.data?.segments || [],
-  vacation: scheduleResult.data?.vacation || null,
-};
+const schedule = scheduleResult
+  ? {
+      broadcaster_id: broadcasterId,
+      segments: scheduleResult.data?.segments || [],
+      vacation: scheduleResult.data?.vacation || null,
+    }
+  : {
+      broadcaster_id: broadcasterId,
+      segments: previousSchedule?.segments || [],
+      vacation: previousSchedule?.vacation || null,
+    };
 
 await Promise.all([
-  writeJson("current.json", current),
-  writeJson("followers.json", {
-    broadcaster_id: broadcasterId,
-    broadcaster_login: broadcasterLogin,
-    total: followerTotal,
-    ...followerAccess,
-  }),
-  writeJson("follower-history.json", followerHistory),
-  writeJson("stream-history.json", streamHistory),
-  writeJson("game-stats.json", { games: gameStats }),
-  writeJson("videos.json", {
-    broadcaster_id: broadcasterId,
-    videos: (videosResult.data || []).map(cleanVideo),
-  }),
-  writeJson("clips.json", {
-    broadcaster_id: broadcasterId,
-    window_days: 90,
-    recent: recentClips,
-    top: topClips90d,
-  }),
-  writeJson("schedule.json", schedule),
-  writeJson("summary.json", summary),
+  writeData("current.json", current),
+  writeData(
+    "followers.json",
+    {
+      broadcaster_id: broadcasterId,
+      broadcaster_login: broadcasterLogin,
+      total: followerTotal,
+      ...followerAccess,
+    },
+    followerAccess.authorized_list_access ? "twitch_api_moderator" : "twitch_api"
+  ),
+  writeData("follower-history.json", followerHistory, "derived_daily_totals"),
+  followerActivity
+    ? writeData("follower-activity.json", followerActivity, "derived_from_authorized_follower_list")
+    : Promise.resolve(false),
+  writeData("stream-history.json", streamHistory, "twitch_api_observed"),
+  writeData("game-stats.json", { games: gameStats }, "derived_from_stream_history"),
+  writeData("videos.json", { broadcaster_id: broadcasterId, videos: cleanedVideos }),
+  writeData("video-history.json", { broadcaster_id: broadcasterId, videos: videoHistory }, "retained_twitch_video_metadata"),
+  writeData(
+    "clips.json",
+    {
+      broadcaster_id: broadcasterId,
+      window_days: 90,
+      recent: recentClips,
+      top: topClips90d,
+    }
+  ),
+  writeData("clip-history.json", { broadcaster_id: broadcasterId, clips: clipHistory }, "retained_twitch_clip_metadata"),
+  writeData("schedule.json", schedule),
+  writeData("summary.json", summary, "naptek_derived_summary"),
+  writeData("health.json", health, "naptek_twitch_collector"),
 ]);
 
-console.log(
-  JSON.stringify(
-    {
-      broadcaster: broadcaster.login,
-      live: Boolean(stream),
-      followers_total: followerTotal,
-      authorized_follower_list: followerAccess.authorized_list_access,
-      followers_fetched: followerAccess.fetched_count,
-      streams_tracked: streamHistory.sessions?.length || 0,
-      games_tracked: gameStats.length,
-    },
-    null,
-    2
-  )
-);
+console.log(JSON.stringify({
+  broadcaster: broadcaster.login,
+  live: current.live,
+  followers_total: followerTotal,
+  authorized_follower_list: followerAccess.authorized_list_access,
+  followers_fetched: followerAccess.fetched_count,
+  streams_tracked: streamHistory.sessions?.length || 0,
+  games_tracked: gameStats.length,
+  videos_available: cleanedVideos.length,
+  videos_retained: videoHistory.length,
+  clips_retained: clipHistory.length,
+  health_ok: health.ok,
+}, null, 2));

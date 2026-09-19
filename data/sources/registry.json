@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "twitch_api",
+      "type": "official_api",
+      "enabled": true,
+      "priority": 100,
+      "output": "data/twitch/",
+      "status": "active",
+      "notes": "Primary source for live state, followers, stream history, VODs, clips and Twitch schedule."
+    },
+    {
+      "id": "twitch_about_snapshot",
+      "type": "first_party_snapshot",
+      "enabled": true,
+      "priority": 80,
+      "output": "data/twitch/about.json",
+      "status": "manual_snapshot",
+      "notes": "Normalized from nap_Tek's official Twitch About page saved on 2026-09-19."
+    },
+    {
+      "id": "twitchtracker",
+      "type": "third_party_scrape",
+      "enabled": false,
+      "priority": 10,
+      "output": "data/external/twitchtracker/",
+      "raw_output": "data/raw/twitchtracker/",
+      "status": "backlog",
+      "notes": "Future optional historical backfill only. The live site must not depend on it."
+    }
+  ]
+}

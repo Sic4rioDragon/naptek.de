@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "schema_version": 1,
+    "source": "saved_official_twitch_about_page",
+    "captured_at": "2026-09-19"
+  },
+  "channel": "nap_tek",
+  "bio": "Moin, ich bin Mike! Bei mir gibt’s funny Streams, ehrlichen Realtalk und flüssiges Gelaber. Der Traum vom Streamen hat lang in mir geschlummert – jetzt wird er endlich gelebt. Komm rein, lehn dich zurück und hab einfach ne gute Zeit! ✨",
+  "panel_images": {
+    "faq": "/assets/twitch-panels/faqs.png",
+    "pc_specs": "/assets/twitch-panels/pc-specs.png",
+    "about_me": "/assets/twitch-panels/about-me.png",
+    "donate": "/assets/twitch-panels/donate.png"
+  },
+  "usual_schedule": [
+    { "day": "Dienstag", "content": "JC / Hunt Showdown" },
+    { "day": "Donnerstag", "content": "JC / Hunt Showdown" },
+    { "day": "Freitag", "content": "JC / ELDEN RING" },
+    { "day": "Sonntag", "content": "JC / ELDEN RING" }
+  ],
+  "faq": [
+    {
+      "question": "Welche Spiele streamst du am häufigsten?",
+      "answer": "Aktuell ist Hunt:Showdown 1896 meine große Liebe💙 Freitags ist ab 20 Uhr immer HorrorAbend mit allen Games die sich die Community so wünscht (:💙 & gelegentlich auch mal andere Shooter.. like cs my old love )':"
+    },
+    {
+      "question": "Wie lange streamst du schon auf Twitch?",
+      "answer": "Meine Reise hat am 16. Aprill 2025 angefangen & seitdem eine wundervolle Community aufgebaut, die ich nicht mehr missen mag! 💙"
+    },
+    {
+      "question": "Warum hast du mit dem Streamen angefangen?",
+      "answer": "Eine häufig gestellte Frage & tatsächlich zocke ich schon fast 2 Jahrzehnte lang & brauchte einfach für mich eine gute Ausrede um in meinen 30's weiter zocken zu können.🌚"
+    },
+    {
+      "question": "Woher kommt dein Name / dein Kanalname?",
+      "answer": "Viele würden, durch meine täglichen Naps vermuten, dass der Name daher stammt.😅 \"Damals\" stand der Begriff \"nap\" noch für Noob & das \"Tek\" am Ende war eine modische Erscheinung für jeden Nicknamen.😎"
+    }
+  ],
+  "pc_specs": [
+    { "label": "Prozessor", "value": "AMD Ryzen 7 5800X3D 8-Core Processor" },
+    { "label": "RAM", "value": "32GB Kingston Fury" },
+    { "label": "Graka", "value": "AMD Radeon RX7800 XT" },
+    { "label": "Tastatur", "value": "Steelseries APEX Pro TKL" },
+    { "label": "Maus", "value": "Logitech G PRO X SUPERLIGHT" },
+    { "label": "Mauspad", "value": "Logitech G G840" },
+    { "label": "Headset", "value": "Beyerdynamic DT 900 Pro X" },
+    { "label": "Kamera", "value": "OBSBOT Meet 2 4K Webcam" },
+    { "label": "1. Monitor", "value": "Samsung Odyssey G7 27 Zoll WQHD" },
+    { "label": "2. Monitor", "value": "BenQ ZOWIE XL2411K Gaming Monitor 24 Zoll" }
+  ],
+  "character": [
+    { "label": "Charaktername", "value": "Mike" },
+    { "label": "Level", "value": "31" },
+    { "label": "Rasse", "value": "Mensch (vermutlich)" },
+    { "label": "Klasse", "value": "Streamer & Chaot" },
+    { "label": "Ausrüstung", "value": "-Hose\n+ Cap" },
+    { "label": "Fähigkeiten", "value": "+10 auf schlechte Witze\n+max. unerschütterlicher Optimismus\n+max. LOST" },
+    { "label": "Schwächen", "value": "NPC-Teamkollegen (doppelKAPPA)" },
+    { "label": "Ziel", "value": "Unterhaltung. Oder Weltherrschaft. Mal sehen." }
+  ],
+  "support": {
+    "motto": "💙 Nichts muss, alles kann 💙",
+    "text": "Danke, dass du überhaupt hier bist! Dein Support – egal ob durch Chat, Follow, Lurk, Sub oder Donation – bedeutet mir wirklich viel. Alles hier ist freiwillig, aber jede kleine Unterstützung hilft, den Stream weiter auszubauen. Danke, dass du Teil der Community bist 💫 Ich bin euch auch so schon unfassbar dankbar für euren UNGLAUBLICHEN Support💙",
+    "donation_url": "https://streamelements.com/nap_tek/tip"
+  }
+}

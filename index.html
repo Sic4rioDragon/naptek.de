@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <link rel="canonical" href="https://naptek.de/" />
   <meta charset="UTF-8" />
-  <title>NapTek</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NapTek — Streams, Community & Stats</title>
+  <meta name="description" content="Offizielle Community-Seite rund um nap_Tek: Twitch-Stream, aktuelle Stats, Clips, About, Setup und Community-Links." />
+  <link rel="canonical" href="https://naptek.de/" />
   <link rel="icon" type="image/png" href="assets/naptek.png" />
 
-  <!-- Social meta -->
   <meta property="og:title" content="NapTek" />
   <meta property="og:description" content="Streams, Realtalk & gute Zeit – NapTek Community." />
   <meta property="og:image" content="https://naptek.de/assets/naptek.png" />
   <meta property="og:url" content="https://naptek.de/" />
+  <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <a href="/" aria-current="page">Start</a>
+    <a href="/about/">About</a>
+    <a href="/stats/">Stats</a>
+    <a href="/bestof/">Best of</a>
+    <a href="/danke/">Danke</a>
+    <a href="/discord/">Discord</a>
+  </nav>
+
   <header class="hero">
     <img src="assets/naptek.png" alt="NapTek Logo" class="logo" />
     <h1>NapTek</h1>
-    <p class="wip">⚒️ Diese Website ist ein Work-in-Progress.</p>
+    <p class="wip">Streams, Realtalk, Chaos & Community.</p>
+    <p class="followers" data-twitch-followers>Follower werden geladen…</p>
   </header>
 
   <main>
-    <!-- About from Twitch -->
     <section class="about">
       <h2>About nap_Tek</h2>
-      <p class="followers">222 followers</p>
-      <p class="bio">
+      <p class="bio" data-twitch-bio>
         Moin, ich bin Mike! Bei mir gibt’s funny Streams, ehrlichen Realtalk und flüssiges Gelaber.
         Der Traum vom Streamen hat lang in mir geschlummert – jetzt wird er endlich gelebt.
         Komm rein, lehn dich zurück und hab einfach ne gute Zeit! ✨
       </p>
+      <div class="button-row">
+        <a class="button" href="/about/">About, FAQ & Setup</a>
+        <a class="button" href="/stats/">Twitch-Stats ansehen</a>
+      </div>
     </section>
 
-    <!-- Twitch embed -->
     <section class="twitch">
       <h2>Live auf Twitch</h2>
+
+      <div class="twitch-status-card" data-twitch-status-card>
+        <span class="status-pill" data-twitch-status>Status wird geladen…</span>
+        <div class="twitch-status-main">
+          <strong data-twitch-title>Streamdaten werden geladen…</strong>
+          <div class="twitch-status-meta">
+            <span data-twitch-game></span>
+            <span data-twitch-live-only data-twitch-viewers></span>
+            <span data-twitch-live-only data-twitch-uptime></span>
+          </div>
+        </div>
+        <div class="twitch-status-foot">Datenstand: <span data-twitch-updated>–</span></div>
+      </div>
+
       <div class="twitch-embed">
         <iframe
           src="https://player.twitch.tv/?channel=nap_tek&parent=naptek.de&parent=www.naptek.de"
-          frameborder="0" allowfullscreen scrolling="no" height="480" width="720">
+          allowfullscreen
+          loading="lazy"
+          title="nap_Tek Twitch Player">
         </iframe>
       </div>
-      <p class="hint">Wenn der Player nicht lädt: <a href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener">Twitch direkt öffnen</a>.</p>
+      <p class="hint">Wenn der Player nicht lädt: <a href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener noreferrer">Twitch direkt öffnen</a>.</p>
     </section>
 
-    <!-- Social icon row -->
     <section class="socials">
       <h2>Socials</h2>
       <div class="icon-row">
-        <a class="icon" href="https://discord.gg/4j8C8ZeBqG" target="_blank" rel="noopener" aria-label="Discord">
-          <img src="assets/discord.png" alt="Discord" />
+        <a class="icon" href="/discord/" aria-label="Discord">
+          <img src="assets/discord.png" alt="" />
           <span>DiscNap</span>
         </a>
-        <a class="icon" href="https://www.youtube.com/@nap_Tek" target="_blank" rel="noopener" aria-label="YouTube">
-          <img src="assets/youtube.png" alt="YouTube" />
+        <a class="icon" href="https://www.youtube.com/@nap_Tek" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <img src="assets/youtube.png" alt="" />
           <span>YouNap</span>
         </a>
-        <a class="icon" href="https://www.tiktok.com/@ttv.nap_tek" target="_blank" rel="noopener" aria-label="TikTok">
-          <img src="assets/tiktok.png" alt="TikTok" />
+        <a class="icon" href="https://www.tiktok.com/@ttv.nap_tek" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <img src="assets/tiktok.png" alt="" />
           <span>TikNap</span>
         </a>
-        <a class="icon" href="https://www.instagram.com/nap_tek/" target="_blank" rel="noopener" aria-label="Instagram">
-          <img src="assets/instagram.png" alt="Instagram" />
+        <a class="icon" href="https://www.instagram.com/nap_tek/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <img src="assets/instagram.png" alt="" />
           <span>InstaNap</span>
         </a>
-        <a class="icon" href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener" aria-label="Twitch">
-          <img src="assets/twitch.png" alt="Twitch" />
+        <a class="icon" href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
+          <img src="assets/twitch.png" alt="" />
           <span>Twitch</span>
         </a>
-        <a class="icon" href="https://www.mein.online-impressum.de/nap_tek/" target="_blank" rel="noopener" aria-label="Impressum">
-          <img src="assets/impressum.png" alt="Impressum" />
+        <a class="icon" href="https://www.mein.online-impressum.de/nap_tek/" target="_blank" rel="noopener noreferrer" aria-label="Impressum">
+          <img src="assets/impressum.png" alt="" />
           <span>Impressum</span>
         </a>
       </div>
@@ -83,8 +110,7 @@
     <p>© <span id="y"></span> NapTek — Alle Rechte vorbehalten.</p>
   </footer>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="/js/twitch-data.js" defer></script>
 </body>
 </html>

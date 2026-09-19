@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Über nap_Tek & Setup — NapTek</title>
+  <meta name="description" content="Über nap_Tek, FAQ, Streamplan, PC-Setup und Support-Infos aus seinem offiziellen Twitch-About-Bereich." />
+  <link rel="canonical" href="https://naptek.de/about/" />
+  <link rel="icon" type="image/png" href="../assets/naptek.png" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <a href="/">Start</a>
+    <a href="/about/" aria-current="page">About</a>
+    <a href="/stats/">Stats</a>
+    <a href="/bestof/">Best of</a>
+    <a href="/danke/">Danke</a>
+    <a href="/discord/">Discord</a>
+  </nav>
+
+  <header class="hero hero-compact">
+    <img src="../assets/naptek.png" alt="NapTek Logo" class="logo" />
+    <h1>Über nap_Tek</h1>
+    <p class="wip">Twitch About, FAQ, Setup & Community-Support an einem Ort.</p>
+    <p class="followers" data-twitch-followers>Follower werden geladen…</p>
+  </header>
+
+  <main class="page-wrap">
+    <section class="content-card about-lead">
+      <h2>About nap_Tek</h2>
+      <p class="bio" data-twitch-bio data-about-bio>
+        Moin, ich bin Mike! Bei mir gibt’s funny Streams, ehrlichen Realtalk und flüssiges Gelaber.
+      </p>
+      <p class="source-note">About-Inhalte: Snapshot des offiziellen Twitch-About-Bereichs vom <span data-about-captured>2026-09-19</span>.</p>
+    </section>
+
+    <section class="panel-section">
+      <img class="twitch-panel-image" src="../assets/twitch-panels/faqs.png" alt="FAQs" />
+      <div class="content-card">
+        <h2>Wann wird normalerweise gestreamt?</h2>
+        <ul class="schedule-list" data-about-schedule></ul>
+      </div>
+      <div class="faq-grid" data-about-faq></div>
+    </section>
+
+    <section class="panel-section two-column-section">
+      <div>
+        <img class="twitch-panel-image" src="../assets/twitch-panels/about-me.png" alt="About Me" />
+        <article class="content-card">
+          <h2>Charakterbogen</h2>
+          <dl class="detail-list" data-about-character></dl>
+        </article>
+      </div>
+
+      <div>
+        <img class="twitch-panel-image" src="../assets/twitch-panels/pc-specs.png" alt="PC Specs" />
+        <article class="content-card">
+          <h2>PC & Setup</h2>
+          <dl class="detail-list" data-about-specs></dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel-section support-section">
+      <img class="twitch-panel-image" src="../assets/twitch-panels/donate.png" alt="Donate / Support Me" />
+      <article class="content-card">
+        <h2 data-about-motto>💙 Nichts muss, alles kann 💙</h2>
+        <p data-about-support></p>
+        <div class="button-row">
+          <a class="button primary" data-about-donate-link href="https://streamelements.com/nap_tek/tip" target="_blank" rel="noopener noreferrer">StreamElements Support</a>
+          <a class="button" href="https://www.twitch.tv/nap_tek" target="_blank" rel="noopener noreferrer">Twitch öffnen</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> NapTek — Alle Rechte vorbehalten.</p>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="../js/twitch-data.js" defer></script>
+  <script src="../js/about.js" defer></script>
+</body>
+</html>
