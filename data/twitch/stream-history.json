@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-19T22:50:23.243Z"
+    "updated_at": "2026-09-21T10:59:13.126Z"
   },
   "sessions": [
     {
@@ -29,6 +29,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-09-19T20:56:42.684Z",
           "ended_at": "2026-09-19T20:56:42.684Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318527182567",
+      "started_at": "2026-09-21T08:35:59Z",
+      "first_seen_at": "2026-09-21T10:59:13.123Z",
+      "last_seen_at": "2026-09-21T10:59:13.123Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "title_last_seen": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 21,
+      "last_viewers_observed": 21,
+      "categories": [
+        {
+          "game_id": "1418385664",
+          "game_name": "Hozy",
+          "started_at": "2026-09-21T08:35:59Z",
+          "ended_at": null
         }
       ]
     }

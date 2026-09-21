@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-21T00:25:06.287Z"
+    "updated_at": "2026-09-21T10:59:13.127Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
+  "live": true,
   "followers_total": 580,
   "follower_net_change_1d": 0,
   "follower_net_change_7d": null,
@@ -16,12 +16,12 @@
   "followers_gained_30d": 20,
   "next_follower_milestone": 600,
   "followers_to_milestone": 20,
-  "tracked_streams": 1,
-  "tracked_stream_seconds": 14055,
-  "tracked_stream_hours": 3.9,
-  "available_vods": 22,
-  "available_vod_seconds": 425810,
-  "discovered_videos": 23,
+  "tracked_streams": 2,
+  "tracked_stream_seconds": 22649,
+  "tracked_stream_hours": 6.29,
+  "available_vods": 23,
+  "available_vod_seconds": 434397,
+  "discovered_videos": 24,
   "discovered_clips": 7,
   "top_games": [
     {
@@ -29,6 +29,13 @@
       "game_name": "Just Chatting",
       "total_seconds_observed": 14055,
       "total_hours_observed": 3.9,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "1418385664",
+      "game_name": "Hozy",
+      "total_seconds_observed": 8594,
+      "total_hours_observed": 2.39,
       "streams_observed": 1
     },
     {

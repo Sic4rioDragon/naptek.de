@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-19T22:50:23.242Z"
+    "updated_at": "2026-09-21T10:59:13.126Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Erstes GROßES Projekt!? || Ich 🩵 meine Mods || Schnacken & Sterne jagen || Für die max. XP !dc",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "title": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+    "game_id": "1418385664",
+    "game_name": "Hozy",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,12 +33,31 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
-  "live": false,
-  "stream": null,
+  "live": true,
+  "stream": {
+    "id": "318527182567",
+    "title": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+    "game_id": "1418385664",
+    "game_name": "Hozy",
+    "viewer_count": 21,
+    "started_at": "2026-09-21T08:35:59Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
   "followers_total": 580,
   "stale": {
     "stream": false,

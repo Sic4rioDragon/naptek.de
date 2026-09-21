@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-09-19T20:56:42.688Z"
+    "updated_at": "2026-09-21T10:59:13.126Z"
   },
   "games": [
     {
@@ -10,6 +10,13 @@
       "game_name": "Just Chatting",
       "total_seconds_observed": 14055,
       "total_hours_observed": 3.9,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "1418385664",
+      "game_name": "Hozy",
+      "total_seconds_observed": 8594,
+      "total_hours_observed": 2.39,
       "streams_observed": 1
     },
     {
