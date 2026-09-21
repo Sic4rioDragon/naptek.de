@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-21T10:59:13.126Z"
+    "updated_at": "2026-09-21T16:58:43.783Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
-    "game_id": "1418385664",
-    "game_name": "Hozy",
+    "title": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+    "game_id": "18122",
+    "game_name": "World of Warcraft",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -37,12 +37,12 @@
   },
   "live": true,
   "stream": {
-    "id": "318527182567",
-    "title": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
-    "game_id": "1418385664",
-    "game_name": "Hozy",
-    "viewer_count": 21,
-    "started_at": "2026-09-21T08:35:59Z",
+    "id": "318530953319",
+    "title": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+    "game_id": "18122",
+    "game_name": "World of Warcraft",
+    "viewer_count": 26,
+    "started_at": "2026-09-21T16:00:05Z",
     "language": "de",
     "tags": [
       "Deutsch",
@@ -58,7 +58,7 @@
     ],
     "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
   },
-  "followers_total": 580,
+  "followers_total": 581,
   "stale": {
     "stream": false,
     "channel": false,

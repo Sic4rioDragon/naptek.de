@@ -2,12 +2,12 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_moderator",
-    "updated_at": "2026-09-19T22:50:23.242Z"
+    "updated_at": "2026-09-21T16:58:43.783Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "total": 580,
+  "total": 581,
   "authorized_list_access": true,
-  "fetched_count": 580,
+  "fetched_count": 581,
   "latest": []
 }

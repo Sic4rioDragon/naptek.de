@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-21T10:59:13.126Z"
+    "updated_at": "2026-09-21T16:58:43.783Z"
   },
   "sessions": [
     {
@@ -37,8 +37,8 @@
       "started_at": "2026-09-21T08:35:59Z",
       "first_seen_at": "2026-09-21T10:59:13.123Z",
       "last_seen_at": "2026-09-21T10:59:13.123Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-09-21T10:59:13.123Z",
+      "end_is_approximate": true,
       "title_first_seen": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
       "title_last_seen": "Cozy Hozy Game || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
       "language": "de",
@@ -49,6 +49,27 @@
           "game_id": "1418385664",
           "game_name": "Hozy",
           "started_at": "2026-09-21T08:35:59Z",
+          "ended_at": "2026-09-21T10:59:13.123Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318530953319",
+      "started_at": "2026-09-21T16:00:05Z",
+      "first_seen_at": "2026-09-21T16:58:43.780Z",
+      "last_seen_at": "2026-09-21T16:58:43.780Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "title_last_seen": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 26,
+      "last_viewers_observed": 26,
+      "categories": [
+        {
+          "game_id": "18122",
+          "game_name": "World of Warcraft",
+          "started_at": "2026-09-21T16:00:05Z",
           "ended_at": null
         }
       ]

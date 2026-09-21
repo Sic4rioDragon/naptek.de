@@ -2,10 +2,38 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-09-21T10:59:13.127Z"
+    "updated_at": "2026-09-21T16:58:43.784Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2880261014",
+      "stream_id": "318530953319",
+      "title": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "description": "",
+      "created_at": "2026-09-21T16:00:10Z",
+      "published_at": "2026-09-21T16:00:10Z",
+      "url": "https://www.twitch.tv/videos/2880261014",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "58m33s"
+    },
+    {
+      "id": "2880183573",
+      "stream_id": "318529579367",
+      "title": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
+      "description": "",
+      "created_at": "2026-09-21T13:58:24Z",
+      "published_at": "2026-09-21T13:58:24Z",
+      "url": "https://www.twitch.tv/videos/2880183573",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/9173aac9fcec866b53e4_nap_tek_318529579367_1789999099//thumb/thumb0-%{width}x%{height}.jpg",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "1h59m50s"
+    },
     {
       "id": "2880049248",
       "stream_id": "318527182567",
@@ -14,11 +42,11 @@
       "created_at": "2026-09-21T08:36:04Z",
       "published_at": "2026-09-21T08:36:04Z",
       "url": "https://www.twitch.tv/videos/2880049248",
-      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
-      "view_count": 0,
+      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/85794f3b956537e445a6_nap_tek_318527182567_1789979759//thumb/thumb0-%{width}x%{height}.jpg",
+      "view_count": 7,
       "language": "de",
       "type": "archive",
-      "duration": "2h23m7s"
+      "duration": "5h21m10s"
     },
     {
       "id": "2878512802",

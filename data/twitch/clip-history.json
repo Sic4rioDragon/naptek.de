@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-09-19T12:03:52.875Z"
+    "updated_at": "2026-09-21T16:58:43.784Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "BlushingRelatedHeronVoHiYo-y0sUWHWueAJdQILQ",
+      "url": "https://www.twitch.tv/nap_tek/clip/BlushingRelatedHeronVoHiYo-y0sUWHWueAJdQILQ",
+      "embed_url": "https://clips.twitch.tv/embed?clip=BlushingRelatedHeronVoHiYo-y0sUWHWueAJdQILQ",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "157636696",
+      "creator_name": "kekselfy",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Hier kommt der Eiermann",
+      "view_count": 3,
+      "created_at": "2026-06-30T16:02:35Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/052c1c7d-19fb-4e67-9c8e-be3ac17baebe/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 22.7,
+      "vod_offset": null
+    },
     {
       "id": "SplendidMoistSalmonLeeroyJenkins---X-Dzy3WI81BoGi",
       "url": "https://www.twitch.tv/nap_tek/clip/SplendidMoistSalmonLeeroyJenkins---X-Dzy3WI81BoGi",
