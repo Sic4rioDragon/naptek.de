@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-21T16:58:43.783Z"
+    "updated_at": "2026-09-21T20:58:35.654Z"
   },
   "sessions": [
     {
@@ -58,8 +58,8 @@
       "started_at": "2026-09-21T16:00:05Z",
       "first_seen_at": "2026-09-21T16:58:43.780Z",
       "last_seen_at": "2026-09-21T16:58:43.780Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-09-21T16:58:43.780Z",
+      "end_is_approximate": true,
       "title_first_seen": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
       "title_last_seen": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
       "language": "de",
@@ -70,7 +70,7 @@
           "game_id": "18122",
           "game_name": "World of Warcraft",
           "started_at": "2026-09-21T16:00:05Z",
-          "ended_at": null
+          "ended_at": "2026-09-21T16:58:43.780Z"
         }
       ]
     }

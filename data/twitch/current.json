@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-21T16:58:43.783Z"
+    "updated_at": "2026-09-21T20:58:35.653Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -35,29 +35,8 @@
     ],
     "content_classification_labels": []
   },
-  "live": true,
-  "stream": {
-    "id": "318530953319",
-    "title": "WoW Beta <3 || AZB-Stream || Ich 🩵 meine Mods || Für die max. XP !dc",
-    "game_id": "18122",
-    "game_name": "World of Warcraft",
-    "viewer_count": 26,
-    "started_at": "2026-09-21T16:00:05Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
+  "live": false,
+  "stream": null,
   "followers_total": 581,
   "stale": {
     "stream": false,
