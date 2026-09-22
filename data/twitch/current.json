@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-22T14:27:21.025Z"
+    "updated_at": "2026-09-22T18:14:05.978Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -43,7 +43,7 @@
     "title": "Ist AZB eigentlich nur morgens? || Entspannt Hunten @xgreenunicornx @dieselmann92 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
     "game_id": "500188",
     "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 23,
+    "viewer_count": 29,
     "started_at": "2026-09-22T12:07:45Z",
     "language": "de",
     "tags": [

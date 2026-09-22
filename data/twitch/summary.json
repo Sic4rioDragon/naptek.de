@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-22T14:27:21.027Z"
+    "updated_at": "2026-09-22T18:14:05.979Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
@@ -11,19 +11,26 @@
   "follower_net_change_1d": -1,
   "follower_net_change_7d": null,
   "follower_net_change_30d": null,
-  "followers_gained_1d": 1,
+  "followers_gained_1d": 0,
   "followers_gained_7d": 3,
   "followers_gained_30d": 15,
   "next_follower_milestone": 600,
   "followers_to_milestone": 20,
   "tracked_streams": 4,
-  "tracked_stream_seconds": 34544,
-  "tracked_stream_hours": 9.6,
+  "tracked_stream_seconds": 48149,
+  "tracked_stream_hours": 13.37,
   "available_vods": 24,
-  "available_vod_seconds": 420419,
+  "available_vod_seconds": 434024,
   "discovered_videos": 27,
   "discovered_clips": 21,
   "top_games": [
+    {
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "total_seconds_observed": 21981,
+      "total_hours_observed": 6.11,
+      "streams_observed": 2
+    },
     {
       "game_id": "509658",
       "game_name": "Just Chatting",
@@ -37,13 +44,6 @@
       "total_seconds_observed": 8594,
       "total_hours_observed": 2.39,
       "streams_observed": 1
-    },
-    {
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 8376,
-      "total_hours_observed": 2.33,
-      "streams_observed": 2
     },
     {
       "game_id": "18122",
