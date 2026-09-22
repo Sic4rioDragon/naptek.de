@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-22T00:01:18.760Z"
+    "updated_at": "2026-09-22T04:58:38.562Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -117,20 +117,6 @@
       "language": "de",
       "type": "archive",
       "duration": "4h29m20s"
-    },
-    {
-      "id": "2867652033",
-      "stream_id": "318500050149",
-      "title": "AZB Stream || Cozy - Zogg'n - Japp'n || Coffee Striem || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-09-07T09:01:55Z",
-      "published_at": "2026-09-07T09:01:55Z",
-      "url": "https://www.twitch.tv/videos/2867652033",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/ad2a160ac50d37ea0934_nap_tek_318500050149_1788771710//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 290,
-      "language": "de",
-      "type": "archive",
-      "duration": "7h27m30s"
     },
     {
       "id": "2854092702",
@@ -341,20 +327,6 @@
       "language": "de",
       "type": "archive",
       "duration": "4h28m30s"
-    },
-    {
-      "id": "2826980878",
-      "stream_id": "318070988134",
-      "title": "*DROPS* Solo im Bayou || Coffee and tea stream ☕ || Ab 17 Uhr Tornados jagen mit den Jungs🌪️ || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-07-23T12:36:06Z",
-      "published_at": "2026-07-23T12:36:06Z",
-      "url": "https://www.twitch.tv/videos/2826980878",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/41591db7e42651e0836d_nap_tek_318070988134_1784810161//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 230,
-      "language": "de",
-      "type": "archive",
-      "duration": "5h22m50s"
     }
   ]
 }
