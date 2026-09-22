@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-09-21T16:58:43.784Z"
+    "updated_at": "2026-09-22T14:27:21.025Z"
   },
   "games": [
     {
@@ -20,17 +20,17 @@
       "streams_observed": 1
     },
     {
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "total_seconds_observed": 8376,
+      "total_hours_observed": 2.33,
+      "streams_observed": 2
+    },
+    {
       "game_id": "18122",
       "game_name": "World of Warcraft",
       "total_seconds_observed": 3519,
       "total_hours_observed": 0.98,
-      "streams_observed": 1
-    },
-    {
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 0,
-      "total_hours_observed": 0,
       "streams_observed": 1
     }
   ]

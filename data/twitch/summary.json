@@ -2,27 +2,27 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-22T09:50:50.933Z"
+    "updated_at": "2026-09-22T14:27:21.027Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
+  "live": true,
   "followers_total": 580,
   "follower_net_change_1d": -1,
   "follower_net_change_7d": null,
   "follower_net_change_30d": null,
   "followers_gained_1d": 1,
   "followers_gained_7d": 3,
-  "followers_gained_30d": 19,
+  "followers_gained_30d": 15,
   "next_follower_milestone": 600,
   "followers_to_milestone": 20,
-  "tracked_streams": 3,
-  "tracked_stream_seconds": 26168,
-  "tracked_stream_hours": 7.27,
-  "available_vods": 23,
-  "available_vod_seconds": 412050,
-  "discovered_videos": 26,
-  "discovered_clips": 14,
+  "tracked_streams": 4,
+  "tracked_stream_seconds": 34544,
+  "tracked_stream_hours": 9.6,
+  "available_vods": 24,
+  "available_vod_seconds": 420419,
+  "discovered_videos": 27,
+  "discovered_clips": 21,
   "top_games": [
     {
       "game_id": "509658",
@@ -39,17 +39,17 @@
       "streams_observed": 1
     },
     {
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "total_seconds_observed": 8376,
+      "total_hours_observed": 2.33,
+      "streams_observed": 2
+    },
+    {
       "game_id": "18122",
       "game_name": "World of Warcraft",
       "total_seconds_observed": 3519,
       "total_hours_observed": 0.98,
-      "streams_observed": 1
-    },
-    {
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 0,
-      "total_hours_observed": 0,
       "streams_observed": 1
     }
   ]
