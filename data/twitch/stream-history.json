@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-22T18:14:05.978Z"
+    "updated_at": "2026-09-22T21:25:45.332Z"
   },
   "sessions": [
     {
@@ -79,8 +79,8 @@
       "started_at": "2026-09-22T12:07:45Z",
       "first_seen_at": "2026-09-22T14:27:21.023Z",
       "last_seen_at": "2026-09-22T18:14:05.973Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-09-22T18:14:05.973Z",
+      "end_is_approximate": true,
       "title_first_seen": "Ist AZB eigentlich nur morgens? || Entspannt Hunten @xgreenunicornx @dieselmann92 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
       "title_last_seen": "Ist AZB eigentlich nur morgens? || Entspannt Hunten @xgreenunicornx @dieselmann92 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
       "language": "de",
@@ -91,7 +91,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-09-22T12:07:45Z",
-          "ended_at": null
+          "ended_at": "2026-09-22T18:14:05.973Z"
         }
       ]
     }
