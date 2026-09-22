@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-21T20:58:35.653Z"
+    "updated_at": "2026-09-22T09:50:50.931Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,7 +37,7 @@
   },
   "live": false,
   "stream": null,
-  "followers_total": 581,
+  "followers_total": 580,
   "stale": {
     "stream": false,
     "channel": false,
