@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-22T21:25:45.332Z"
+    "updated_at": "2026-09-23T07:30:25.513Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -117,20 +117,6 @@
       "language": "de",
       "type": "archive",
       "duration": "5h20m10s"
-    },
-    {
-      "id": "2868603972",
-      "stream_id": "318512199013",
-      "title": "*Das GROßE Hunt UPDATE* || ✞Blood Testament✞ || Coffee Striem || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-09-08T11:41:23Z",
-      "published_at": "2026-09-08T11:41:23Z",
-      "url": "https://www.twitch.tv/videos/2868603972",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/79f3f8543ef488b7484d_nap_tek_318512199013_1788867678//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 164,
-      "language": "de",
-      "type": "archive",
-      "duration": "4h29m20s"
     },
     {
       "id": "2854092702",
