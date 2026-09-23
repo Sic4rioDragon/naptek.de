@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-23T13:01:25.063Z"
+    "updated_at": "2026-09-23T17:51:30.565Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -35,30 +35,9 @@
     ],
     "content_classification_labels": []
   },
-  "live": true,
-  "stream": {
-    "id": "318745184870",
-    "title": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
-    "game_id": "18122",
-    "game_name": "World of Warcraft",
-    "viewer_count": 26,
-    "started_at": "2026-09-23T09:39:19Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
-  "followers_total": 579,
+  "live": false,
+  "stream": null,
+  "followers_total": 578,
   "stale": {
     "stream": false,
     "channel": false,
