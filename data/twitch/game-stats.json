@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-09-22T18:14:05.978Z"
+    "updated_at": "2026-09-23T13:01:25.063Z"
   },
   "games": [
     {
@@ -10,6 +10,13 @@
       "game_name": "Hunt: Showdown 1896",
       "total_seconds_observed": 21981,
       "total_hours_observed": 6.11,
+      "streams_observed": 2
+    },
+    {
+      "game_id": "18122",
+      "game_name": "World of Warcraft",
+      "total_seconds_observed": 15645,
+      "total_hours_observed": 4.35,
       "streams_observed": 2
     },
     {
@@ -24,13 +31,6 @@
       "game_name": "Hozy",
       "total_seconds_observed": 8594,
       "total_hours_observed": 2.39,
-      "streams_observed": 1
-    },
-    {
-      "game_id": "18122",
-      "game_name": "World of Warcraft",
-      "total_seconds_observed": 3519,
-      "total_hours_observed": 0.98,
       "streams_observed": 1
     }
   ]

@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-22T21:25:45.332Z"
+    "updated_at": "2026-09-23T13:01:25.063Z"
   },
   "sessions": [
     {
@@ -92,6 +92,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-09-22T12:07:45Z",
           "ended_at": "2026-09-22T18:14:05.973Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318745184870",
+      "started_at": "2026-09-23T09:39:19Z",
+      "first_seen_at": "2026-09-23T13:01:25.056Z",
+      "last_seen_at": "2026-09-23T13:01:25.056Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+      "title_last_seen": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+      "language": "de",
+      "peak_viewers_observed": 26,
+      "last_viewers_observed": 26,
+      "categories": [
+        {
+          "game_id": "18122",
+          "game_name": "World of Warcraft",
+          "started_at": "2026-09-23T09:39:19Z",
+          "ended_at": null
         }
       ]
     }

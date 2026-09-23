@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-22T21:25:45.331Z"
+    "updated_at": "2026-09-23T13:01:25.063Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Ist AZB eigentlich nur morgens? || Entspannt Hunten @xgreenunicornx @dieselmann92 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "title": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+    "game_id": "18122",
+    "game_name": "World of Warcraft",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,13 +33,32 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
-  "live": false,
-  "stream": null,
-  "followers_total": 580,
+  "live": true,
+  "stream": {
+    "id": "318745184870",
+    "title": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+    "game_id": "18122",
+    "game_name": "World of Warcraft",
+    "viewer_count": 26,
+    "started_at": "2026-09-23T09:39:19Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
+  "followers_total": 579,
   "stale": {
     "stream": false,
     "channel": false,
