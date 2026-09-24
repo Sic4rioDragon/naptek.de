@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-23T17:51:30.565Z"
+    "updated_at": "2026-09-24T18:27:05.091Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "AZB Stream || WoW Beta mit meinem MOD @theleeksz || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
-    "game_id": "18122",
-    "game_name": "World of Warcraft",
+    "title": "AZB Stream am Abend || 6 Stars jagen uns /w @frauhirschlii @bndl41 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,10 +33,33 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": []
+    "content_classification_labels": [
+      "MatureGame"
+    ]
   },
-  "live": false,
-  "stream": null,
+  "live": true,
+  "stream": {
+    "id": "318702788965",
+    "title": "AZB Stream am Abend || 6 Stars jagen uns /w @frauhirschlii @bndl41 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
+    "viewer_count": 31,
+    "started_at": "2026-09-24T15:32:28Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
   "followers_total": 578,
   "stale": {
     "stream": false,

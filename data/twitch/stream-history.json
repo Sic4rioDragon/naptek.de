@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-23T17:51:30.565Z"
+    "updated_at": "2026-09-24T18:27:05.092Z"
   },
   "sessions": [
     {
@@ -113,6 +113,27 @@
           "game_name": "World of Warcraft",
           "started_at": "2026-09-23T09:39:19Z",
           "ended_at": "2026-09-23T13:01:25.056Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318702788965",
+      "started_at": "2026-09-24T15:32:28Z",
+      "first_seen_at": "2026-09-24T18:27:05.087Z",
+      "last_seen_at": "2026-09-24T18:27:05.087Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "AZB Stream am Abend || 6 Stars jagen uns /w @frauhirschlii @bndl41 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+      "title_last_seen": "AZB Stream am Abend || 6 Stars jagen uns /w @frauhirschlii @bndl41 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
+      "language": "de",
+      "peak_viewers_observed": 31,
+      "last_viewers_observed": 31,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-09-24T15:32:28Z",
+          "ended_at": null
         }
       ]
     }
