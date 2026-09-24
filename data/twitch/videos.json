@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-24T03:45:51.346Z"
+    "updated_at": "2026-09-24T09:06:06.346Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,7 +15,7 @@
       "published_at": "2026-09-23T09:39:24Z",
       "url": "https://www.twitch.tv/videos/2881772846",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/3c27230a782cf3399720_nap_tek_318745184870_1790156359//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 173,
+      "view_count": 175,
       "language": "de",
       "type": "archive",
       "duration": "5h36m20s"
@@ -313,20 +313,6 @@
       "language": "de",
       "type": "archive",
       "duration": "7h0m50s"
-    },
-    {
-      "id": "2828722981",
-      "stream_id": "317882742631",
-      "title": "*DROPS* Solo till no solo || Coffee and tea stream ☕ || Genesen und Videospiele spielen 🤧 || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-07-25T14:54:38Z",
-      "published_at": "2026-07-25T14:54:38Z",
-      "url": "https://www.twitch.tv/videos/2828722981",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/5e4bf3d50e49488b9298_nap_tek_317882742631_1784991272//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 213,
-      "language": "de",
-      "type": "archive",
-      "duration": "4h28m30s"
     }
   ]
 }

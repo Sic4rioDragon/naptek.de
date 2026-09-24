@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-24T03:45:51.346Z"
+    "updated_at": "2026-09-24T09:06:06.347Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
@@ -19,8 +19,8 @@
   "tracked_streams": 5,
   "tracked_stream_seconds": 60275,
   "tracked_stream_hours": 16.74,
-  "available_vods": 23,
-  "available_vod_seconds": 421440,
+  "available_vods": 22,
+  "available_vod_seconds": 405330,
   "discovered_videos": 28,
   "discovered_clips": 23,
   "top_games": [
