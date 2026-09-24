@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-09-23T21:15:15.956Z"
+    "updated_at": "2026-09-24T03:45:51.346Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -117,20 +117,6 @@
       "language": "de",
       "type": "archive",
       "duration": "8h2m40s"
-    },
-    {
-      "id": "2869395361",
-      "stream_id": "318585602022",
-      "title": "*BLOODMOON ARRIVED* || ✞Blood Testament✞ || Coffee Striem || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-09-09T08:55:34Z",
-      "published_at": "2026-09-09T08:55:34Z",
-      "url": "https://www.twitch.tv/videos/2869395361",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/0d19000f59a4a42f585b_nap_tek_318585602022_1788944128//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 200,
-      "language": "de",
-      "type": "archive",
-      "duration": "5h20m10s"
     },
     {
       "id": "2854092702",
