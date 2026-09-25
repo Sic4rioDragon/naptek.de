@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-09-25T04:59:06.816Z"
+    "updated_at": "2026-09-25T19:26:59.110Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,7 +15,7 @@
       "published_at": "2026-09-24T15:32:34Z",
       "url": "https://www.twitch.tv/videos/2882805413",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/133ea0c7788aa6b8e957_nap_tek_318702788965_1790263948//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 171,
+      "view_count": 172,
       "language": "de",
       "type": "archive",
       "duration": "4h22m50s"
