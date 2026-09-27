@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-09-27T15:11:06.332Z"
+    "updated_at": "2026-09-27T18:59:42.407Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
@@ -13,7 +13,7 @@
   "follower_net_change_30d": null,
   "followers_gained_1d": 0,
   "followers_gained_7d": 1,
-  "followers_gained_30d": 14,
+  "followers_gained_30d": 13,
   "next_follower_milestone": 600,
   "followers_to_milestone": 22,
   "tracked_streams": 6,
