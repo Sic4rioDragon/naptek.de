@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_twitch_collector",
-    "updated_at": "2026-10-02T22:35:47.244Z"
+    "updated_at": "2026-10-03T07:01:48.001Z"
   },
   "ok": true,
   "broadcaster_login": "nap_tek",
@@ -13,14 +13,14 @@
     "stream": {
       "ok": true
     },
-    "channel": {
-      "ok": true
-    },
     "schedule": {
       "ok": true,
       "note": "not_configured_or_empty"
     },
     "followers_total": {
+      "ok": true
+    },
+    "channel": {
       "ok": true
     },
     "videos": {
