@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-09-24T21:43:25.197Z"
+    "updated_at": "2026-10-07T18:57:26.717Z"
   },
   "sessions": [
     {
@@ -134,6 +134,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-09-24T15:32:28Z",
           "ended_at": "2026-09-24T18:27:05.087Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318914025702",
+      "started_at": "2026-10-07T15:01:53Z",
+      "first_seen_at": "2026-10-07T18:57:26.714Z",
+      "last_seen_at": "2026-10-07T18:57:26.714Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "Neues Hunt Update | Wb to meee | mit der Jagdeule unterwegs @holyowli  | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
+      "title_last_seen": "Neues Hunt Update | Wb to meee | mit der Jagdeule unterwegs @holyowli  | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
+      "language": "de",
+      "peak_viewers_observed": 27,
+      "last_viewers_observed": 27,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-10-07T15:01:53Z",
+          "ended_at": null
         }
       ]
     }

@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_authorized_follower_list",
-    "updated_at": "2026-10-05T20:53:52.025Z"
+    "updated_at": "2026-10-07T18:57:26.717Z"
   },
   "gained_1d": 0,
   "gained_7d": 0,
-  "gained_30d": 9,
+  "gained_30d": 8,
   "days": [
     {
       "date": "2026-07-25",
@@ -55,10 +55,6 @@
     {
       "date": "2026-08-23",
       "new_followers": 5
-    },
-    {
-      "date": "2026-08-25",
-      "new_followers": 1
     },
     {
       "date": "2026-08-28",
