@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-08T17:31:49.843Z"
+    "updated_at": "2026-10-08T22:29:36.329Z"
   },
   "sessions": [
     {
@@ -184,8 +184,8 @@
       "started_at": "2026-10-08T15:01:51Z",
       "first_seen_at": "2026-10-08T17:31:49.839Z",
       "last_seen_at": "2026-10-08T17:31:49.839Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-08T17:31:49.839Z",
+      "end_is_approximate": true,
       "title_first_seen": "*Hunt Update* | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "*Hunt Update* | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -196,7 +196,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-08T15:01:51Z",
-          "ended_at": null
+          "ended_at": "2026-10-08T17:31:49.839Z"
         }
       ]
     }
