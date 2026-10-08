@@ -2,26 +2,26 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-10-08T02:58:24.158Z"
+    "updated_at": "2026-10-08T10:23:44.457Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
-  "followers_total": 573,
-  "follower_net_change_1d": 0,
-  "follower_net_change_7d": -4,
+  "live": true,
+  "followers_total": 571,
+  "follower_net_change_1d": -2,
+  "follower_net_change_7d": -6,
   "follower_net_change_30d": null,
   "followers_gained_1d": 0,
   "followers_gained_7d": 0,
   "followers_gained_30d": 8,
   "next_follower_milestone": 600,
-  "followers_to_milestone": 27,
-  "tracked_streams": 7,
-  "tracked_stream_seconds": 84886,
-  "tracked_stream_hours": 23.58,
-  "available_vods": 22,
-  "available_vod_seconds": 400430,
-  "discovered_videos": 30,
+  "followers_to_milestone": 29,
+  "tracked_streams": 8,
+  "tracked_stream_seconds": 93242,
+  "tracked_stream_hours": 25.9,
+  "available_vods": 23,
+  "available_vod_seconds": 408779,
+  "discovered_videos": 31,
   "discovered_clips": 26,
   "top_games": [
     {
@@ -50,6 +50,13 @@
       "game_name": "Hozy",
       "total_seconds_observed": 8594,
       "total_hours_observed": 2.39,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "516173984",
+      "game_name": "Cult of the Lamb",
+      "total_seconds_observed": 8356,
+      "total_hours_observed": 2.32,
       "streams_observed": 1
     }
   ]

@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-07T23:32:30.002Z"
+    "updated_at": "2026-10-08T10:23:44.456Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Neues Hunt Update | Wb to meee | mit der Jagdeule unterwegs @holyowli  | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "title": "AZB-Stream | Danke fürs aus'm Bett zerren | CozySchmosi | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
+    "game_id": "516173984",
+    "game_name": "Cult of the Lamb",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,13 +33,32 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
-  "live": false,
-  "stream": null,
-  "followers_total": 573,
+  "live": true,
+  "stream": {
+    "id": "318922554854",
+    "title": "AZB-Stream | Danke fürs aus'm Bett zerren | CozySchmosi | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
+    "game_id": "516173984",
+    "game_name": "Cult of the Lamb",
+    "viewer_count": 31,
+    "started_at": "2026-10-08T08:04:28Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
+  "followers_total": 571,
   "stale": {
     "stream": false,
     "channel": false,

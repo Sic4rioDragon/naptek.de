@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-10-07T18:57:26.717Z"
+    "updated_at": "2026-10-08T10:23:44.456Z"
   },
   "games": [
     {
@@ -31,6 +31,13 @@
       "game_name": "Hozy",
       "total_seconds_observed": 8594,
       "total_hours_observed": 2.39,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "516173984",
+      "game_name": "Cult of the Lamb",
+      "total_seconds_observed": 8356,
+      "total_hours_observed": 2.32,
       "streams_observed": 1
     }
   ]

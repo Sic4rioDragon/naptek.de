@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-10-08T02:58:24.158Z"
+    "updated_at": "2026-10-08T10:23:44.457Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2894993702",
+      "stream_id": "318922554854",
+      "title": "AZB-Stream | Danke fürs aus'm Bett zerren | CozySchmosi | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
+      "description": "",
+      "created_at": "2026-10-08T08:04:33Z",
+      "published_at": "2026-10-08T08:04:33Z",
+      "url": "https://www.twitch.tv/videos/2894993702",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "2h19m9s"
+    },
     {
       "id": "2894317220",
       "stream_id": "318914025702",
@@ -15,7 +29,7 @@
       "published_at": "2026-10-07T15:01:58Z",
       "url": "https://www.twitch.tv/videos/2894317220",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/f2cc1d2c6a2cfb313962_nap_tek_318914025702_1791385313//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 255,
+      "view_count": 257,
       "language": "de",
       "type": "archive",
       "duration": "5h3m0s"
