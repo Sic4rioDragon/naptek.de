@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-08T10:23:44.456Z"
+    "updated_at": "2026-10-08T17:31:49.843Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2895183815",
+      "stream_id": "318732189159",
+      "title": "*Hunt Update* | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | Ein 🩵 Mods | Für die max. XP !dc & !sr",
+      "description": "",
+      "created_at": "2026-10-08T15:01:57Z",
+      "published_at": "2026-10-08T15:01:57Z",
+      "url": "https://www.twitch.tv/videos/2895183815",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "2h29m52s"
+    },
     {
       "id": "2894993702",
       "stream_id": "318922554854",
@@ -14,11 +28,11 @@
       "created_at": "2026-10-08T08:04:33Z",
       "published_at": "2026-10-08T08:04:33Z",
       "url": "https://www.twitch.tv/videos/2894993702",
-      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
-      "view_count": 0,
+      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/4ef3b54766cadaace9a7_nap_tek_318922554854_1791446668//thumb/thumb0-%{width}x%{height}.jpg",
+      "view_count": 8,
       "language": "de",
       "type": "archive",
-      "duration": "2h19m9s"
+      "duration": "3h45m40s"
     },
     {
       "id": "2894317220",

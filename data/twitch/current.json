@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-08T10:23:44.456Z"
+    "updated_at": "2026-10-08T17:31:49.842Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "AZB-Stream | Danke fürs aus'm Bett zerren | CozySchmosi | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
-    "game_id": "516173984",
-    "game_name": "Cult of the Lamb",
+    "title": "*Hunt Update* | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,16 +33,18 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": []
+    "content_classification_labels": [
+      "MatureGame"
+    ]
   },
   "live": true,
   "stream": {
-    "id": "318922554854",
-    "title": "AZB-Stream | Danke fürs aus'm Bett zerren | CozySchmosi | Ein 🩵 Mods | Für die max. XP !dc & beste Musik !sr",
-    "game_id": "516173984",
-    "game_name": "Cult of the Lamb",
-    "viewer_count": 31,
-    "started_at": "2026-10-08T08:04:28Z",
+    "id": "318732189159",
+    "title": "*Hunt Update* | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
+    "viewer_count": 16,
+    "started_at": "2026-10-08T15:01:51Z",
     "language": "de",
     "tags": [
       "Deutsch",
@@ -58,7 +60,7 @@
     ],
     "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
   },
-  "followers_total": 571,
+  "followers_total": 572,
   "stale": {
     "stream": false,
     "channel": false,
