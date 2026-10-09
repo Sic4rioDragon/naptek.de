@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-09T16:37:23.436Z"
+    "updated_at": "2026-10-09T21:19:21.902Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,30 +37,9 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "318880704485",
-    "title": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 28,
-    "started_at": "2026-10-09T12:37:32Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
-  "followers_total": 573,
+  "live": false,
+  "stream": null,
+  "followers_total": 572,
   "stale": {
     "stream": false,
     "channel": false,

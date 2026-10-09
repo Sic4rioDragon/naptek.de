@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-09T16:37:23.436Z"
+    "updated_at": "2026-10-09T21:19:21.903Z"
   },
   "sessions": [
     {
@@ -205,8 +205,8 @@
       "started_at": "2026-10-09T12:37:32Z",
       "first_seen_at": "2026-10-09T16:37:23.434Z",
       "last_seen_at": "2026-10-09T16:37:23.434Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-09T16:37:23.434Z",
+      "end_is_approximate": true,
       "title_first_seen": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -217,7 +217,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-09T12:37:32Z",
-          "ended_at": null
+          "ended_at": "2026-10-09T16:37:23.434Z"
         }
       ]
     }
