@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-08T22:29:36.328Z"
+    "updated_at": "2026-10-09T16:37:23.436Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Laughing out loud | Es macht einfach sau Bock! | Nach den Sternen greifen @xgreenunicornx | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "21779",
-    "game_name": "League of Legends",
+    "title": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,11 +33,34 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": []
+    "content_classification_labels": [
+      "MatureGame"
+    ]
   },
-  "live": false,
-  "stream": null,
-  "followers_total": 572,
+  "live": true,
+  "stream": {
+    "id": "318880704485",
+    "title": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
+    "viewer_count": 28,
+    "started_at": "2026-10-09T12:37:32Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
+  "followers_total": 573,
   "stale": {
     "stream": false,
     "channel": false,

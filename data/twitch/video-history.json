@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-10-09T09:39:15.537Z"
+    "updated_at": "2026-10-09T16:37:23.437Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2895967155",
+      "stream_id": "318880704485",
+      "title": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "description": "",
+      "created_at": "2026-10-09T12:37:37Z",
+      "published_at": "2026-10-09T12:37:37Z",
+      "url": "https://www.twitch.tv/videos/2895967155",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 1,
+      "language": "de",
+      "type": "archive",
+      "duration": "3h59m45s"
+    },
     {
       "id": "2895183815",
       "stream_id": "318732189159",
@@ -15,7 +29,7 @@
       "published_at": "2026-10-08T15:01:57Z",
       "url": "https://www.twitch.tv/videos/2895183815",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/eeed6d916052e197a19a_nap_tek_318732189159_1791471711//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 151,
+      "view_count": 152,
       "language": "de",
       "type": "archive",
       "duration": "5h48m20s"
