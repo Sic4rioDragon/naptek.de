@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-10T01:08:06.198Z"
+    "updated_at": "2026-10-10T07:09:35.401Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,7 +15,7 @@
       "published_at": "2026-10-09T12:37:37Z",
       "url": "https://www.twitch.tv/videos/2895967155",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/3a7f4ecf3745e4e40ef7_nap_tek_318880704485_1791549452//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 318,
+      "view_count": 319,
       "language": "de",
       "type": "archive",
       "duration": "7h6m40s"
@@ -327,20 +327,6 @@
       "language": "de",
       "type": "archive",
       "duration": "3h42m40s"
-    },
-    {
-      "id": "2842205168",
-      "stream_id": "318052418151",
-      "title": "Erster Eindruck von Soulframe || AZB-Stream || Kaffee schmecken lassen☕ || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-08-10T07:01:54Z",
-      "published_at": "2026-08-10T07:01:54Z",
-      "url": "https://www.twitch.tv/videos/2842205168",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/3d1bee622d4608b37317_nap_tek_318052418151_1786345308//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 179,
-      "language": "de",
-      "type": "archive",
-      "duration": "3h59m30s"
     }
   ]
 }
