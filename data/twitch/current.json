@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-09T21:19:21.902Z"
+    "updated_at": "2026-10-10T18:03:40.321Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,7 +17,7 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "💀CHALLENGE Friday💀| Freie Loadoutwünsche & Challenges | Habt erbarmen 💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "title": "Wo wird das heute ENDEN?! | Freie Loadoutwünsche | Habt erbarmen 💀 /w @verentix_ | 🩵Mods | Für die max. XP !dc & !sr",
     "game_id": "500188",
     "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
@@ -39,7 +39,7 @@
   },
   "live": false,
   "stream": null,
-  "followers_total": 572,
+  "followers_total": 573,
   "stale": {
     "stream": false,
     "channel": false,
