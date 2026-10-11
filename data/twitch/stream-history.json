@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-11T18:28:25.826Z"
+    "updated_at": "2026-10-11T22:22:56.969Z"
   },
   "sessions": [
     {
@@ -226,8 +226,8 @@
       "started_at": "2026-10-11T14:55:58Z",
       "first_seen_at": "2026-10-11T18:28:25.822Z",
       "last_seen_at": "2026-10-11T18:28:25.822Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-11T18:28:25.822Z",
+      "end_is_approximate": true,
       "title_first_seen": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -238,7 +238,7 @@
           "game_id": "512953",
           "game_name": "ELDEN RING",
           "started_at": "2026-10-11T14:55:58Z",
-          "ended_at": null
+          "ended_at": "2026-10-11T18:28:25.822Z"
         }
       ]
     }

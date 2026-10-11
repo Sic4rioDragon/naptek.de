@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-11T18:28:25.826Z"
+    "updated_at": "2026-10-11T22:22:56.969Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,29 +37,8 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "318964329958",
-    "title": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "512953",
-    "game_name": "ELDEN RING",
-    "viewer_count": 27,
-    "started_at": "2026-10-11T14:55:58Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
+  "live": false,
+  "stream": null,
   "followers_total": 574,
   "stale": {
     "stream": false,
