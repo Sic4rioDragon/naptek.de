@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-11T13:33:10.585Z"
+    "updated_at": "2026-10-11T18:28:25.826Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2897964700",
+      "stream_id": "318964329958",
+      "title": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
+      "description": "",
+      "created_at": "2026-10-11T14:56:03Z",
+      "published_at": "2026-10-11T14:56:03Z",
+      "url": "https://www.twitch.tv/videos/2897964700",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 1,
+      "language": "de",
+      "type": "archive",
+      "duration": "3h32m22s"
+    },
     {
       "id": "2897736826",
       "stream_id": "318959845478",
@@ -15,7 +29,7 @@
       "published_at": "2026-10-11T07:50:29Z",
       "url": "https://www.twitch.tv/videos/2897736826",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/125c4a751201df316db3_nap_tek_318959845478_1791705024//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 2,
+      "view_count": 3,
       "language": "de",
       "type": "archive",
       "duration": "4h3m20s"

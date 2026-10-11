@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-09T21:19:21.903Z"
+    "updated_at": "2026-10-11T18:28:25.826Z"
   },
   "sessions": [
     {
@@ -218,6 +218,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-09T12:37:32Z",
           "ended_at": "2026-10-09T16:37:23.434Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318964329958",
+      "started_at": "2026-10-11T14:55:58Z",
+      "first_seen_at": "2026-10-11T18:28:25.822Z",
+      "last_seen_at": "2026-10-11T18:28:25.822Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
+      "title_last_seen": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
+      "language": "de",
+      "peak_viewers_observed": 27,
+      "last_viewers_observed": 27,
+      "categories": [
+        {
+          "game_id": "512953",
+          "game_name": "ELDEN RING",
+          "started_at": "2026-10-11T14:55:58Z",
+          "ended_at": null
         }
       ]
     }

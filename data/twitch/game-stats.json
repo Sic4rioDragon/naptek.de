@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-10-09T16:37:23.437Z"
+    "updated_at": "2026-10-11T18:28:25.826Z"
   },
   "games": [
     {
@@ -24,6 +24,13 @@
       "game_name": "Just Chatting",
       "total_seconds_observed": 14055,
       "total_hours_observed": 3.9,
+      "streams_observed": 1
+    },
+    {
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "total_seconds_observed": 12748,
+      "total_hours_observed": 3.54,
       "streams_observed": 1
     },
     {
