@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-11T06:30:49.006Z"
+    "updated_at": "2026-10-11T13:33:10.585Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2897736826",
+      "stream_id": "318959845478",
+      "title": "Gute Laune Sonntag | Freie Loadoutwünsche 💀 |Aufgewacht im Bayou /w @nahbereichsradar | 🩵Mods | Für die max. XP !dc & !sr",
+      "description": "",
+      "created_at": "2026-10-11T07:50:29Z",
+      "published_at": "2026-10-11T07:50:29Z",
+      "url": "https://www.twitch.tv/videos/2897736826",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/125c4a751201df316db3_nap_tek_318959845478_1791705024//thumb/thumb0-%{width}x%{height}.jpg",
+      "view_count": 2,
+      "language": "de",
+      "type": "archive",
+      "duration": "4h3m20s"
+    },
     {
       "id": "2896980929",
       "stream_id": "318895063525",
@@ -313,20 +327,6 @@
       "language": "de",
       "type": "archive",
       "duration": "3h35m40s"
-    },
-    {
-      "id": "2843366585",
-      "stream_id": "318206303845",
-      "title": "EXTREM talentierter Solo Hunter || Coffee Stream☕|| Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-08-11T16:35:17Z",
-      "published_at": "2026-08-11T16:35:17Z",
-      "url": "https://www.twitch.tv/videos/2843366585",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/74c7381db472e879fb9f_nap_tek_318206303845_1786466112//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 212,
-      "language": "de",
-      "type": "archive",
-      "duration": "4h35m50s"
     }
   ]
 }
