@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-12T17:56:34.617Z"
+    "updated_at": "2026-10-13T07:01:33.775Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -299,20 +299,6 @@
       "language": "de",
       "type": "archive",
       "duration": "8h39m30s"
-    },
-    {
-      "id": "2844866720",
-      "stream_id": "318289116006",
-      "title": "*KEY GIVEAWAY* || !ticket || Verliebt in dieses wunderschöne Spiel || Coffee Stream☕|| Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-08-13T05:59:31Z",
-      "published_at": "2026-08-13T05:59:31Z",
-      "url": "https://www.twitch.tv/videos/2844866720",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/d13ba483f9bcc94ace01_nap_tek_318289116006_1786600766//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 364,
-      "language": "de",
-      "type": "archive",
-      "duration": "5h7m0s"
     }
   ]
 }
