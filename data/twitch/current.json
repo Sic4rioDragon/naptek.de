@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-11T22:22:56.969Z"
+    "updated_at": "2026-10-13T15:04:28.173Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "Elden Ring Seamless CHALLENGE | mit den Boys @holyowli @verentix | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "512953",
-    "game_name": "ELDEN RING",
+    "title": "⚔️ Solo till no solo ⚔️ | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -37,9 +37,30 @@
       "MatureGame"
     ]
   },
-  "live": false,
-  "stream": null,
-  "followers_total": 574,
+  "live": true,
+  "stream": {
+    "id": "318792524135",
+    "title": "⚔️ Solo till no solo ⚔️ | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "500188",
+    "game_name": "Hunt: Showdown 1896",
+    "viewer_count": 30,
+    "started_at": "2026-10-13T10:01:58Z",
+    "language": "de",
+    "tags": [
+      "Deutsch",
+      "funnystream",
+      "Kaffeestream",
+      "sometimesfunnyiswear",
+      "CommunityFocused",
+      "Chatty",
+      "SafeSpace",
+      "SometimesEnglish",
+      "wowforeverwaitingroom",
+      "tryingmybest"
+    ],
+    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
+  },
+  "followers_total": 577,
   "stale": {
     "stream": false,
     "channel": false,

@@ -2,15 +2,15 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-10-11T18:28:25.826Z"
+    "updated_at": "2026-10-13T15:04:28.174Z"
   },
   "games": [
     {
       "game_id": "500188",
       "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 69982,
-      "total_hours_observed": 19.44,
-      "streams_observed": 6
+      "total_seconds_observed": 88132,
+      "total_hours_observed": 24.48,
+      "streams_observed": 7
     },
     {
       "game_id": "18122",

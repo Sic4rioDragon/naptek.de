@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-11T22:22:56.969Z"
+    "updated_at": "2026-10-13T15:04:28.174Z"
   },
   "sessions": [
     {
@@ -239,6 +239,27 @@
           "game_name": "ELDEN RING",
           "started_at": "2026-10-11T14:55:58Z",
           "ended_at": "2026-10-11T18:28:25.822Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318792524135",
+      "started_at": "2026-10-13T10:01:58Z",
+      "first_seen_at": "2026-10-13T15:04:28.170Z",
+      "last_seen_at": "2026-10-13T15:04:28.170Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "⚔️ Solo till no solo ⚔️ | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "title_last_seen": "⚔️ Solo till no solo ⚔️ | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "language": "de",
+      "peak_viewers_observed": 30,
+      "last_viewers_observed": 30,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-10-13T10:01:58Z",
+          "ended_at": null
         }
       ]
     }
