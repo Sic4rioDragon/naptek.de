@@ -2,33 +2,33 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-10-14T14:41:40.971Z"
+    "updated_at": "2026-10-14T18:57:03.287Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
   "live": true,
-  "followers_total": 577,
-  "follower_net_change_1d": 0,
-  "follower_net_change_7d": 4,
+  "followers_total": 576,
+  "follower_net_change_1d": -1,
+  "follower_net_change_7d": 3,
   "follower_net_change_30d": null,
   "followers_gained_1d": 0,
-  "followers_gained_7d": 6,
-  "followers_gained_30d": 9,
+  "followers_gained_7d": 5,
+  "followers_gained_30d": 8,
   "next_follower_milestone": 600,
-  "followers_to_milestone": 23,
+  "followers_to_milestone": 24,
   "tracked_streams": 13,
-  "tracked_stream_seconds": 147720,
-  "tracked_stream_hours": 41.03,
+  "tracked_stream_seconds": 163042,
+  "tracked_stream_hours": 45.29,
   "available_vods": 21,
-  "available_vod_seconds": 368543,
+  "available_vod_seconds": 383866,
   "discovered_videos": 38,
-  "discovered_clips": 29,
+  "discovered_clips": 31,
   "top_games": [
     {
       "game_id": "500188",
       "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 88322,
-      "total_hours_observed": 24.53,
+      "total_seconds_observed": 103644,
+      "total_hours_observed": 28.79,
       "streams_observed": 8
     },
     {
@@ -50,7 +50,7 @@
       "game_name": "ELDEN RING",
       "total_seconds_observed": 12748,
       "total_hours_observed": 3.54,
-      "streams_observed": 1
+      "streams_observed": 2
     },
     {
       "game_id": "1418385664",

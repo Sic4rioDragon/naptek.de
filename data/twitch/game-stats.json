@@ -2,14 +2,14 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-10-14T14:41:40.969Z"
+    "updated_at": "2026-10-14T18:57:03.285Z"
   },
   "games": [
     {
       "game_id": "500188",
       "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 88322,
-      "total_hours_observed": 24.53,
+      "total_seconds_observed": 103644,
+      "total_hours_observed": 28.79,
       "streams_observed": 8
     },
     {
@@ -31,7 +31,7 @@
       "game_name": "ELDEN RING",
       "total_seconds_observed": 12748,
       "total_hours_observed": 3.54,
-      "streams_observed": 1
+      "streams_observed": 2
     },
     {
       "game_id": "1418385664",

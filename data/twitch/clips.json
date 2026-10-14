@@ -2,11 +2,49 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-14T14:41:40.970Z"
+    "updated_at": "2026-10-14T18:57:03.285Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
   "recent": [
+    {
+      "id": "InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "url": "https://www.twitch.tv/nap_tek/clip/InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "embed_url": "https://clips.twitch.tv/embed?clip=InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "686388423",
+      "creator_name": "nadone",
+      "video_id": "",
+      "game_id": "789588840",
+      "game_name": "Funnel Runners",
+      "language": "de",
+      "title": "Für Holy x)",
+      "view_count": 9,
+      "created_at": "2026-07-23T15:24:57Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bd131808-810e-49b3-b9cf-7694f8b4578d/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 5.8,
+      "vod_offset": null
+    },
+    {
+      "id": "DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "url": "https://www.twitch.tv/nap_tek/clip/DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "embed_url": "https://clips.twitch.tv/embed?clip=DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "*DROPS* Solo im Bayou || Coffee and tea stream ☕ || Ab 17 Uhr Tornados jagen mit den Jungs🌪️ || Für die max. XP !dc",
+      "view_count": 2,
+      "created_at": "2026-07-23T15:04:09Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/01d50760-f927-486a-91fd-ff3e35a2f1c4/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 30,
+      "vod_offset": null
+    },
     {
       "id": "ComfortableHedonisticSwallowCoolStoryBob-crcbP7FbmCnFSKh1",
       "url": "https://www.twitch.tv/nap_tek/clip/ComfortableHedonisticSwallowCoolStoryBob-crcbP7FbmCnFSKh1",
@@ -67,6 +105,25 @@
   ],
   "top": [
     {
+      "id": "InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "url": "https://www.twitch.tv/nap_tek/clip/InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "embed_url": "https://clips.twitch.tv/embed?clip=InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "686388423",
+      "creator_name": "nadone",
+      "video_id": "",
+      "game_id": "789588840",
+      "game_name": "Funnel Runners",
+      "language": "de",
+      "title": "Für Holy x)",
+      "view_count": 9,
+      "created_at": "2026-07-23T15:24:57Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bd131808-810e-49b3-b9cf-7694f8b4578d/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 5.8,
+      "vod_offset": null
+    },
+    {
       "id": "EasySmellyGiraffeNerfRedBlaster-YNwbt0FaOYUgcaAU",
       "url": "https://www.twitch.tv/nap_tek/clip/EasySmellyGiraffeNerfRedBlaster-YNwbt0FaOYUgcaAU",
       "embed_url": "https://clips.twitch.tv/embed?clip=EasySmellyGiraffeNerfRedBlaster-YNwbt0FaOYUgcaAU",
@@ -121,6 +178,25 @@
       "created_at": "2026-07-23T14:21:07Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/140318e4-9a8a-4963-96f3-71340577ff42/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 4.9,
+      "vod_offset": null
+    },
+    {
+      "id": "DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "url": "https://www.twitch.tv/nap_tek/clip/DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "embed_url": "https://clips.twitch.tv/embed?clip=DullSparklyLatteGrammarKing-alGdbuuMnsxA3F9J",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "*DROPS* Solo im Bayou || Coffee and tea stream ☕ || Ab 17 Uhr Tornados jagen mit den Jungs🌪️ || Für die max. XP !dc",
+      "view_count": 2,
+      "created_at": "2026-07-23T15:04:09Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/01d50760-f927-486a-91fd-ff3e35a2f1c4/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 30,
       "vod_offset": null
     }
   ]
