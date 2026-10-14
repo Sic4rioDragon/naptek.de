@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-13T20:41:48.963Z"
+    "updated_at": "2026-10-14T04:40:15.486Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -299,20 +299,6 @@
       "language": "de",
       "type": "archive",
       "duration": "4h18m50s"
-    },
-    {
-      "id": "2845796640",
-      "stream_id": "318095304551",
-      "title": "AZB-Stream || Hoch die Hände Wochenende || Coffee Stream☕ || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-08-14T06:57:09Z",
-      "published_at": "2026-08-14T06:57:09Z",
-      "url": "https://www.twitch.tv/videos/2845796640",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/d6d9d97f22b15e408fb5_nap_tek_318095304551_1786690624//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 443,
-      "language": "de",
-      "type": "archive",
-      "duration": "8h39m30s"
     }
   ]
 }
