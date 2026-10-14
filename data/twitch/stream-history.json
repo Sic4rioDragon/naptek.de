@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-14T18:57:03.285Z"
+    "updated_at": "2026-10-14T22:11:28.228Z"
   },
   "sessions": [
     {
@@ -268,8 +268,8 @@
       "started_at": "2026-10-14T14:38:31Z",
       "first_seen_at": "2026-10-14T14:41:40.963Z",
       "last_seen_at": "2026-10-14T18:57:03.282Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-14T18:57:03.282Z",
+      "end_is_approximate": true,
       "title_first_seen": "Huntischmanti bis Elden Ring mit den boys /w @verentix_ @holyowli  | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "Huntischmanti bis Elden Ring mit den boys /w @verentix_ @holyowli  | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -286,7 +286,7 @@
           "game_id": "512953",
           "game_name": "ELDEN RING",
           "started_at": "2026-10-14T18:57:03.282Z",
-          "ended_at": null
+          "ended_at": "2026-10-14T18:57:03.282Z"
         }
       ]
     }

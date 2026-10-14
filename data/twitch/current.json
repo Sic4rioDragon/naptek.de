@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-14T18:57:03.284Z"
+    "updated_at": "2026-10-14T22:11:28.227Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,29 +37,8 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "318999310822",
-    "title": "Huntischmanti bis Elden Ring mit den boys /w @verentix_ @holyowli  | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "512953",
-    "game_name": "ELDEN RING",
-    "viewer_count": 21,
-    "started_at": "2026-10-14T14:38:31Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
+  "live": false,
+  "stream": null,
   "followers_total": 576,
   "stale": {
     "stream": false,
