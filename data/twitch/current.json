@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-15T10:12:34.676Z"
+    "updated_at": "2026-10-15T15:05:26.305Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,30 +37,9 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "318951122533",
-    "title": "AZB Stream | Event Event ein Lichtlein brennt.. oder so | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 27,
-    "started_at": "2026-10-15T07:02:58Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
-  "followers_total": 578,
+  "live": false,
+  "stream": null,
+  "followers_total": 577,
   "stale": {
     "stream": false,
     "channel": false,
