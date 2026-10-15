@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-14T22:11:28.228Z"
+    "updated_at": "2026-10-15T10:12:34.676Z"
   },
   "sessions": [
     {
@@ -287,6 +287,27 @@
           "game_name": "ELDEN RING",
           "started_at": "2026-10-14T18:57:03.282Z",
           "ended_at": "2026-10-14T18:57:03.282Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "318951122533",
+      "started_at": "2026-10-15T07:02:58Z",
+      "first_seen_at": "2026-10-15T10:12:34.671Z",
+      "last_seen_at": "2026-10-15T10:12:34.671Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "AZB Stream | Event Event ein Lichtlein brennt.. oder so | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "title_last_seen": "AZB Stream | Event Event ein Lichtlein brennt.. oder so | 💀Challenge me with your loadout💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "language": "de",
+      "peak_viewers_observed": 27,
+      "last_viewers_observed": 27,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-10-15T07:02:58Z",
+          "ended_at": null
         }
       ]
     }
