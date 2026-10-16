@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-15T22:20:40.734Z"
+    "updated_at": "2026-10-16T05:04:53.939Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -285,20 +285,6 @@
       "language": "de",
       "type": "archive",
       "duration": "5h4m30s"
-    },
-    {
-      "id": "2847668827",
-      "stream_id": "318320972774",
-      "title": "GuuuMooo Stream || Ich bin süüüüchtig || Für Eintritt Kaffee oder Wasser Pflicht || Für die max. XP !dc",
-      "description": "",
-      "created_at": "2026-08-16T08:03:33Z",
-      "published_at": "2026-08-16T08:03:33Z",
-      "url": "https://www.twitch.tv/videos/2847668827",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/015da0490b552894b261_nap_tek_318320972774_1786867408//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 352,
-      "language": "de",
-      "type": "archive",
-      "duration": "6h49m50s"
     }
   ]
 }
