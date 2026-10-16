@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-10-14T18:57:03.286Z"
+    "updated_at": "2026-10-16T18:24:42.039Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
+      "url": "https://www.twitch.tv/nap_tek/clip/DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
+      "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "674978611",
+      "creator_name": "molucella",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Zwischen Feuer und Pulverfaß , das wäre knapp gewesen ^^",
+      "view_count": 4,
+      "created_at": "2026-07-25T17:55:19Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/673c51c1-897e-4777-8299-25fc176e494b/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
     {
       "id": "InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
       "url": "https://www.twitch.tv/nap_tek/clip/InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
