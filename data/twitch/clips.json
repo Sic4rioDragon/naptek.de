@@ -2,11 +2,30 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-16T18:24:42.038Z"
+    "updated_at": "2026-10-16T21:33:53.839Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
   "recent": [
+    {
+      "id": "OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "url": "https://www.twitch.tv/nap_tek/clip/OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "embed_url": "https://clips.twitch.tv/embed?clip=OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "467022095",
+      "game_name": "Keep it Up",
+      "language": "de",
+      "title": "Klatschen bis der Arzt kommt - Slap_Tek und die Balloons || Genesen und Videospiele spielen ☕️ || !dc !liebe",
+      "view_count": 1,
+      "created_at": "2026-07-25T18:55:36Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/8abbc3f3-bd0b-4779-bca9-d10090d83a78/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
     {
       "id": "DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
       "url": "https://www.twitch.tv/nap_tek/clip/DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
@@ -235,6 +254,25 @@
       "created_at": "2026-07-23T15:04:09Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/01d50760-f927-486a-91fd-ff3e35a2f1c4/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 30,
+      "vod_offset": null
+    },
+    {
+      "id": "OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "url": "https://www.twitch.tv/nap_tek/clip/OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "embed_url": "https://clips.twitch.tv/embed?clip=OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "467022095",
+      "game_name": "Keep it Up",
+      "language": "de",
+      "title": "Klatschen bis der Arzt kommt - Slap_Tek und die Balloons || Genesen und Videospiele spielen ☕️ || !dc !liebe",
+      "view_count": 1,
+      "created_at": "2026-07-25T18:55:36Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/8abbc3f3-bd0b-4779-bca9-d10090d83a78/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
       "vod_offset": null
     }
   ]
