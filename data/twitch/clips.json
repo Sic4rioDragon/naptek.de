@@ -2,11 +2,49 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-16T21:33:53.839Z"
+    "updated_at": "2026-10-17T15:39:34.827Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
   "recent": [
+    {
+      "id": "AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "url": "https://www.twitch.tv/nap_tek/clip/AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "218825384",
+      "creator_name": "The_Dunadan_",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "Was machstn jetz?",
+      "view_count": 5,
+      "created_at": "2026-07-26T13:51:05Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ea442c8e-3d37-4a5e-9925-14a4be54b28a/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.1,
+      "vod_offset": null
+    },
+    {
+      "id": "SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "url": "https://www.twitch.tv/nap_tek/clip/SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "embed_url": "https://clips.twitch.tv/embed?clip=SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "686388423",
+      "creator_name": "nadone",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "classic Mike move",
+      "view_count": 3,
+      "created_at": "2026-07-26T13:48:23Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ae1b8814-f313-401c-9f80-56882c0cdde5/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 26.6,
+      "vod_offset": null
+    },
     {
       "id": "OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
       "url": "https://www.twitch.tv/nap_tek/clip/OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
@@ -181,6 +219,25 @@
       "vod_offset": null
     },
     {
+      "id": "AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "url": "https://www.twitch.tv/nap_tek/clip/AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AntsyFairMoosePraiseIt-FzpZGWiYS0_mnD2f",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "218825384",
+      "creator_name": "The_Dunadan_",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "Was machstn jetz?",
+      "view_count": 5,
+      "created_at": "2026-07-26T13:51:05Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ea442c8e-3d37-4a5e-9925-14a4be54b28a/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.1,
+      "vod_offset": null
+    },
+    {
       "id": "DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
       "url": "https://www.twitch.tv/nap_tek/clip/DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
       "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
@@ -197,6 +254,25 @@
       "created_at": "2026-07-25T17:55:19Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/673c51c1-897e-4777-8299-25fc176e494b/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
+      "vod_offset": null
+    },
+    {
+      "id": "SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "url": "https://www.twitch.tv/nap_tek/clip/SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "embed_url": "https://clips.twitch.tv/embed?clip=SneakyEphemeralNightingaleSoonerLater-UOlAdQ3lSfjDT9ck",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "686388423",
+      "creator_name": "nadone",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "classic Mike move",
+      "view_count": 3,
+      "created_at": "2026-07-26T13:48:23Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ae1b8814-f313-401c-9f80-56882c0cdde5/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 26.6,
       "vod_offset": null
     },
     {
