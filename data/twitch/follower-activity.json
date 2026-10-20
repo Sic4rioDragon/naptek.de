@@ -2,10 +2,10 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_authorized_follower_list",
-    "updated_at": "2026-10-19T23:53:25.471Z"
+    "updated_at": "2026-10-20T14:26:15.505Z"
   },
   "gained_1d": 0,
-  "gained_7d": 5,
+  "gained_7d": 3,
   "gained_30d": 9,
   "days": [
     {
