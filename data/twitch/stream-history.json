@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-20T14:26:15.506Z"
+    "updated_at": "2026-10-20T18:38:20.395Z"
   },
   "sessions": [
     {
@@ -316,8 +316,8 @@
       "started_at": "2026-10-20T12:05:16Z",
       "first_seen_at": "2026-10-20T14:26:15.501Z",
       "last_seen_at": "2026-10-20T14:26:15.501Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-20T14:26:15.501Z",
+      "end_is_approximate": true,
       "title_first_seen": "AZB Stream | Solo till no solo | 💀Challenge me - Loadout Edition💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "AZB Stream | Solo till no solo | 💀Challenge me - Loadout Edition💀 | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -328,7 +328,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-20T12:05:16Z",
-          "ended_at": null
+          "ended_at": "2026-10-20T14:26:15.501Z"
         }
       ]
     }

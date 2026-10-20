@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-20T14:26:15.505Z"
+    "updated_at": "2026-10-20T18:38:20.395Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -18,8 +18,8 @@
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
     "title": "AZB Stream | Solo till no solo | 💀Challenge me - Loadout Edition💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "game_id": "31799",
+    "game_name": "TypeRacer",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,34 +33,11 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
-  "live": true,
-  "stream": {
-    "id": "318879318631",
-    "title": "AZB Stream | Solo till no solo | 💀Challenge me - Loadout Edition💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 28,
-    "started_at": "2026-10-20T12:05:16Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
-  "followers_total": 577,
+  "live": false,
+  "stream": null,
+  "followers_total": 578,
   "stale": {
     "stream": false,
     "channel": false,
