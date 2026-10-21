@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-20T18:38:20.395Z"
+    "updated_at": "2026-10-21T15:17:46.606Z"
   },
   "sessions": [
     {
@@ -329,6 +329,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-20T12:05:16Z",
           "ended_at": "2026-10-20T14:26:15.501Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "319086927462",
+      "started_at": "2026-10-21T12:00:25Z",
+      "first_seen_at": "2026-10-21T15:17:46.603Z",
+      "last_seen_at": "2026-10-21T15:17:46.603Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "AZB Stream | Hunten & später Elden Ring Challenge /w @holyowli @verentix_ | 💀Challenge me💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "title_last_seen": "AZB Stream | Hunten & später Elden Ring Challenge /w @holyowli @verentix_ | 💀Challenge me💀 | 🩵Mods | Für die max. XP !dc & !sr",
+      "language": "de",
+      "peak_viewers_observed": 23,
+      "last_viewers_observed": 23,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-10-21T12:00:25Z",
+          "ended_at": null
         }
       ]
     }
