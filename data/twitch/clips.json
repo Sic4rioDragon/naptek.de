@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-21T15:17:46.608Z"
+    "updated_at": "2026-10-21T19:29:07.671Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -177,47 +177,9 @@
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/673c51c1-897e-4777-8299-25fc176e494b/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
       "vod_offset": null
-    },
-    {
-      "id": "InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "url": "https://www.twitch.tv/nap_tek/clip/InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "embed_url": "https://clips.twitch.tv/embed?clip=InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "686388423",
-      "creator_name": "nadone",
-      "video_id": "",
-      "game_id": "789588840",
-      "game_name": "Funnel Runners",
-      "language": "de",
-      "title": "Für Holy x)",
-      "view_count": 9,
-      "created_at": "2026-07-23T15:24:57Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bd131808-810e-49b3-b9cf-7694f8b4578d/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 5.8,
-      "vod_offset": null
     }
   ],
   "top": [
-    {
-      "id": "InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "url": "https://www.twitch.tv/nap_tek/clip/InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "embed_url": "https://clips.twitch.tv/embed?clip=InexpensiveAgreeableBisonTTours-foyDl74wUeao-z8g",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "686388423",
-      "creator_name": "nadone",
-      "video_id": "",
-      "game_id": "789588840",
-      "game_name": "Funnel Runners",
-      "language": "de",
-      "title": "Für Holy x)",
-      "view_count": 9,
-      "created_at": "2026-07-23T15:24:57Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bd131808-810e-49b3-b9cf-7694f8b4578d/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 5.8,
-      "vod_offset": null
-    },
     {
       "id": "AmazingStormyNoodleBudStar-xaxFKS9_Zl5Yw6lV",
       "url": "https://www.twitch.tv/nap_tek/clip/AmazingStormyNoodleBudStar-xaxFKS9_Zl5Yw6lV",

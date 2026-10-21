@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-21T15:17:46.605Z"
+    "updated_at": "2026-10-21T19:29:07.670Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "AZB Stream | Hunten & später Elden Ring Challenge /w @holyowli @verentix_ | 💀Challenge me💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "title": "AZB Stream | Hunger Playtest /w @holyowli @verentix_ | 💀Challenge me💀 | 🩵Mods | Für die max. XP !dc & !sr",
+    "game_id": "1092451091",
+    "game_name": "HUNGER",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,34 +33,11 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
-  "live": true,
-  "stream": {
-    "id": "319086927462",
-    "title": "AZB Stream | Hunten & später Elden Ring Challenge /w @holyowli @verentix_ | 💀Challenge me💀 | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 23,
-    "started_at": "2026-10-21T12:00:25Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
-  "followers_total": 577,
+  "live": false,
+  "stream": null,
+  "followers_total": 576,
   "stale": {
     "stream": false,
     "channel": false,
