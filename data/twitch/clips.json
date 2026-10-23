@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-21T19:29:07.671Z"
+    "updated_at": "2026-10-23T20:27:42.983Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -139,44 +139,6 @@
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ae1b8814-f313-401c-9f80-56882c0cdde5/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 26.6,
       "vod_offset": null
-    },
-    {
-      "id": "OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "url": "https://www.twitch.tv/nap_tek/clip/OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "embed_url": "https://clips.twitch.tv/embed?clip=OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "90694891",
-      "creator_name": "nap_Tek",
-      "video_id": "",
-      "game_id": "467022095",
-      "game_name": "Keep it Up",
-      "language": "de",
-      "title": "Klatschen bis der Arzt kommt - Slap_Tek und die Balloons || Genesen und Videospiele spielen ☕️ || !dc !liebe",
-      "view_count": 1,
-      "created_at": "2026-07-25T18:55:36Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/8abbc3f3-bd0b-4779-bca9-d10090d83a78/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
-      "vod_offset": null
-    },
-    {
-      "id": "DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "url": "https://www.twitch.tv/nap_tek/clip/DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "674978611",
-      "creator_name": "molucella",
-      "video_id": "",
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "language": "de",
-      "title": "Zwischen Feuer und Pulverfaß , das wäre knapp gewesen ^^",
-      "view_count": 4,
-      "created_at": "2026-07-25T17:55:19Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/673c51c1-897e-4777-8299-25fc176e494b/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
-      "vod_offset": null
     }
   ],
   "top": [
@@ -216,25 +178,6 @@
       "created_at": "2026-07-26T13:51:05Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ea442c8e-3d37-4a5e-9925-14a4be54b28a/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.1,
-      "vod_offset": null
-    },
-    {
-      "id": "DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "url": "https://www.twitch.tv/nap_tek/clip/DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "embed_url": "https://clips.twitch.tv/embed?clip=DoubtfulPlumpPlumageFreakinStinkin-fEWFsuG-cZCfnhFS",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "674978611",
-      "creator_name": "molucella",
-      "video_id": "",
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "language": "de",
-      "title": "Zwischen Feuer und Pulverfaß , das wäre knapp gewesen ^^",
-      "view_count": 4,
-      "created_at": "2026-07-25T17:55:19Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/673c51c1-897e-4777-8299-25fc176e494b/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
       "vod_offset": null
     },
     {
@@ -329,25 +272,6 @@
       "view_count": 1,
       "created_at": "2026-07-28T14:26:15Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/943406e2-a5c8-44a9-9eac-9e96201c615c/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
-      "vod_offset": null
-    },
-    {
-      "id": "OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "url": "https://www.twitch.tv/nap_tek/clip/OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "embed_url": "https://clips.twitch.tv/embed?clip=OutstandingCleverWrenPraiseIt-AZ1YMVAknKkbaKIK",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "90694891",
-      "creator_name": "nap_Tek",
-      "video_id": "",
-      "game_id": "467022095",
-      "game_name": "Keep it Up",
-      "language": "de",
-      "title": "Klatschen bis der Arzt kommt - Slap_Tek und die Balloons || Genesen und Videospiele spielen ☕️ || !dc !liebe",
-      "view_count": 1,
-      "created_at": "2026-07-25T18:55:36Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/8abbc3f3-bd0b-4779-bca9-d10090d83a78/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
       "vod_offset": null
     }
