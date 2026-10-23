@@ -2,15 +2,15 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-10-22T23:11:45.050Z"
+    "updated_at": "2026-10-23T01:33:22.071Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
   "live": false,
   "followers_total": 579,
-  "follower_net_change_1d": 3,
-  "follower_net_change_7d": 2,
-  "follower_net_change_30d": -1,
+  "follower_net_change_1d": 0,
+  "follower_net_change_7d": 3,
+  "follower_net_change_30d": 1,
   "followers_gained_1d": 2,
   "followers_gained_7d": 3,
   "followers_gained_30d": 10,
