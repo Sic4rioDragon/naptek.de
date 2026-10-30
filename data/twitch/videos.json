@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-30T13:22:55.141Z"
+    "updated_at": "2026-10-30T18:46:27.534Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2914912382",
+      "stream_id": "319203389286",
+      "title": "*DROPS* | Morgen 18.30Uhr \"Hunters Unleashed\" von @twiisii | Was geht'n hier? *umguck* /w @verentix_ | 🩵Mods | Für die max. XP !dc & !sr",
+      "description": "",
+      "created_at": "2026-10-30T16:17:42Z",
+      "published_at": "2026-10-30T16:17:42Z",
+      "url": "https://www.twitch.tv/videos/2914912382",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 1,
+      "language": "de",
+      "type": "archive",
+      "duration": "2h28m44s"
+    },
     {
       "id": "2907453381",
       "stream_id": "319096916838",
@@ -15,7 +29,7 @@
       "published_at": "2026-10-22T07:00:21Z",
       "url": "https://www.twitch.tv/videos/2907453381",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/20b5f17428c93c2b593e_nap_tek_319096916838_1792652415//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 220,
+      "view_count": 221,
       "language": "de",
       "type": "archive",
       "duration": "3h20m40s"

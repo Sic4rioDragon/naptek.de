@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_authorized_follower_list",
-    "updated_at": "2026-10-29T15:35:01.653Z"
+    "updated_at": "2026-10-30T18:46:27.533Z"
   },
-  "gained_1d": 0,
-  "gained_7d": 0,
-  "gained_30d": 9,
+  "gained_1d": 13,
+  "gained_7d": 13,
+  "gained_30d": 21,
   "days": [
     {
       "date": "2026-08-05",
@@ -85,10 +85,6 @@
       "new_followers": 1
     },
     {
-      "date": "2026-10-10",
-      "new_followers": 1
-    },
-    {
       "date": "2026-10-11",
       "new_followers": 1
     },
@@ -107,6 +103,10 @@
     {
       "date": "2026-10-22",
       "new_followers": 2
+    },
+    {
+      "date": "2026-10-30",
+      "new_followers": 13
     }
   ]
 }
