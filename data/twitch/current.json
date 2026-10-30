@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-30T18:46:27.532Z"
+    "updated_at": "2026-10-30T22:50:07.764Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,29 +37,8 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "319203389286",
-    "title": "*DROPS* | Morgen 18.30Uhr \"Hunters Unleashed\" von @twiisii | Was geht'n hier? *umguck* /w @verentix_ | 🩵Mods | Für die max. XP !dc & !sr",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 54,
-    "started_at": "2026-10-30T16:17:37Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
+  "live": false,
+  "stream": null,
   "followers_total": 589,
   "stale": {
     "stream": false,

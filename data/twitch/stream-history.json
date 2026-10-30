@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-30T18:46:27.533Z"
+    "updated_at": "2026-10-30T22:50:07.765Z"
   },
   "sessions": [
     {
@@ -358,8 +358,8 @@
       "started_at": "2026-10-30T16:17:37Z",
       "first_seen_at": "2026-10-30T18:46:27.530Z",
       "last_seen_at": "2026-10-30T18:46:27.530Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-30T18:46:27.530Z",
+      "end_is_approximate": true,
       "title_first_seen": "*DROPS* | Morgen 18.30Uhr \"Hunters Unleashed\" von @twiisii | Was geht'n hier? *umguck* /w @verentix_ | 🩵Mods | Für die max. XP !dc & !sr",
       "title_last_seen": "*DROPS* | Morgen 18.30Uhr \"Hunters Unleashed\" von @twiisii | Was geht'n hier? *umguck* /w @verentix_ | 🩵Mods | Für die max. XP !dc & !sr",
       "language": "de",
@@ -370,7 +370,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-30T16:17:37Z",
-          "ended_at": null
+          "ended_at": "2026-10-30T18:46:27.530Z"
         }
       ]
     }
