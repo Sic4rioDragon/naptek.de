@@ -2,11 +2,30 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-31T14:41:44.425Z"
+    "updated_at": "2026-10-31T18:48:26.792Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
   "recent": [
+    {
+      "id": "AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "url": "https://www.twitch.tv/nap_tek/clip/AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Nichts Wildes einfach chilln || Coffee and tea stream ☕|| mit dem Süßen /w @nightmarehunt_ ||Für die max. XP !dc",
+      "view_count": 1,
+      "created_at": "2026-08-09T17:48:48Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/09f8975c-b1b5-4d86-97ae-c1a9984c8910/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
     {
       "id": "MiniatureHelpfulAntTheTarFu-XjRUFkvIPCCx8OyC",
       "url": "https://www.twitch.tv/nap_tek/clip/MiniatureHelpfulAntTheTarFu-XjRUFkvIPCCx8OyC",
@@ -45,6 +64,25 @@
       "created_at": "2026-08-09T14:37:58Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/1b9f33a9-fa8f-445b-ae15-da4e3f7916d0/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 26.2,
+      "vod_offset": null
+    },
+    {
+      "id": "AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "url": "https://www.twitch.tv/nap_tek/clip/AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AgitatedAmazonianChickenDatBoi-xmA3Um5ZyOOJeNz6",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Nichts Wildes einfach chilln || Coffee and tea stream ☕|| mit dem Süßen /w @nightmarehunt_ ||Für die max. XP !dc",
+      "view_count": 1,
+      "created_at": "2026-08-09T17:48:48Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/09f8975c-b1b5-4d86-97ae-c1a9984c8910/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
       "vod_offset": null
     }
   ]

@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-10-31T14:41:44.425Z"
+    "updated_at": "2026-10-31T18:48:26.792Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -18,7 +18,7 @@
       "view_count": 1,
       "language": "de",
       "type": "archive",
-      "duration": "39m37s"
+      "duration": "4h46m20s"
     },
     {
       "id": "2914912382",

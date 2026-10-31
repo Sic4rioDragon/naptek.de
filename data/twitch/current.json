@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-31T14:41:44.424Z"
+    "updated_at": "2026-10-31T18:48:26.790Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,7 +17,7 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "*DROPS* | TURNIERTAG 💀Hunters Unleashed💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl | Für max XP !dc 🩵",
+    "title": "*DROPS* | TURNIERTAG 💀Revenge of the Fallen💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
     "game_id": "500188",
     "game_name": "Hunt: Showdown 1896",
     "broadcaster_language": "de",
@@ -40,10 +40,10 @@
   "live": true,
   "stream": {
     "id": "319215327974",
-    "title": "*DROPS* | TURNIERTAG 💀Hunters Unleashed💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl | Für max XP !dc 🩵",
+    "title": "*DROPS* | TURNIERTAG 💀Revenge of the Fallen💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
     "game_id": "500188",
     "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 17,
+    "viewer_count": 27,
     "started_at": "2026-10-31T14:02:00Z",
     "language": "de",
     "tags": [
