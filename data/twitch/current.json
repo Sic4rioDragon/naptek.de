@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-10-31T18:48:26.790Z"
+    "updated_at": "2026-10-31T22:18:07.717Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -37,29 +37,8 @@
       "MatureGame"
     ]
   },
-  "live": true,
-  "stream": {
-    "id": "319215327974",
-    "title": "*DROPS* | TURNIERTAG 💀Revenge of the Fallen💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 27,
-    "started_at": "2026-10-31T14:02:00Z",
-    "language": "de",
-    "tags": [
-      "Deutsch",
-      "funnystream",
-      "Kaffeestream",
-      "sometimesfunnyiswear",
-      "CommunityFocused",
-      "Chatty",
-      "SafeSpace",
-      "SometimesEnglish",
-      "wowforeverwaitingroom",
-      "tryingmybest"
-    ],
-    "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
-  },
+  "live": false,
+  "stream": null,
   "followers_total": 589,
   "stale": {
     "stream": false,

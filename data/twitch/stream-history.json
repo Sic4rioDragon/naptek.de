@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-31T18:48:26.791Z"
+    "updated_at": "2026-10-31T22:18:07.717Z"
   },
   "sessions": [
     {
@@ -379,8 +379,8 @@
       "started_at": "2026-10-31T14:02:00Z",
       "first_seen_at": "2026-10-31T14:41:44.422Z",
       "last_seen_at": "2026-10-31T18:48:26.787Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-10-31T18:48:26.787Z",
+      "end_is_approximate": true,
       "title_first_seen": "*DROPS* | TURNIERTAG 💀Hunters Unleashed💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl | Für max XP !dc 🩵",
       "title_last_seen": "*DROPS* | TURNIERTAG 💀Revenge of the Fallen💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
       "language": "de",
@@ -391,7 +391,7 @@
           "game_id": "500188",
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-31T14:02:00Z",
-          "ended_at": null
+          "ended_at": "2026-10-31T18:48:26.787Z"
         }
       ]
     }
