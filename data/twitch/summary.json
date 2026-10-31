@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-10-31T02:06:20.923Z"
+    "updated_at": "2026-10-31T14:41:44.426Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
+  "live": true,
   "followers_total": 589,
   "follower_net_change_1d": 0,
   "follower_net_change_7d": 11,
@@ -16,20 +16,20 @@
   "followers_gained_30d": 21,
   "next_follower_milestone": 600,
   "followers_to_milestone": 11,
-  "tracked_streams": 17,
-  "tracked_stream_seconds": 203652,
-  "tracked_stream_hours": 56.57,
-  "available_vods": 23,
-  "available_vod_seconds": 405100,
-  "discovered_videos": 43,
-  "discovered_clips": 40,
+  "tracked_streams": 18,
+  "tracked_stream_seconds": 206036,
+  "tracked_stream_hours": 57.23,
+  "available_vods": 24,
+  "available_vod_seconds": 407477,
+  "discovered_videos": 44,
+  "discovered_clips": 41,
   "top_games": [
     {
       "game_id": "500188",
       "game_name": "Hunt: Showdown 1896",
-      "total_seconds_observed": 144254,
-      "total_hours_observed": 40.07,
-      "streams_observed": 12
+      "total_seconds_observed": 146638,
+      "total_hours_observed": 40.73,
+      "streams_observed": 13
     },
     {
       "game_id": "18122",

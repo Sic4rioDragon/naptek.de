@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-10-19T14:54:58.232Z"
+    "updated_at": "2026-10-31T14:41:44.425Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "MiniatureHelpfulAntTheTarFu-XjRUFkvIPCCx8OyC",
+      "url": "https://www.twitch.tv/nap_tek/clip/MiniatureHelpfulAntTheTarFu-XjRUFkvIPCCx8OyC",
+      "embed_url": "https://clips.twitch.tv/embed?clip=MiniatureHelpfulAntTheTarFu-XjRUFkvIPCCx8OyC",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "686388423",
+      "creator_name": "nadone",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Speer-Kill",
+      "view_count": 5,
+      "created_at": "2026-08-09T14:37:58Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/1b9f33a9-fa8f-445b-ae15-da4e3f7916d0/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 26.2,
+      "vod_offset": null
+    },
     {
       "id": "AmazingStormyNoodleBudStar-xaxFKS9_Zl5Yw6lV",
       "url": "https://www.twitch.tv/nap_tek/clip/AmazingStormyNoodleBudStar-xaxFKS9_Zl5Yw6lV",
