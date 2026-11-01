@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-11-01T19:24:41.104Z"
+    "updated_at": "2026-11-01T22:57:54.524Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": true,
+  "live": false,
   "followers_total": 591,
   "follower_net_change_1d": 2,
   "follower_net_change_7d": 13,
@@ -20,7 +20,7 @@
   "tracked_stream_seconds": 247449,
   "tracked_stream_hours": 68.74,
   "available_vods": 25,
-  "available_vod_seconds": 460213,
+  "available_vod_seconds": 462740,
   "discovered_videos": 45,
   "discovered_clips": 42,
   "top_games": [
