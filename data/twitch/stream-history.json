@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-10-31T22:18:07.717Z"
+    "updated_at": "2026-11-01T14:50:51.414Z"
   },
   "sessions": [
     {
@@ -392,6 +392,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-10-31T14:02:00Z",
           "ended_at": "2026-10-31T18:48:26.787Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "319035755367",
+      "started_at": "2026-11-01T12:01:11Z",
+      "first_seen_at": "2026-11-01T14:50:51.411Z",
+      "last_seen_at": "2026-11-01T14:50:51.411Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
+      "title_last_seen": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
+      "language": "de",
+      "peak_viewers_observed": 28,
+      "last_viewers_observed": 28,
+      "categories": [
+        {
+          "game_id": "500188",
+          "game_name": "Hunt: Showdown 1896",
+          "started_at": "2026-11-01T12:01:11Z",
+          "ended_at": null
         }
       ]
     }
