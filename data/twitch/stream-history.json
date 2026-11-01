@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-11-01T14:50:51.414Z"
+    "updated_at": "2026-11-01T19:24:41.102Z"
   },
   "sessions": [
     {
@@ -399,14 +399,14 @@
       "stream_id": "319035755367",
       "started_at": "2026-11-01T12:01:11Z",
       "first_seen_at": "2026-11-01T14:50:51.411Z",
-      "last_seen_at": "2026-11-01T14:50:51.411Z",
+      "last_seen_at": "2026-11-01T19:24:41.099Z",
       "ended_at": null,
       "end_is_approximate": false,
       "title_first_seen": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
       "title_last_seen": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
       "language": "de",
-      "peak_viewers_observed": 28,
-      "last_viewers_observed": 28,
+      "peak_viewers_observed": 35,
+      "last_viewers_observed": 35,
       "categories": [
         {
           "game_id": "500188",

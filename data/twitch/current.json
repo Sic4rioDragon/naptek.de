@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-01T14:50:51.413Z"
+    "updated_at": "2026-11-01T19:24:41.101Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -43,7 +43,7 @@
     "title": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
     "game_id": "500188",
     "game_name": "Hunt: Showdown 1896",
-    "viewer_count": 28,
+    "viewer_count": 35,
     "started_at": "2026-11-01T12:01:11Z",
     "language": "de",
     "tags": [
@@ -60,7 +60,7 @@
     ],
     "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nap_tek-{width}x{height}.jpg"
   },
-  "followers_total": 589,
+  "followers_total": 591,
   "stale": {
     "stream": false,
     "channel": false,
