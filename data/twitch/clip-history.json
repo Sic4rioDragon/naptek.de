@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-11-02T20:02:14.214Z"
+    "updated_at": "2026-11-03T17:37:01.316Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "PricklyAbnegateJackalStoneLightning-pdZvwpov2hUk7Opq",
+      "url": "https://www.twitch.tv/nap_tek/clip/PricklyAbnegateJackalStoneLightning-pdZvwpov2hUk7Opq",
+      "embed_url": "https://clips.twitch.tv/embed?clip=PricklyAbnegateJackalStoneLightning-pdZvwpov2hUk7Opq",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "136344463",
+      "creator_name": "TheLeeksz",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "emote Vorlage",
+      "view_count": 3,
+      "created_at": "2026-08-12T16:38:38Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/7011837e-6554-442d-a4a4-dcbfe15f119d/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
     {
       "id": "BloodyAthleticTurnipEleGiggle-TXePTvCB6e5jUGkQ",
       "url": "https://www.twitch.tv/nap_tek/clip/BloodyAthleticTurnipEleGiggle-TXePTvCB6e5jUGkQ",
