@@ -2,10 +2,48 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-11-03T17:37:01.316Z"
+    "updated_at": "2026-11-03T22:32:50.599Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
+      "url": "https://www.twitch.tv/nap_tek/clip/GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
+      "embed_url": "https://clips.twitch.tv/embed?clip=GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "136344463",
+      "creator_name": "TheLeeksz",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "TaubTek",
+      "view_count": 10,
+      "created_at": "2026-08-12T19:07:36Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e0f16184-cdd6-48c7-affd-abf8f83ac8bb/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 41.9,
+      "vod_offset": null
+    },
+    {
+      "id": "AuspiciousEsteemedMeatloafDuDudu-JBwTDtWx-_4lrFEg",
+      "url": "https://www.twitch.tv/nap_tek/clip/AuspiciousEsteemedMeatloafDuDudu-JBwTDtWx-_4lrFEg",
+      "embed_url": "https://clips.twitch.tv/embed?clip=AuspiciousEsteemedMeatloafDuDudu-JBwTDtWx-_4lrFEg",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "674978611",
+      "creator_name": "molucella",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "Engelsgleiche Töne kaum hörbar",
+      "view_count": 3,
+      "created_at": "2026-08-12T17:36:46Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/ed545a38-46c4-46e3-aabd-995a368fb15c/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 19,
+      "vod_offset": null
+    },
     {
       "id": "PricklyAbnegateJackalStoneLightning-pdZvwpov2hUk7Opq",
       "url": "https://www.twitch.tv/nap_tek/clip/PricklyAbnegateJackalStoneLightning-pdZvwpov2hUk7Opq",
