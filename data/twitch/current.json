@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-03T02:19:45.263Z"
+    "updated_at": "2026-11-04T17:55:23.498Z"
   },
   "broadcaster": {
     "id": "90694891",
@@ -17,9 +17,9 @@
     "broadcaster_id": "90694891",
     "broadcaster_login": "nap_tek",
     "broadcaster_name": "nap_Tek",
-    "title": "*DROPS* | TURNIERTAG 2💀Revenge of the Fallen \"The Reaping\"💀 @twiisii | Kommentatoren: @gurgerus @stella__romy | Team: @verentix_ @dawguhl",
-    "game_id": "500188",
-    "game_name": "Hunt: Showdown 1896",
+    "title": "WoW waiting room | *loading guild* | Erste Arbeitswoche knallt rein 💀 | Für mehr XP !dc",
+    "game_id": "509658",
+    "game_name": "Just Chatting",
     "broadcaster_language": "de",
     "tags": [
       "Deutsch",
@@ -33,13 +33,11 @@
       "wowforeverwaitingroom",
       "tryingmybest"
     ],
-    "content_classification_labels": [
-      "MatureGame"
-    ]
+    "content_classification_labels": []
   },
   "live": false,
   "stream": null,
-  "followers_total": 592,
+  "followers_total": 591,
   "stale": {
     "stream": false,
     "channel": false,
