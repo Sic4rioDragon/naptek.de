@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-11-04T23:23:37.902Z"
+    "updated_at": "2026-11-05T18:59:56.673Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2920293700",
+      "stream_id": "319214276325",
+      "title": "e v o l v e D | *Gilde aufbauen* JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "description": "",
+      "created_at": "2026-11-05T15:54:18Z",
+      "published_at": "2026-11-05T15:54:18Z",
+      "url": "https://www.twitch.tv/videos/2920293700",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 1,
+      "language": "de",
+      "type": "archive",
+      "duration": "3h5m37s"
+    },
     {
       "id": "2916611458",
       "stream_id": "319035755367",
@@ -15,7 +29,7 @@
       "published_at": "2026-11-01T12:01:16Z",
       "url": "https://www.twitch.tv/videos/2916611458",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/012af0bc65a26e379045_nap_tek_319035755367_1793534471//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 504,
+      "view_count": 505,
       "language": "de",
       "type": "archive",
       "duration": "8h5m30s"

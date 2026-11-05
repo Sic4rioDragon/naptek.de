@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-11-01T22:57:54.521Z"
+    "updated_at": "2026-11-05T18:59:56.671Z"
   },
   "sessions": [
     {
@@ -413,6 +413,27 @@
           "game_name": "Hunt: Showdown 1896",
           "started_at": "2026-11-01T12:01:11Z",
           "ended_at": "2026-11-01T19:24:41.099Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "319214276325",
+      "started_at": "2026-11-05T15:54:12Z",
+      "first_seen_at": "2026-11-05T18:59:56.668Z",
+      "last_seen_at": "2026-11-05T18:59:56.668Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "e v o l v e D | *Gilde aufbauen* JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "title_last_seen": "e v o l v e D | *Gilde aufbauen* JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 25,
+      "last_viewers_observed": 25,
+      "categories": [
+        {
+          "game_id": "18122",
+          "game_name": "World of Warcraft",
+          "started_at": "2026-11-05T15:54:12Z",
+          "ended_at": null
         }
       ]
     }
