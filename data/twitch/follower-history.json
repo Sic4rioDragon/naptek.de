@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_daily_totals",
-    "updated_at": "2026-11-05T03:38:26.921Z"
+    "updated_at": "2026-11-05T11:33:21.411Z"
   },
   "days": [
     {
@@ -195,7 +195,7 @@
     },
     {
       "date": "2026-11-05",
-      "total": 591
+      "total": 590
     }
   ]
 }
