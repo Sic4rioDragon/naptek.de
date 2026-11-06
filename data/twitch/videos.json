@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-06T00:06:27.492Z"
+    "updated_at": "2026-11-06T06:49:38.577Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,7 +15,7 @@
       "published_at": "2026-11-05T15:54:18Z",
       "url": "https://www.twitch.tv/videos/2920293700",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/3faa695b14540da8b4c7_nap_tek_319214276325_1793894052//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 4,
+      "view_count": 241,
       "language": "de",
       "type": "archive",
       "duration": "5h19m0s"
@@ -29,7 +29,7 @@
       "published_at": "2026-11-01T12:01:16Z",
       "url": "https://www.twitch.tv/videos/2916611458",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/012af0bc65a26e379045_nap_tek_319035755367_1793534471//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 505,
+      "view_count": 507,
       "language": "de",
       "type": "archive",
       "duration": "8h5m30s"
