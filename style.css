@@ -309,3 +309,54 @@ footer { text-align: center; padding: 44px 20px; color: var(--muted); }
   .site-nav { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
   .site-nav a { white-space: nowrap; }
 }
+
+
+/* November 2026 — unified Twitch stats, clips and community views */
+.section-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:16px}
+.section-heading h2,.section-heading p{margin-bottom:6px}
+.stat-panel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.stat-panel-grid .chart-card{min-width:0}
+.stats-page .stat-card{min-height:142px}
+.stats-page .stat-value{font-variant-numeric:tabular-nums}
+.chart-area{position:relative;height:290px;margin:20px 0 12px}
+.chart-area canvas{width:100%!important;height:100%!important}
+.data-notice{color:var(--warning);border:1px solid rgba(241,201,120,.35);background:rgba(241,201,120,.08);padding:12px 16px;border-radius:12px;max-width:900px;margin:15px auto}
+.game-progress{margin:12px 0 16px}
+.game-progress-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:7px;font-size:.92rem}
+.progress-track{height:7px;background:var(--border);border-radius:999px;overflow:hidden}
+.progress-fill{height:100%;background:var(--accent);border-radius:999px}
+.stream-row{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+.stream-row-main{min-width:0;overflow-wrap:anywhere}
+.stream-row-main p{margin:7px 0 0}
+.stream-row-side{display:flex;flex-direction:column;flex-shrink:0;align-items:flex-end;gap:5px;min-width:125px}
+.mini-card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.mini-media-card{display:flex;flex-direction:column;justify-content:space-between;gap:18px;min-height:118px;color:var(--fg);overflow-wrap:anywhere}
+.mini-media-card:hover{border-color:var(--border-hover);color:var(--accent-strong)}
+.legacy-stats{background:var(--bg-soft)}
+.legacy-game-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.legacy-chip{border:1px solid var(--border-hover);border-radius:999px;background:var(--panel-strong);padding:7px 11px;font-size:.87rem}
+.filter-toolbar{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px}
+.filter-label{display:flex;flex:1 1 180px;flex-direction:column;gap:7px;font-size:.85rem;font-weight:700;color:var(--muted)}
+.filter-control{width:100%;min-height:42px;padding:9px 12px;border:1px solid var(--border-hover);border-radius:10px;background:var(--bg);color:var(--fg);font:inherit}
+.filter-control:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filter-toolbar + .muted{margin:15px 0 0}
+.clip-link{display:flex;flex-direction:column;color:var(--fg);text-decoration:none;transition:transform .15s ease,border-color .15s ease}
+.clip-link:hover{transform:translateY(-2px);border-color:var(--border-hover);color:var(--fg)}
+.clip-thumb,.clip-placeholder{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--panel-strong)}
+.clip-placeholder{display:grid;place-items:center;color:var(--accent);font-weight:800}
+.clip-link .clip-card-body{display:flex;flex-direction:column;flex:1;gap:8px}
+.clip-link h3{overflow-wrap:anywhere}
+.clip-link .clip-card-meta{margin:0}
+.clip-card-footer{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-top:auto}
+.clip-card-footer strong{color:var(--accent)}
+.centered{justify-content:center}
+button.button{cursor:pointer;font:inherit}
+button.button:focus-visible,.icon:focus-visible,.site-nav a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.supporters-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.supporters-grid .content-card{min-width:0}
+.supporter-pill{display:inline-flex;padding:6px 10px;border:1px solid var(--border-hover);border-radius:999px;margin:4px 6px 4px 0;background:var(--panel-strong);font-size:.86rem}
+.supporter-list{line-height:1.65}
+.supporters-note{line-height:1.6}
+@media(max-width:800px){.stat-panel-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.stream-row{flex-direction:column;gap:12px}.stream-row-side{align-items:flex-start}.stats-page .stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stats-page .stat-card{min-height:155px;padding:13px}.stats-page .stat-value{font-size:clamp(1.25rem,6vw,2rem)}}
+@media(max-width:380px){.stats-page .stats-grid{grid-template-columns:1fr}}

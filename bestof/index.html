@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Best of Clips — NapTek</title>
+  <meta name="description" content="Lustige Twitch-Clips und ältere Highlights von nap_Tek, direkt zum Anschauen auf Twitch." />
   <link rel="canonical" href="https://naptek.de/bestof/" />
-<meta charset="UTF-8">
-<title>Best of — NapTek</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="../assets/naptek.png">
-<link rel="stylesheet" href="../style.css">
-<style>
-  .wrap{max-width:1100px;margin:0 auto;padding:24px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
-  .clip{background:#161a22;border:1px solid #222836;border-radius:14px;padding:12px}
-  .clip h3{margin:8px 0 4px;font-size:1rem}
-  .small{color:#9aa4ad}
-  iframe{width:100%;height:180px;border:0;border-radius:10px}
-</style></head>
+  <link rel="icon" type="image/png" href="/assets/naptek.png" />
+  <link rel="stylesheet" href="/style.css" />
+  <script src="/js/bestof.js" defer></script>
+</head>
 <body>
-<header class="hero">
-  <img src="../assets/naptek.png" alt="NapTek" class="logo">
-  <h1>Best of Clips</h1>
-  <p class="wip">⚒️ Läuft mit <code>data/clips.json</code>. Optional: Auto-Fetch via Script/Worker.</p>
-</header>
-<main class="wrap">
-  <section class="grid" id="clips">Lade Clips…</section>
-</main>
-<footer><p>© <span id="y"></span> NapTek</p></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
-<script src="../js/bestof.js"></script></body></html>
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <a href="/">Start</a>
+    <a href="/about/">About</a>
+    <a href="/stats/">Stats</a>
+    <a href="/bestof/" aria-current="page">Best of</a>
+    <a href="/danke/">Danke</a>
+    <a href="/discord/">Discord</a>
+  </nav>
+  <header class="hero hero-compact">
+    <img src="/assets/naptek.png" alt="NapTek Logo" class="logo" />
+    <h1>Best of Clips</h1>
+    <p class="wip">Chaos, Highlights &amp; die Momente, über die man später noch lacht.</p>
+    <p class="source-note">Twitch-Clips und gesammelte ältere Favoriten. Ohne Autoplay.</p>
+  </header>
+  <main class="page-wrap">
+    <section class="content-card">
+      <div class="filter-toolbar">
+        <label class="filter-label">Suche
+          <input id="clip-search" class="filter-control" type="search" placeholder="Titel, Spiel oder Creator …" autocomplete="off" />
+        </label>
+        <label class="filter-label">Kategorie
+          <select id="clip-game" class="filter-control"><option value="">Alle Games</option></select>
+        </label>
+        <label class="filter-label">Sortieren
+          <select id="clip-sort" class="filter-control">
+            <option value="newest">Neueste zuerst</option>
+            <option value="top">Meistgesehen</option>
+            <option value="oldest">Älteste zuerst</option>
+          </select>
+        </label>
+      </div>
+      <p class="muted" id="clip-count" role="status">Clips werden geladen …</p>
+    </section>
+    <section>
+      <div class="clip-grid" id="clips" aria-live="polite"><p class="empty-state">Lade Clips …</p></div>
+      <div class="button-row centered" id="clips-more-wrap" hidden>
+        <button class="button" id="clips-more" type="button">Weitere Clips anzeigen</button>
+      </div>
+    </section>
+    <p class="source-note">Die Clip-Daten kommen von Twitch und aus dem älteren lokalen Archiv. Ein archivierter Clip kann auf Twitch inzwischen gelöscht worden sein. Abspielen erfolgt erst nach dem Klick auf Twitch.</p>
+  </main>
+  <footer><p>© <span id="year"></span> NapTek — Alle Rechte vorbehalten.</p></footer>
+</body>
+</html>

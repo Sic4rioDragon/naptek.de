@@ -1,6 +1,6 @@
 # naptek.de Roadmap
 
-Updated: 2026-09-19
+Updated: 2026-11-06
 
 ## Already set up / active work
 
@@ -12,13 +12,23 @@ Updated: 2026-09-19
 - About / FAQ / PC setup data based on the official Twitch About page.
 - `/discord/` short redirect.
 
+## November 2026 website batch (implemented)
+
+- Homepage social-name easter egg: 3 consistent page-load themes, without normal YouTube/TikTok/Instagram labels. Platform names remain accessible for screen readers.
+- **Stats** upgraded to official Twitch follower counts/growth, tracking totals, Twitch category history, stream history, available VODs, and follower charts.
+- Historic 2025 game/stream totals kept separately as legacy references, not silently summed with current tracking.
+- **Best of** now combines retained official Twitch clip history with older local clips (deduplicated by clip ID); search, game filtering, sorting and pagination.
+- **Danke** brought into the shared site design with clear empty-data states; no unsupported claim of automatic subscriber/donation sync.
+- Shared mobile styling and navigation for the updated pages.
+
 ## Next website work
 
-- Rebuild **Stats** around the new `data/twitch/` files and safely import useful legacy stats.
-- Rebuild **Best of** around current Twitch clips/VOD data.
-- Rework **Danke** separately for supporter/community data.
-- Merge old and new historical stats without losing already-collected data.
-- Continue canonical / sitemap / path cleanup.
+- Review stream/category recording accuracy, particularly the observed-time estimates during GitHub Actions delays.
+- Optional one-time, deduplicated legacy historical backfill with source labels and overlap detection.
+- Broader official-source stats: stream-by-stream viewer samples, if retained safely, and milestones.
+- Configure genuine broadcaster-authorized supporter data only after obtaining the correct permissions and consent.
+- Continue canonical / sitemap / path cleanup and verify deployment on GitHub Pages.
+- Build shared German/English localization layer; then translate Stats, Best of and Danke as separate pages.
 
 ## Language / localization
 

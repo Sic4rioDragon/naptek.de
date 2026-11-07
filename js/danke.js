@@ -1,33 +1,54 @@
-// Public Mode: reads data/supporters.json (can switch to Worker/API later)
-(async () => {
-  const $ = s => document.querySelector(s);
-  const j = (arr, cls='') => (arr||[]).map(x=>(
-    `<span class="pill${cls}">${x.display_name}${x.streak?` • ${x.streak}×`:''}</span>`
-  )).join('') || '—';
-
-  async function load(u){ try{
-    const r=await fetch(u,{cache:'no-store'}); if(!r.ok) throw 0; return r.json();
-  }catch{ return null; } }
-
-  const d = await load('../data/supporters.json');
-  if(!d){ ['#vips','#vipsPast','#subs','#subsPast','#bits','#donos']
-    .forEach(s=>$(s).textContent='Noch keine Daten.'); return; }
-
-  // VIPs
-  $('#vips').innerHTML = j(d.vips);
-
-  // Subs by tier (active)
-  const T={1:[],2:[],3:[]}; (d.subscribers||[]).forEach(s=>T[s.tier]?.push(s));
-  $('#subs').innerHTML = [1,2,3].map(t=>{
-    return `<div><strong>Tier ${t}</strong><div>${j(T[t],` tier${t}`)}</div></div>`;
-  }).join('');
-
-  // Past subs (flat list)
-  $('#subsPast').innerHTML = j(d.subscribers_past);
-
-  // Bits & donations
-  $('#bits').innerHTML  = (d.bits||[]).map((b,i)=>
-    `<span class="pill">#${i+1} ${b.display_name} • ${b.score} Bits</span>`).join('')||'—';
-  $('#donos').innerHTML = (d.donations||[]).map(u=>
-    `<span class="pill">${u.display_name} • ${u.amount} ${u.currency}</span>`).join('')||'—';
+(() => {
+  "use strict";
+  const $ = id => document.getElementById(id);
+  const make = (tag, cls, value) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (value != null) n.textContent = String(value);
+    return n;
+  };
+  function render(id, items, formatter) {
+    const target = $(id);
+    target.replaceChildren();
+    if (!Array.isArray(items) || !items.length) {
+      target.append(make("p", "muted", "Aktuell keine freigegebenen Einträge."));
+      return;
+    }
+    for (const item of items) {
+      if (!item || typeof item !== "object") continue;
+      const value = formatter(item);
+      if (value) target.append(make("span", "supporter-pill", value));
+    }
+    if (!target.childElementCount) target.append(make("p", "muted", "Aktuell keine freigegebenen Einträge."));
+  }
+  async function init() {
+    $("year").textContent = String(new Date().getFullYear());
+    const response = await fetch("/data/supporters.json?v=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) throw new Error("Supporter-Daten: HTTP " + response.status);
+    const data = await response.json();
+    if (!data || typeof data !== "object" || Array.isArray(data)) throw new Error("Ungültige Supporter-Daten");
+    render("vips", data.vips, v => v.display_name || v.name || "");
+    render("subs", data.subscribers || data.subs, s => {
+      const name = s.display_name || s.name;
+      return name ? name + (s.tier ? " · Tier " + s.tier : "") : "";
+    });
+    render("bits", data.bits, b => {
+      const name = b.display_name || b.name;
+      return name ? name + (b.score != null ? " · " + Number(b.score).toLocaleString("de-DE") + " Bits" : "") : "";
+    });
+    render("donos", data.donations, d => {
+      const name = d.display_name || d.name;
+      return name ? name + (d.amount != null ? " · " + d.amount + " " + (d.currency || "") : "") : "";
+    });
+    const timestamp = data.updated_at ? new Date(data.updated_at) : null;
+    $("support-data-status").textContent =
+      "Lokale, freigegebene Einträge" +
+      (timestamp && Number.isFinite(timestamp.getTime()) ? " · Datenstand: " + timestamp.toLocaleDateString("de-DE") : "") +
+      " · keine automatische Live-Synchronisierung";
+  }
+  init().catch(err => {
+    console.warn("[naptek danke]", err);
+    for (const id of ["vips", "subs", "bits", "donos"]) $(id).textContent = "Daten gerade nicht verfügbar.";
+    $("support-data-status").textContent = "Community-Daten momentan nicht erreichbar.";
+  });
 })();
