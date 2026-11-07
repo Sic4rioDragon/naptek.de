@@ -2,10 +2,48 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-11-06T00:06:27.493Z"
+    "updated_at": "2026-11-07T13:27:11.131Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "RamshackleImpossibleYakRlyTho-HR4oVKi03BSq7POq",
+      "url": "https://www.twitch.tv/nap_tek/clip/RamshackleImpossibleYakRlyTho-HR4oVKi03BSq7POq",
+      "embed_url": "https://clips.twitch.tv/embed?clip=RamshackleImpossibleYakRlyTho-HR4oVKi03BSq7POq",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "136344463",
+      "creator_name": "TheLeeksz",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "Das ist der Twei",
+      "view_count": 8,
+      "created_at": "2026-08-16T10:29:35Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/cbb26cda-f71e-4768-9c26-d1b13f6a602d/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 34.2,
+      "vod_offset": null
+    },
+    {
+      "id": "BoringPowerfulLattePeteZarollTie-LyLqjDzyOoNLv6cg",
+      "url": "https://www.twitch.tv/nap_tek/clip/BoringPowerfulLattePeteZarollTie-LyLqjDzyOoNLv6cg",
+      "embed_url": "https://clips.twitch.tv/embed?clip=BoringPowerfulLattePeteZarollTie-LyLqjDzyOoNLv6cg",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "429228238",
+      "creator_name": "dannylinchen",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "Kinky Mike",
+      "view_count": 3,
+      "created_at": "2026-08-16T08:54:12Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/79e30715-5909-448f-9cc9-9f174fc150ec/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 15.9,
+      "vod_offset": null
+    },
     {
       "id": "SuspiciousMotionlessJayWutFace-EoRf1iAuaH2wWCi8",
       "url": "https://www.twitch.tv/nap_tek/clip/SuspiciousMotionlessJayWutFace-EoRf1iAuaH2wWCi8",
