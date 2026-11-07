@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-11-07T13:27:11.131Z"
+    "updated_at": "2026-11-07T18:13:38.704Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
@@ -22,7 +22,7 @@
   "available_vods": 27,
   "available_vod_seconds": 495120,
   "discovered_videos": 47,
-  "discovered_clips": 59,
+  "discovered_clips": 62,
   "top_games": [
     {
       "game_id": "500188",
