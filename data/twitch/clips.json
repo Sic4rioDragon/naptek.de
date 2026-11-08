@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-08T07:47:38.602Z"
+    "updated_at": "2026-11-08T23:01:28.655Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -618,25 +618,6 @@
       "vod_offset": null
     },
     {
-      "id": "RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
-      "url": "https://www.twitch.tv/nap_tek/clip/RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
-      "embed_url": "https://clips.twitch.tv/embed?clip=RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "558271319",
-      "creator_name": "armyofrebels",
-      "video_id": "",
-      "game_id": "73586",
-      "game_name": "Outlast",
-      "language": "de",
-      "title": "Timing ist alles XD",
-      "view_count": 3,
-      "created_at": "2026-08-14T19:04:35Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/6bc5a716-8493-4791-ab72-9dd0b6367b17/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 22.7,
-      "vod_offset": null
-    },
-    {
       "id": "ToughNimbleArtichokeKappaRoss-TzzLnf2HLHVu82vH",
       "url": "https://www.twitch.tv/nap_tek/clip/ToughNimbleArtichokeKappaRoss-TzzLnf2HLHVu82vH",
       "embed_url": "https://clips.twitch.tv/embed?clip=ToughNimbleArtichokeKappaRoss-TzzLnf2HLHVu82vH",
@@ -653,6 +634,25 @@
       "created_at": "2026-08-11T19:12:41Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/751de270-dc20-4375-9a81-cecfb30b4080/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 51.3,
+      "vod_offset": null
+    },
+    {
+      "id": "RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
+      "url": "https://www.twitch.tv/nap_tek/clip/RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
+      "embed_url": "https://clips.twitch.tv/embed?clip=RichGloriousElephantPastaThat-e8i-0peVHWxeFBqW",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "558271319",
+      "creator_name": "armyofrebels",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "Timing ist alles XD",
+      "view_count": 3,
+      "created_at": "2026-08-14T19:04:35Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/6bc5a716-8493-4791-ab72-9dd0b6367b17/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 22.7,
       "vod_offset": null
     },
     {
@@ -713,25 +713,6 @@
       "vod_offset": null
     },
     {
-      "id": "RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "url": "https://www.twitch.tv/nap_tek/clip/RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "embed_url": "https://clips.twitch.tv/embed?clip=RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "90694891",
-      "creator_name": "nap_Tek",
-      "video_id": "",
-      "game_id": "509658",
-      "game_name": "Just Chatting",
-      "language": "de",
-      "title": "HORROR Abend || FIRSTPLAYTROUGH Outlast 1 || Ich hasse es wenn ich verfolgt werde.. || Für die max. XP !dc",
-      "view_count": 2,
-      "created_at": "2026-08-14T18:35:48Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
-      "vod_offset": null
-    },
-    {
       "id": "IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
       "url": "https://www.twitch.tv/nap_tek/clip/IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
       "embed_url": "https://clips.twitch.tv/embed?clip=IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
@@ -748,6 +729,25 @@
       "created_at": "2026-08-14T19:45:05Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/db3495cd-0067-4b59-b4cf-9772b5007a58/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.4,
+      "vod_offset": null
+    },
+    {
+      "id": "RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "url": "https://www.twitch.tv/nap_tek/clip/RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "embed_url": "https://clips.twitch.tv/embed?clip=RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "language": "de",
+      "title": "HORROR Abend || FIRSTPLAYTROUGH Outlast 1 || Ich hasse es wenn ich verfolgt werde.. || Für die max. XP !dc",
+      "view_count": 2,
+      "created_at": "2026-08-14T18:35:48Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
       "vod_offset": null
     },
     {
