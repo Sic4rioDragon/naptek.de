@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-11-07T21:57:37.017Z"
+    "updated_at": "2026-11-08T01:16:35.025Z"
   },
   "sessions": [
     {
@@ -463,8 +463,8 @@
       "started_at": "2026-11-07T19:23:32Z",
       "first_seen_at": "2026-11-07T21:57:37.013Z",
       "last_seen_at": "2026-11-07T21:57:37.013Z",
-      "ended_at": null,
-      "end_is_approximate": false,
+      "ended_at": "2026-11-07T21:57:37.013Z",
+      "end_is_approximate": true,
       "title_first_seen": "*LurkNight* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
       "title_last_seen": "*LurkNight* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
       "language": "de",
@@ -475,7 +475,7 @@
           "game_id": "18122",
           "game_name": "World of Warcraft",
           "started_at": "2026-11-07T19:23:32Z",
-          "ended_at": null
+          "ended_at": "2026-11-07T21:57:37.013Z"
         }
       ]
     }
