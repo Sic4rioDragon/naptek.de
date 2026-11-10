@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-10T18:51:02.187Z"
+    "updated_at": "2026-11-10T23:55:50.169Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -272,47 +272,9 @@
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
       "vod_offset": null
-    },
-    {
-      "id": "GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "url": "https://www.twitch.tv/nap_tek/clip/GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "embed_url": "https://clips.twitch.tv/embed?clip=GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "136344463",
-      "creator_name": "TheLeeksz",
-      "video_id": "",
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "language": "de",
-      "title": "TaubTek",
-      "view_count": 10,
-      "created_at": "2026-08-12T19:07:36Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e0f16184-cdd6-48c7-affd-abf8f83ac8bb/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 41.9,
-      "vod_offset": null
     }
   ],
   "top": [
-    {
-      "id": "GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "url": "https://www.twitch.tv/nap_tek/clip/GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "embed_url": "https://clips.twitch.tv/embed?clip=GiftedTenaciousAxeDendiFace-IUGwgWmKYFhE1Gp4",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "136344463",
-      "creator_name": "TheLeeksz",
-      "video_id": "",
-      "game_id": "500188",
-      "game_name": "Hunt: Showdown 1896",
-      "language": "de",
-      "title": "TaubTek",
-      "view_count": 10,
-      "created_at": "2026-08-12T19:07:36Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e0f16184-cdd6-48c7-affd-abf8f83ac8bb/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 41.9,
-      "vod_offset": null
-    },
     {
       "id": "RamshackleImpossibleYakRlyTho-HR4oVKi03BSq7POq",
       "url": "https://www.twitch.tv/nap_tek/clip/RamshackleImpossibleYakRlyTho-HR4oVKi03BSq7POq",
@@ -542,25 +504,6 @@
       "vod_offset": null
     },
     {
-      "id": "RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "url": "https://www.twitch.tv/nap_tek/clip/RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "embed_url": "https://clips.twitch.tv/embed?clip=RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "90694891",
-      "creator_name": "nap_Tek",
-      "video_id": "",
-      "game_id": "509658",
-      "game_name": "Just Chatting",
-      "language": "de",
-      "title": "HORROR Abend || FIRSTPLAYTROUGH Outlast 1 || Ich hasse es wenn ich verfolgt werde.. || Für die max. XP !dc",
-      "view_count": 2,
-      "created_at": "2026-08-14T18:35:48Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.9,
-      "vod_offset": null
-    },
-    {
       "id": "IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
       "url": "https://www.twitch.tv/nap_tek/clip/IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
       "embed_url": "https://clips.twitch.tv/embed?clip=IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
@@ -577,6 +520,25 @@
       "created_at": "2026-08-14T19:45:05Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/db3495cd-0067-4b59-b4cf-9772b5007a58/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.4,
+      "vod_offset": null
+    },
+    {
+      "id": "RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "url": "https://www.twitch.tv/nap_tek/clip/RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "embed_url": "https://clips.twitch.tv/embed?clip=RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "509658",
+      "game_name": "Just Chatting",
+      "language": "de",
+      "title": "HORROR Abend || FIRSTPLAYTROUGH Outlast 1 || Ich hasse es wenn ich verfolgt werde.. || Für die max. XP !dc",
+      "view_count": 2,
+      "created_at": "2026-08-14T18:35:48Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
       "vod_offset": null
     }
   ]
