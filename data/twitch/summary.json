@@ -2,14 +2,14 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-11-10T11:34:16.891Z"
+    "updated_at": "2026-11-11T05:28:01.757Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
   "live": false,
   "followers_total": 592,
   "follower_net_change_1d": 0,
-  "follower_net_change_7d": 0,
+  "follower_net_change_7d": 1,
   "follower_net_change_30d": 18,
   "followers_gained_1d": 0,
   "followers_gained_7d": 3,
