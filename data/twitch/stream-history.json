@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-11-08T01:16:35.025Z"
+    "updated_at": "2026-11-11T20:02:30.757Z"
   },
   "sessions": [
     {
@@ -476,6 +476,27 @@
           "game_name": "World of Warcraft",
           "started_at": "2026-11-07T19:23:32Z",
           "ended_at": "2026-11-07T21:57:37.013Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "319359611110",
+      "started_at": "2026-11-11T17:01:42Z",
+      "first_seen_at": "2026-11-11T20:02:30.752Z",
+      "last_seen_at": "2026-11-11T20:02:30.752Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "title_last_seen": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 29,
+      "last_viewers_observed": 29,
+      "categories": [
+        {
+          "game_id": "18122",
+          "game_name": "World of Warcraft",
+          "started_at": "2026-11-11T17:01:42Z",
+          "ended_at": null
         }
       ]
     }

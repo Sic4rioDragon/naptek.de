@@ -2,11 +2,11 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-11-11T05:28:01.757Z"
+    "updated_at": "2026-11-11T20:02:30.758Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
-  "live": false,
+  "live": true,
   "followers_total": 592,
   "follower_net_change_1d": 0,
   "follower_net_change_7d": 1,
@@ -16,12 +16,12 @@
   "followers_gained_30d": 26,
   "next_follower_milestone": 600,
   "followers_to_milestone": 8,
-  "tracked_streams": 22,
-  "tracked_stream_seconds": 278947,
-  "tracked_stream_hours": 77.49,
-  "available_vods": 28,
-  "available_vod_seconds": 516180,
-  "discovered_videos": 48,
+  "tracked_streams": 23,
+  "tracked_stream_seconds": 289796,
+  "tracked_stream_hours": 80.5,
+  "available_vods": 29,
+  "available_vod_seconds": 527022,
+  "discovered_videos": 49,
   "discovered_clips": 62,
   "top_games": [
     {
@@ -34,9 +34,9 @@
     {
       "game_id": "18122",
       "game_name": "World of Warcraft",
-      "total_seconds_observed": 47143,
-      "total_hours_observed": 13.1,
-      "streams_observed": 5
+      "total_seconds_observed": 57992,
+      "total_hours_observed": 16.11,
+      "streams_observed": 6
     },
     {
       "game_id": "509658",

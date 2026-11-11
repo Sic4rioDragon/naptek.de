@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-11T12:55:04.805Z"
+    "updated_at": "2026-11-11T20:02:30.757Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2925942022",
+      "stream_id": "319359611110",
+      "title": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "description": "",
+      "created_at": "2026-11-11T17:01:47Z",
+      "published_at": "2026-11-11T17:01:47Z",
+      "url": "https://www.twitch.tv/videos/2925942022",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 1,
+      "language": "de",
+      "type": "archive",
+      "duration": "3h0m42s"
+    },
     {
       "id": "2922396929",
       "stream_id": "319242947173",
@@ -71,7 +85,7 @@
       "published_at": "2026-10-31T14:02:05Z",
       "url": "https://www.twitch.tv/videos/2915760887",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/162dc932692cc4276c40_nap_tek_319215327974_1793455320//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 426,
+      "view_count": 427,
       "language": "de",
       "type": "archive",
       "duration": "7h55m10s"
@@ -113,7 +127,7 @@
       "published_at": "2026-10-21T12:00:30Z",
       "url": "https://www.twitch.tv/videos/2906703002",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/8648a6f554d12b23f24d_nap_tek_319086927462_1792584025//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 291,
+      "view_count": 292,
       "language": "de",
       "type": "archive",
       "duration": "5h19m10s"
