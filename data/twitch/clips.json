@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-11T20:02:30.758Z"
+    "updated_at": "2026-11-12T09:26:57.771Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
@@ -504,25 +504,6 @@
       "vod_offset": null
     },
     {
-      "id": "IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
-      "url": "https://www.twitch.tv/nap_tek/clip/IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
-      "embed_url": "https://clips.twitch.tv/embed?clip=IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
-      "broadcaster_id": "90694891",
-      "broadcaster_name": "nap_Tek",
-      "creator_id": "558271319",
-      "creator_name": "armyofrebels",
-      "video_id": "",
-      "game_id": "73586",
-      "game_name": "Outlast",
-      "language": "de",
-      "title": "Wieviel Pulz ich hab XD? #verpissdich",
-      "view_count": 2,
-      "created_at": "2026-08-14T19:45:05Z",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/db3495cd-0067-4b59-b4cf-9772b5007a58/landscape/thumb/thumb-0000000000-480x272.jpg",
-      "duration": 29.4,
-      "vod_offset": null
-    },
-    {
       "id": "RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
       "url": "https://www.twitch.tv/nap_tek/clip/RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
       "embed_url": "https://clips.twitch.tv/embed?clip=RacySlickMageRaccAttack-aOEsjLRheXeL6dP5",
@@ -539,6 +520,25 @@
       "created_at": "2026-08-14T18:35:48Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/4f07ea82-dab3-4c1b-b7fe-856f72a25cc3/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 29.9,
+      "vod_offset": null
+    },
+    {
+      "id": "IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
+      "url": "https://www.twitch.tv/nap_tek/clip/IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
+      "embed_url": "https://clips.twitch.tv/embed?clip=IcyAntediluvianJayHassaanChop-2Qh9S1lIVM85VEMz",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "558271319",
+      "creator_name": "armyofrebels",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "Wieviel Pulz ich hab XD? #verpissdich",
+      "view_count": 2,
+      "created_at": "2026-08-14T19:45:05Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/db3495cd-0067-4b59-b4cf-9772b5007a58/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.4,
       "vod_offset": null
     }
   ]
