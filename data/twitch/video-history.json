@@ -2,10 +2,24 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_video_metadata",
-    "updated_at": "2026-11-13T11:13:48.186Z"
+    "updated_at": "2026-11-13T18:34:44.683Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
+    {
+      "id": "2927672366",
+      "stream_id": "319383486950",
+      "title": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "description": "",
+      "created_at": "2026-11-13T15:49:58Z",
+      "published_at": "2026-11-13T15:49:58Z",
+      "url": "https://www.twitch.tv/videos/2927672366",
+      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
+      "view_count": 0,
+      "language": "de",
+      "type": "archive",
+      "duration": "2h44m45s"
+    },
     {
       "id": "2925942022",
       "stream_id": "319359611110",
@@ -85,7 +99,7 @@
       "published_at": "2026-10-31T14:02:05Z",
       "url": "https://www.twitch.tv/videos/2915760887",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/162dc932692cc4276c40_nap_tek_319215327974_1793455320//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 427,
+      "view_count": 428,
       "language": "de",
       "type": "archive",
       "duration": "7h55m10s"
