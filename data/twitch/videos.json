@@ -2,24 +2,10 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-13T18:34:44.682Z"
+    "updated_at": "2026-11-13T23:54:03.451Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
-    {
-      "id": "2927672366",
-      "stream_id": "319383486950",
-      "title": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
-      "description": "",
-      "created_at": "2026-11-13T15:49:58Z",
-      "published_at": "2026-11-13T15:49:58Z",
-      "url": "https://www.twitch.tv/videos/2927672366",
-      "thumbnail_url": "https://vod-secure.twitch.tv/_404/404_processing_%{width}x%{height}.png",
-      "view_count": 0,
-      "language": "de",
-      "type": "archive",
-      "duration": "2h44m45s"
-    },
     {
       "id": "2925942022",
       "stream_id": "319359611110",
@@ -29,7 +15,7 @@
       "published_at": "2026-11-11T17:01:47Z",
       "url": "https://www.twitch.tv/videos/2925942022",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/de409969b9f59b8db804_nap_tek_319359611110_1794416502//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 230,
+      "view_count": 233,
       "language": "de",
       "type": "archive",
       "duration": "5h25m40s"
@@ -43,7 +29,7 @@
       "published_at": "2026-11-07T19:23:37Z",
       "url": "https://www.twitch.tv/videos/2922396929",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/3609b61ea38f62491d86_nap_tek_319242947173_1794079412//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 258,
+      "view_count": 260,
       "language": "de",
       "type": "archive",
       "duration": "5h51m0s"
@@ -113,7 +99,7 @@
       "published_at": "2026-10-30T16:17:42Z",
       "url": "https://www.twitch.tv/videos/2914912382",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/024135d64329cb8b3a4b_nap_tek_319203389286_1793377057//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 3016,
+      "view_count": 3017,
       "language": "de",
       "type": "archive",
       "duration": "3h52m40s"
