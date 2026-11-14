@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api_observed",
-    "updated_at": "2026-11-13T23:54:03.451Z"
+    "updated_at": "2026-11-14T18:25:48.182Z"
   },
   "sessions": [
     {
@@ -518,6 +518,27 @@
           "game_name": "World of Warcraft",
           "started_at": "2026-11-13T15:49:53Z",
           "ended_at": "2026-11-13T18:34:44.678Z"
+        }
+      ]
+    },
+    {
+      "stream_id": "319324238565",
+      "started_at": "2026-11-14T15:36:46Z",
+      "first_seen_at": "2026-11-14T18:25:48.179Z",
+      "last_seen_at": "2026-11-14T18:25:48.179Z",
+      "ended_at": null,
+      "end_is_approximate": false,
+      "title_first_seen": "Die Gilde wächst! - e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "title_last_seen": "Die Gilde wächst! - e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
+      "language": "de",
+      "peak_viewers_observed": 19,
+      "last_viewers_observed": 19,
+      "categories": [
+        {
+          "game_id": "18122",
+          "game_name": "World of Warcraft",
+          "started_at": "2026-11-14T15:36:46Z",
+          "ended_at": null
         }
       ]
     }

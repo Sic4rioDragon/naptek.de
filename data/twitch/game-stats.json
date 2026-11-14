@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "derived_from_stream_history",
-    "updated_at": "2026-11-13T18:34:44.682Z"
+    "updated_at": "2026-11-14T18:25:48.183Z"
   },
   "games": [
     {
@@ -15,9 +15,9 @@
     {
       "game_id": "18122",
       "game_name": "World of Warcraft",
-      "total_seconds_observed": 67884,
-      "total_hours_observed": 18.86,
-      "streams_observed": 7
+      "total_seconds_observed": 78026,
+      "total_hours_observed": 21.67,
+      "streams_observed": 8
     },
     {
       "game_id": "509658",
