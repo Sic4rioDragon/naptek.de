@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_derived_summary",
-    "updated_at": "2026-11-16T08:23:21.160Z"
+    "updated_at": "2026-11-16T18:47:43.043Z"
   },
   "broadcaster_id": "90694891",
   "broadcaster_login": "nap_tek",
@@ -11,7 +11,7 @@
   "follower_net_change_1d": 0,
   "follower_net_change_7d": 2,
   "follower_net_change_30d": 18,
-  "followers_gained_1d": 3,
+  "followers_gained_1d": 0,
   "followers_gained_7d": 5,
   "followers_gained_30d": 28,
   "next_follower_milestone": 600,
@@ -22,7 +22,7 @@
   "available_vods": 26,
   "available_vod_seconds": 441720,
   "discovered_videos": 52,
-  "discovered_clips": 62,
+  "discovered_clips": 65,
   "top_games": [
     {
       "game_id": "500188",
