@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-21T10:17:02.686Z"
+    "updated_at": "2026-11-22T10:20:31.894Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -15,7 +15,7 @@
       "published_at": "2026-11-15T13:45:21Z",
       "url": "https://www.twitch.tv/videos/2929593048",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/b5c2b86e132e3e78db20_nap_tek_319336518245_1794750316//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 227,
+      "view_count": 228,
       "language": "de",
       "type": "archive",
       "duration": "5h29m40s"
@@ -113,7 +113,7 @@
       "published_at": "2026-10-15T07:03:03Z",
       "url": "https://www.twitch.tv/videos/2901231760",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/a8db631a5db282210beb_nap_tek_318951122533_1792047778//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 197,
+      "view_count": 198,
       "language": "de",
       "type": "archive",
       "duration": "3h58m40s"
@@ -271,20 +271,6 @@
       "language": "de",
       "type": "archive",
       "duration": "5h36m20s"
-    },
-    {
-      "id": "2880972785",
-      "stream_id": "318677977317",
-      "title": "Ist AZB eigentlich nur morgens? || Entspannt Hunten || Ich 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
-      "description": "",
-      "created_at": "2026-09-22T12:07:50Z",
-      "published_at": "2026-09-22T12:07:50Z",
-      "url": "https://www.twitch.tv/videos/2880972785",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/de37760fa5f56ef9a6cd_nap_tek_318677977317_1790078865//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 278,
-      "language": "de",
-      "type": "archive",
-      "duration": "6h49m40s"
     }
   ]
 }
