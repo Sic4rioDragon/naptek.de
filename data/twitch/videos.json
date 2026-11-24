@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-24T01:55:01.211Z"
+    "updated_at": "2026-11-24T12:08:17.685Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -229,20 +229,6 @@
       "language": "de",
       "type": "archive",
       "duration": "5h3m0s"
-    },
-    {
-      "id": "2882805413",
-      "stream_id": "318702788965",
-      "title": "AZB Stream am Abend || 6 Stars jagen uns /w @frauhirschlii @bndl41 || 🩵 meine Mods || Für die max. XP !dc & beste Musik !sr",
-      "description": "",
-      "created_at": "2026-09-24T15:32:34Z",
-      "published_at": "2026-09-24T15:32:34Z",
-      "url": "https://www.twitch.tv/videos/2882805413",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/133ea0c7788aa6b8e957_nap_tek_318702788965_1790263948//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 181,
-      "language": "de",
-      "type": "archive",
-      "duration": "4h22m50s"
     }
   ]
 }
