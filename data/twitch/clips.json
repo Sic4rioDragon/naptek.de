@@ -2,11 +2,49 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-25T15:27:49.433Z"
+    "updated_at": "2026-11-25T23:44:54.099Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
   "recent": [
+    {
+      "id": "ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "url": "https://www.twitch.tv/nap_tek/clip/ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "embed_url": "https://clips.twitch.tv/embed?clip=ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "958161039",
+      "creator_name": "Verentix_",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "Geht doch👍🏻",
+      "view_count": 2,
+      "created_at": "2026-09-03T20:58:27Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/51a00b8c-e8d5-4e51-95f0-35f6fb0768f6/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 13.2,
+      "vod_offset": null
+    },
+    {
+      "id": "SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "url": "https://www.twitch.tv/nap_tek/clip/SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "embed_url": "https://clips.twitch.tv/embed?clip=SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "HORROR-Abend || Halte meine Hand - ich scheiß mich weg || Blümchen Stream || Für die max. XP !dc",
+      "view_count": 7,
+      "created_at": "2026-09-03T20:43:06Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e96d4fbe-1071-4f60-9afa-1e0a90928a5e/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
     {
       "id": "FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
       "url": "https://www.twitch.tv/nap_tek/clip/FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
@@ -67,6 +105,25 @@
       "vod_offset": null
     },
     {
+      "id": "SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "url": "https://www.twitch.tv/nap_tek/clip/SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "embed_url": "https://clips.twitch.tv/embed?clip=SilkySleepySoybeanTakeNRG-PqgKjDtk7-6Anhcm",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "90694891",
+      "creator_name": "nap_Tek",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "HORROR-Abend || Halte meine Hand - ich scheiß mich weg || Blümchen Stream || Für die max. XP !dc",
+      "view_count": 7,
+      "created_at": "2026-09-03T20:43:06Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/e96d4fbe-1071-4f60-9afa-1e0a90928a5e/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 29.9,
+      "vod_offset": null
+    },
+    {
       "id": "FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
       "url": "https://www.twitch.tv/nap_tek/clip/FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
       "embed_url": "https://clips.twitch.tv/embed?clip=FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
@@ -83,6 +140,25 @@
       "created_at": "2026-09-03T14:36:01Z",
       "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bcf026b1-4905-428f-a3aa-b6cffb78a628/landscape/thumb/thumb-0000000000-480x272.jpg",
       "duration": 9.2,
+      "vod_offset": null
+    },
+    {
+      "id": "ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "url": "https://www.twitch.tv/nap_tek/clip/ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "embed_url": "https://clips.twitch.tv/embed?clip=ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "958161039",
+      "creator_name": "Verentix_",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "Geht doch👍🏻",
+      "view_count": 2,
+      "created_at": "2026-09-03T20:58:27Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/51a00b8c-e8d5-4e51-95f0-35f6fb0768f6/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 13.2,
       "vod_offset": null
     }
   ]
