@@ -2,10 +2,88 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-24T01:55:01.211Z"
+    "updated_at": "2026-11-25T15:27:49.433Z"
   },
   "broadcaster_id": "90694891",
   "window_days": 90,
-  "recent": [],
-  "top": []
+  "recent": [
+    {
+      "id": "FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "url": "https://www.twitch.tv/nap_tek/clip/FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "embed_url": "https://clips.twitch.tv/embed?clip=FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "50668755",
+      "creator_name": "UnknownMaos",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "wir halten fest:",
+      "view_count": 3,
+      "created_at": "2026-09-03T14:36:01Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bcf026b1-4905-428f-a3aa-b6cffb78a628/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 9.2,
+      "vod_offset": null
+    },
+    {
+      "id": "PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "url": "https://www.twitch.tv/nap_tek/clip/PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "embed_url": "https://clips.twitch.tv/embed?clip=PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "786092668",
+      "creator_name": "EllyPirelley",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "da freut sich der Micha!",
+      "view_count": 8,
+      "created_at": "2026-09-03T11:48:01Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/fcb95de9-7dd5-4695-838d-c64ac86dd21c/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 18.2,
+      "vod_offset": null
+    }
+  ],
+  "top": [
+    {
+      "id": "PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "url": "https://www.twitch.tv/nap_tek/clip/PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "embed_url": "https://clips.twitch.tv/embed?clip=PoliteBigChickpeaUWot-FYrwm5uzl_V0Ziru",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "786092668",
+      "creator_name": "EllyPirelley",
+      "video_id": "",
+      "game_id": "512953",
+      "game_name": "ELDEN RING",
+      "language": "de",
+      "title": "da freut sich der Micha!",
+      "view_count": 8,
+      "created_at": "2026-09-03T11:48:01Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/fcb95de9-7dd5-4695-838d-c64ac86dd21c/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 18.2,
+      "vod_offset": null
+    },
+    {
+      "id": "FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "url": "https://www.twitch.tv/nap_tek/clip/FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "embed_url": "https://clips.twitch.tv/embed?clip=FrozenEndearingCheesecakeKAPOW-fXrH8592Vhb8zvZl",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "50668755",
+      "creator_name": "UnknownMaos",
+      "video_id": "",
+      "game_id": "500188",
+      "game_name": "Hunt: Showdown 1896",
+      "language": "de",
+      "title": "wir halten fest:",
+      "view_count": 3,
+      "created_at": "2026-09-03T14:36:01Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/bcf026b1-4905-428f-a3aa-b6cffb78a628/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 9.2,
+      "vod_offset": null
+    }
+  ]
 }

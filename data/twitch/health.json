@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "naptek_twitch_collector",
-    "updated_at": "2026-11-25T04:59:57.352Z"
+    "updated_at": "2026-11-25T15:27:49.435Z"
   },
   "ok": true,
   "broadcaster_login": "nap_tek",
@@ -13,9 +13,6 @@
     "stream": {
       "ok": true
     },
-    "followers_total": {
-      "ok": true
-    },
     "channel": {
       "ok": true
     },
@@ -23,10 +20,16 @@
       "ok": true,
       "note": "not_configured_or_empty"
     },
+    "followers_total": {
+      "ok": true
+    },
     "videos": {
       "ok": true
     },
     "clips": {
+      "ok": true
+    },
+    "games_1": {
       "ok": true
     }
   },
