@@ -2,7 +2,7 @@
   "_meta": {
     "schema_version": 2,
     "source": "twitch_api",
-    "updated_at": "2026-11-24T12:08:17.685Z"
+    "updated_at": "2026-11-26T15:49:00.956Z"
   },
   "broadcaster_id": "90694891",
   "videos": [
@@ -35,20 +35,6 @@
       "duration": "4h0m20s"
     },
     {
-      "id": "2925942022",
-      "stream_id": "319359611110",
-      "title": "*poah ey einfach chilln iksdeh* e v o l v e D | JEDER ist willkommen! | 💀Für die Horde!💀| Geilste Com, besten MODs🩵| Für mehr XP !dc",
-      "description": "",
-      "created_at": "2026-11-11T17:01:47Z",
-      "published_at": "2026-11-11T17:01:47Z",
-      "url": "https://www.twitch.tv/videos/2925942022",
-      "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/de409969b9f59b8db804_nap_tek_319359611110_1794416502//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 234,
-      "language": "de",
-      "type": "archive",
-      "duration": "5h25m40s"
-    },
-    {
       "id": "2907453381",
       "stream_id": "319096916838",
       "title": "AZB Stream | Gemeinsam wach werden 🥱 | Kaffee'n chill | 🩵Mods | Für die max. XP !dc & !sr",
@@ -71,7 +57,7 @@
       "published_at": "2026-10-21T12:00:30Z",
       "url": "https://www.twitch.tv/videos/2906703002",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/8648a6f554d12b23f24d_nap_tek_319086927462_1792584025//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 293,
+      "view_count": 294,
       "language": "de",
       "type": "archive",
       "duration": "5h19m10s"
@@ -99,7 +85,7 @@
       "published_at": "2026-10-15T07:03:03Z",
       "url": "https://www.twitch.tv/videos/2901231760",
       "thumbnail_url": "https://static-cdn.jtvnw.net/cf_vods/d3fi1amfgojobc/a8db631a5db282210beb_nap_tek_318951122533_1792047778//thumb/thumb0-%{width}x%{height}.jpg",
-      "view_count": 198,
+      "view_count": 200,
       "language": "de",
       "type": "archive",
       "duration": "3h58m40s"
