@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-11-28T01:47:37.266Z"
+    "updated_at": "2026-11-28T09:55:12.257Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "YummyMoldyAsparagusPrimeMe-zvwTdJ0lXOTR5BfI",
+      "url": "https://www.twitch.tv/nap_tek/clip/YummyMoldyAsparagusPrimeMe-zvwTdJ0lXOTR5BfI",
+      "embed_url": "https://clips.twitch.tv/embed?clip=YummyMoldyAsparagusPrimeMe-zvwTdJ0lXOTR5BfI",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "133717944",
+      "creator_name": "holyowli",
+      "video_id": "",
+      "game_id": "1910993272",
+      "game_name": "Bodycam",
+      "language": "de",
+      "title": "das jetzt",
+      "view_count": 5,
+      "created_at": "2026-09-06T09:12:43Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/9fcc76d3-2aef-451b-ac49-dce94dba87c4/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 20.5,
+      "vod_offset": null
+    },
     {
       "id": "GrossArtsyCiderBudStar-l0kXMUf8y8PmtxMW",
       "url": "https://www.twitch.tv/nap_tek/clip/GrossArtsyCiderBudStar-l0kXMUf8y8PmtxMW",
