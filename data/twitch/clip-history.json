@@ -2,10 +2,29 @@
   "_meta": {
     "schema_version": 2,
     "source": "retained_twitch_clip_metadata",
-    "updated_at": "2026-11-25T23:44:54.101Z"
+    "updated_at": "2026-11-28T01:47:37.266Z"
   },
   "broadcaster_id": "90694891",
   "clips": [
+    {
+      "id": "GrossArtsyCiderBudStar-l0kXMUf8y8PmtxMW",
+      "url": "https://www.twitch.tv/nap_tek/clip/GrossArtsyCiderBudStar-l0kXMUf8y8PmtxMW",
+      "embed_url": "https://clips.twitch.tv/embed?clip=GrossArtsyCiderBudStar-l0kXMUf8y8PmtxMW",
+      "broadcaster_id": "90694891",
+      "broadcaster_name": "nap_Tek",
+      "creator_id": "218825384",
+      "creator_name": "The_Dunadan_",
+      "video_id": "",
+      "game_id": "73586",
+      "game_name": "Outlast",
+      "language": "de",
+      "title": "Fass an den Zaun",
+      "view_count": 3,
+      "created_at": "2026-09-05T20:02:40Z",
+      "thumbnail_url": "https://static-cdn.jtvnw.net/twitch-video-assets/twitch-vap-video-assets-prod-us-west-2/f8c99fad-9db1-4fa7-b476-f77fcf3dc22c/landscape/thumb/thumb-0000000000-480x272.jpg",
+      "duration": 16.5,
+      "vod_offset": null
+    },
     {
       "id": "ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
       "url": "https://www.twitch.tv/nap_tek/clip/ObservantFantasticButterFUNgineer-eYrXiC-GFKjKV5Xd",
